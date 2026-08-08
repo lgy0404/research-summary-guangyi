@@ -1,15 +1,15 @@
 ---
 theme: frankfurt
-title: Research Foundation | Guangyi Liu
+title: Research Interview | Guangyi Liu
 author: Guangyi Liu
-date: 2026.06.25
+date: 2026.08.09
 layout: cover
 class: frankfurt-cover
 colorSchema: light
 infoLine: true
 topNavigation: true
 info: |
-  English Slidev deck summarizing Guangyi Liu's pre-PhD research foundation in mobile GUI agents.
+  English research interview deck on universal digital agents, agent learning, memory, and evaluation.
 drawings:
   persist: false
 transition: slide-left
@@ -17,17 +17,24 @@ mdc: true
 ---
 <div class="hero-grid">
   <div class="cover-copy">
-    <p class="eyebrow">Research foundation before PhD</p>
-    <h1>From Phone GUI Agents to Memory-Centric Mobile Automation</h1>
-    <p class="subtitle">A coherent line of work on surveying, learning, benchmarking, adapting, and building long-horizon mobile GUI agents.</p>
+    <p class="eyebrow">Research internship / talent program interview</p>
+    <h1>Building Universal Digital Agents That Learn, Remember, and Act</h1>
+    <p class="subtitle">Using real GUI environments to study agent learning, self-improvement, memory, and reliable long-horizon autonomy.</p>
     <div class="cover-meta">
-      <span>Guangyi Liu</span>
-      <span>Advisor onboarding deck</span>
-      <span>2026.06.25</span>
+      <span>Guangyi Liu (刘广义)</span>
+      <span>Ph.D. Candidate, Zhejiang University</span>
+      <span>Expected 2028.06</span>
     </div>
   </div>
-  <div class="cover-visual">
-    <img src="./assets/papers/memgui-agent-teaser.png" />
+  <div class="cover-profile-visual">
+    <div class="portrait-frame">
+      <img src="./assets/profile/guangyi-liu.jpeg" />
+    </div>
+    <div class="cover-signal">
+      <b>Research focus</b>
+      <span>Universal Digital Agents</span>
+      <span>Agent Learning · Memory · Evaluation</span>
+    </div>
   </div>
 </div>
 
@@ -35,60 +42,125 @@ mdc: true
 section: Overview
 ---
 
-# A One-Slide Snapshot
+# Candidate Snapshot
 
-<div class="split">
-  <div>
-    <p class="lead">My work has centered on one question: how can large multimodal models become reliable agents that operate real mobile interfaces?</p>
-    <div class="pillar-list">
-      <div><b>Survey and positioning</b><span>Map the fast-moving phone GUI agent field.</span></div>
-      <div><b>Few-shot personalization</b><span>Use human demonstrations to bridge long-tail app scenarios.</span></div>
-      <div><b>Memory benchmark</b><span>Turn short-term and long-term memory into measurable capabilities.</span></div>
-      <div><b>Annotation-free adaptation</b><span>Improve GUI policies from self-collected interaction feedback.</span></div>
-      <div><b>End-to-end long-horizon agent</b><span>Make context management a first-class action in the policy.</span></div>
+<div class="profile-slide">
+  <div class="profile-main">
+    <div class="identity-row">
+      <img src="./assets/profile/guangyi-liu.jpeg" />
+      <div>
+        <h2>Guangyi Liu <span>(刘广义)</span></h2>
+        <p>Ph.D. Candidate in Control Science and Engineering</p>
+        <p><b>Zhejiang University · ZJU APRIL Lab</b></p>
+      </div>
     </div>
+    <p class="profile-thesis">I study the foundations of <b>universal digital agents</b>: systems that understand digital environments, adapt through interaction, and reliably assist people across apps, devices, and software workflows.</p>
+    <div class="credential-line"><b>Advisors</b><span>Prof. Yong Liu · Prof. Jiangning Zhang · Dr. Liang Liu</span></div>
+    <div class="credential-line"><b>Service</b><span>ICML 2026 Silver Reviewer · Reviewer for ICLR, NeurIPS, ICML, ECCV, ACM MM, EMNLP, TMLR</span></div>
   </div>
-  <div class="fact-board">
-    <div><span class="big">5</span><span>papers / submissions</span></div>
-    <div><span class="big">4</span><span>systems or datasets</span></div>
-    <div><span class="big">11+</span><span>agents evaluated in memory settings</span></div>
-    <div><span class="big">2,956</span><span>MemGUI-3K trajectories</span></div>
+  <div class="impact-board">
+    <div><span class="big">5</span><span>first-author works</span></div>
+    <div><span class="big">415</span><span>Google Scholar citations</span></div>
+    <div><span class="big">122</span><span>first-author citations</span></div>
+    <div><span class="big">632</span><span>first-author project stars</span></div>
+    <p>Metrics updated 2026.08.09</p>
   </div>
 </div>
 
 ---
 
-# Research Arc
+# Research Experience: From Prototypes to Real Systems
+
+<div class="experience-layout">
+  <div class="experience-card kuaishou">
+    <div class="experience-head">
+      <img src="./assets/profile/kuaishou-icon.png" />
+      <div><h3>Kuaishou Technology</h3><span>Research Intern · Hangzhou · 2025.08–2026.07</span></div>
+    </div>
+    <p><b>Mentor:</b> Martin Li</p>
+    <p>Built research prototypes for agent post-training and long-horizon context management, and contributed to internal GUI-agent systems for app defect detection.</p>
+  </div>
+  <div class="experience-card vivo">
+    <div class="experience-head">
+      <img src="./assets/profile/vivo-logo.png" />
+      <div><h3>vivo AI Lab</h3><span>Research Intern · Hangzhou · 2024.08–2025.08</span></div>
+    </div>
+    <p><b>Mentors:</b> Dr. Liang Liu and Prof. Hongsheng Li</p>
+    <p>Worked on demonstration learning, online evaluation, and memory-centric benchmarking; contributed to vivo PhoneGPT, a general-purpose phone GUI agent.</p>
+  </div>
+</div>
+
+<div class="experience-footer">
+  <span><b>Research</b> formulate questions and validate ideas</span>
+  <span><b>Engineering</b> build environments, data pipelines, and evaluators</span>
+  <span><b>Application</b> connect agent research to real product workflows</span>
+</div>
+
+---
+
+# My Research Thesis
+
+<div class="thesis-layout">
+  <div class="thesis-statement">
+    <span>Long-term goal</span>
+    <h2>Universal digital agents should improve through interaction while remaining reliable over long horizons.</h2>
+    <p>Mobile GUIs are my current proving ground: they expose dynamic interfaces, sparse feedback, hidden state, long-tail workflows, and deployment constraints in one environment.</p>
+  </div>
+  <div class="thesis-pillars">
+    <div><b>Learn</b><span>demonstrations, feedback, RL, post-training</span></div>
+    <div><b>Remember</b><span>context control, experience reuse, continual adaptation</span></div>
+    <div><b>Evaluate</b><span>online protocols, interpretable metrics, failure diagnosis</span></div>
+    <div><b>Act</b><span>grounded tool use across apps and software workflows</span></div>
+  </div>
+</div>
+
+---
+
+# What I Build End to End
+
+<div class="ownership-grid">
+  <div><span>01</span><b>Environment</b><p>Target-app exploration, task execution, resets, and interaction logging.</p></div>
+  <div><span>02</span><b>Data</b><p>Human demonstrations, self-collected rollouts, feedback, hints, and memory traces.</p></div>
+  <div><span>03</span><b>Policy</b><p>Prompted agents, SFT, reinforcement learning, and context-management actions.</p></div>
+  <div><span>04</span><b>Evaluation</b><p>Online task success, pass@k, progressive scrutiny, and failure taxonomies.</p></div>
+  <div><span>05</span><b>System</b><p>Reproducible pipelines that connect exploration, learning, evaluation, and deployment.</p></div>
+</div>
+
+<div class="takeaway interview-takeaway"><b>My working style:</b> identify a capability bottleneck, build the substrate that makes it measurable, then close the loop with data and policy improvement.</div>
+
+---
+
+# Research Arc: One Question, Five Steps
 
 <div class="arc">
   <div class="arc-item survey">
     <span>01</span>
     <b>Understand the field</b>
-    <p>Survey the methods, datasets, and open problems of LLM-powered phone GUI agents.</p>
+    <p>Build a technical map of frameworks, data, evaluation, and open problems.</p>
   </div>
   <div class="arc-item learn">
     <span>02</span>
     <b>Learn from examples</b>
-    <p>Few-shot demonstrations help agents adapt to unseen mobile apps and user-specific tasks.</p>
+    <p>Use a few human examples to adapt to unseen apps and long-tail workflows.</p>
   </div>
   <div class="arc-item bench">
     <span>03</span>
     <b>Measure memory</b>
-    <p>MemGUI-Bench exposes the gap between short-horizon UI control and long-horizon memory.</p>
+    <p>Turn short- and long-term memory into measurable agent capabilities.</p>
   </div>
   <div class="arc-item forge">
     <span>04</span>
     <b>Adapt without labels</b>
-    <p>MobileForge converts self-generated tasks, rollout feedback, and hints into policy updates.</p>
+    <p>Convert exploration, rollouts, hierarchical feedback, and hints into policy updates.</p>
   </div>
   <div class="arc-item agent">
     <span>05</span>
     <b>Build memory into the policy</b>
-    <p>MemGUI-Agent manages context proactively through Context-as-Action.</p>
+    <p>Make proactive context management a learnable part of an end-to-end policy.</p>
   </div>
 </div>
 
-<p class="bottom-note">The through-line is progressively reducing the distance between user intent, mobile UI dynamics, and reliable autonomous action.</p>
+<p class="bottom-note">The through-line: move from describing the field to building agents that can adapt, retain experience, and execute reliably.</p>
 
 ---
 layout: intro
@@ -98,6 +170,7 @@ section: Survey
 # 01. Surveying the Field
 
 <p class="section-subtitle">LLM-Powered GUI Agents in Phone Automation: Surveying Progress and Prospects</p>
+<p class="section-meta">TMLR 2025 · 64 citations · 175 GitHub stars</p>
 
 ---
 
@@ -165,6 +238,7 @@ section: LearnAct
 # 02. Few-Shot Demonstration Learning
 
 <p class="section-subtitle">LearnAct: Few-Shot Mobile GUI Agent with a Unified Demonstration Benchmark</p>
+<p class="section-meta">ACL 2026 · 40 citations · 48 GitHub stars</p>
 
 ---
 
@@ -183,6 +257,7 @@ section: LearnAct
         <p>Let the agent learn from a few human demonstrations and retrieve task-relevant procedural knowledge.</p>
       </div>
     </div>
+    <div class="research-question"><b>Research question</b><span>Can a mobile agent convert only a few human trajectories into reusable knowledge for unseen tasks and apps?</span></div>
     <div class="metric-row">
       <div><b>2,252</b><span>offline tasks</span></div>
       <div><b>101</b><span>online tasks</span></div>
@@ -268,6 +343,7 @@ section: MemGUI-Bench
 # 03. Benchmarking Memory
 
 <p class="section-subtitle">MemGUI-Bench: Benchmarking Memory of Mobile GUI Agents in Dynamic Environments</p>
+<p class="section-meta">ACM MM 2026 · 17 citations · 48 GitHub stars</p>
 
 ---
 
@@ -275,17 +351,17 @@ section: MemGUI-Bench
 
 <div class="image-two-col">
   <div>
-    <p class="lead">Mobile tasks often require carrying facts across screens, apps, and attempts, but prior benchmarks contain only a small fraction of memory-intensive tasks.</p>
+    <p class="lead">Mobile tasks carry facts across screens, apps, and attempts, but prior benchmarks contain few memory-intensive tasks.</p>
     <div class="metric-row">
       <div><b>128</b><span>tasks</span></div>
       <div><b>26</b><span>apps</span></div>
       <div><b>89.8%</b><span>memory-challenging tasks</span></div>
     </div>
-    <ul class="clean-list">
-      <li>Short-term memory: retain and use facts during one task.</li>
-      <li>Long-term memory: improve across multiple attempts or sessions.</li>
-      <li>Evaluation protocol: pass@1 and pass@k reveal different capabilities.</li>
+    <ul class="clean-list compact-list">
+      <li><b>Short-term memory:</b> retain and use facts within one task.</li>
+      <li><b>Long-term memory:</b> improve across attempts; pass@1 vs. pass@k separates execution from experience reuse.</li>
     </ul>
+    <div class="research-question"><b>Research question</b><span>How can we isolate, measure, and diagnose memory in dynamic mobile environments?</span></div>
   </div>
   <div class="image-panel">
     <img src="./assets/papers/memgui-bench-overview.png" />
@@ -342,7 +418,7 @@ section: MemGUI-Bench
   </div>
   <div class="finding-block">
     <b>Failures are structured</b>
-    <p>Five memory-related failure modes point directly to future agent design.</p>
+    <p>Seven failure categories, including five memory-specific modes, turn scores into design targets.</p>
   </div>
 </div>
 
@@ -373,6 +449,7 @@ section: MobileForge
 # 04. Annotation-Free Adaptation
 
 <p class="section-subtitle">MobileForge: Annotation-Free Adaptation for Mobile GUI Agents with Hierarchical Feedback-Guided Policy Optimization</p>
+<p class="section-meta">Preprint 2026 · 76 GitHub stars · Covered by Synced China</p>
 
 ---
 
@@ -391,6 +468,7 @@ section: MobileForge
         <p>Isolated rollouts with sparse rewards do not give reliable long-horizon credit assignment.</p>
       </div>
     </div>
+    <div class="research-question"><b>Research question</b><span>Can agents ground tasks in target apps, generate fine-grained feedback, and improve from self-collected experience without human annotations?</span></div>
   </div>
   <div class="image-panel">
     <img src="./assets/papers/mobileforge-teaser.png" />
@@ -470,6 +548,28 @@ section: MobileForge
 </div>
 
 ---
+
+# Insight: Evaluation Becomes Part of Learning
+
+<div class="insight-flow">
+  <div><span>1</span><b>Explore</b><p>Discover reachable app states and functions.</p></div>
+  <div><span>2</span><b>Challenge</b><p>Generate curricula near the current capability frontier.</p></div>
+  <div><span>3</span><b>Diagnose</b><p>Combine outcomes, process feedback, and corrective hints.</p></div>
+  <div><span>4</span><b>Improve</b><p>Turn useful local decisions into policy updates.</p></div>
+</div>
+
+<div class="bridge compact-bridge">
+  <div class="bridge-left">
+    <h2>A data flywheel needs more than reward.</h2>
+    <p>Task generation, rollout evaluation, failure analysis, and policy optimization must share the same grounded environment.</p>
+  </div>
+  <div class="bridge-right">
+    <div><b>Contribution</b><span>MobileGym + HiFPO form an annotation-free adaptation substrate.</span></div>
+    <div><b>General insight</b><span>Evaluator design determines what experience an agent can learn from.</span></div>
+  </div>
+</div>
+
+---
 layout: intro
 section: MemGUI-Agent
 ---
@@ -477,6 +577,7 @@ section: MemGUI-Agent
 # 05. End-to-End Long-Horizon Agents
 
 <p class="section-subtitle">MemGUI-Agent: An End-to-End Long-Horizon Mobile GUI Agent with Proactive Context Management</p>
+<p class="section-meta">Preprint 2026 · 88 GitHub stars · Covered by QbitAI</p>
 
 ---
 
@@ -592,84 +693,105 @@ section: MemGUI-Agent
 </div>
 
 ---
+
+# Insight: Memory Must Change Future Action
+
+<div class="memory-insight-layout">
+  <div class="memory-principle">
+    <span>Core principle</span>
+    <h2>Useful memory is not stored text. It is information the policy can decide to write, compress, retrieve, and act on.</h2>
+  </div>
+  <div class="memory-lessons">
+    <div><b>Policy ownership</b><p>The agent, not an external heuristic, decides when context should change.</p></div>
+    <div><b>Structured supervision</b><p>Step intent and UI facts make context actions trainable and auditable.</p></div>
+    <div><b>Transfer</b><p>A memory protocol learned on one benchmark can generalize to new long-horizon tasks.</p></div>
+  </div>
+</div>
+
+---
 layout: intro
 section: Synthesis
 ---
 
 # Synthesis
 
-<p class="section-subtitle">What these works establish as my research foundation</p>
+<p class="section-subtitle">From five projects to a reusable research and engineering stack</p>
 
 ---
 
 # A Coherent Technical Stack
 
 <div class="stack-grid">
-  <div><span>Survey</span><b>Problem framing</b><p>Taxonomy, trends, challenges, and future directions.</p></div>
+  <div><span>Survey</span><b>Problem framing</b><p>Taxonomy, trends, capability gaps, and research questions.</p></div>
   <div><span>LearnAct</span><b>Few-shot learning</b><p>Demonstration parsing, retrieval, and action execution.</p></div>
   <div><span>MemGUI-Bench</span><b>Evaluation science</b><p>Memory-centric task design and progressive LLM-as-judge.</p></div>
   <div><span>MobileForge</span><b>Training loop</b><p>Annotation-free task generation, feedback, hints, and GRPO.</p></div>
-  <div><span>MemGUI-Agent</span><b>Agent architecture</b><p>Context-as-Action and supervised proactive memory management.</p></div>
+  <div><span>MemGUI-Agent</span><b>Agent architecture</b><p>Context-as-Action and learned proactive context management.</p></div>
 </div>
 
 ---
 
-# What I Can Already Contribute
+# How I Can Contribute to an Industry Research Team
 
 <div class="two-column-cards">
   <div>
-    <h3>Engineering and systems</h3>
-    <p>Build mobile GUI interaction environments, automated evaluation pipelines, trajectory renderers, and agent execution loops.</p>
+    <h3>Own the full research loop</h3>
+    <p>Move from question formulation to environment construction, data generation, model training, evaluation, and analysis.</p>
   </div>
   <div>
-    <h3>Benchmark design</h3>
-    <p>Translate vague capabilities like memory, learning, and robustness into task suites, protocols, and interpretable metrics.</p>
+    <h3>Build reliable agent infrastructure</h3>
+    <p>Develop interaction environments, scalable rollout pipelines, trajectory tooling, and automated evaluators for real applications.</p>
   </div>
   <div>
-    <h3>Model training</h3>
-    <p>Design SFT and RL-style data pipelines that convert interactive trajectories into usable policy-improvement signals.</p>
+    <h3>Turn failures into training signals</h3>
+    <p>Translate agent errors into benchmarks, feedback, curricula, SFT data, and reinforcement-learning objectives.</p>
   </div>
   <div>
-    <h3>Research taste</h3>
-    <p>Look for bottlenecks where better evaluation, data, and architecture reinforce each other rather than living separately.</p>
+    <h3>Bridge research and deployment</h3>
+    <p>Work across research prototypes and real product workflows, with experience at vivo AI Lab and Kuaishou Technology.</p>
   </div>
 </div>
 
+<div class="fit-strip"><b>Best fit:</b><span>computer-use agents</span><span>agent post-training</span><span>self-evolving systems</span><span>memory and long-horizon autonomy</span><span>agent evaluation</span></div>
+
 ---
 
-# A Natural PhD Research Agenda
+# Research Agenda: Beyond Mobile Apps
 
 <div class="agenda">
   <div>
-    <b>1. Continual mobile agents</b>
-    <p>Move from one-shot task execution to agents that accumulate stable user and app knowledge over time.</p>
+    <b>1. Universal action models</b>
+    <p>Transfer perception, reasoning, and tool-use policies across mobile, web, desktop, and hybrid software workflows.</p>
   </div>
   <div>
-    <b>2. Verifiable self-improvement</b>
-    <p>Combine self-generated tasks, hierarchical critics, and stronger safeguards so adaptation is measurable and reliable.</p>
+    <b>2. Verifiable self-evolution</b>
+    <p>Use grounded exploration, adaptive curricula, and hierarchical critics so improvement is continuous and measurable.</p>
   </div>
   <div>
-    <b>3. Memory-native architectures</b>
-    <p>Make compression, retrieval, memorization, and forgetting explicit policy decisions.</p>
+    <b>3. Experience-native memory</b>
+    <p>Unify working context, episodic experience, skill abstraction, retrieval, and forgetting inside the agent loop.</p>
   </div>
   <div>
-    <b>4. Deployment-aware GUI agents</b>
-    <p>Study latency, privacy, device constraints, and safety as first-order research variables.</p>
+    <b>4. Trustworthy digital autonomy</b>
+    <p>Treat verification, privacy, controllability, cost, and human oversight as first-order research variables.</p>
   </div>
 </div>
 
+<div class="agenda-note">Mobile GUI agents are the starting point, not the boundary: the broader target is reliable agency across the digital world.</div>
+
 ---
 
-# Closing View
+# Why This Research Direction Matters
 
 <div class="closing">
-  <h1>I see mobile GUI agents as an ideal testbed for grounded, long-horizon AI.</h1>
-  <p>They force models to connect language, vision, memory, action, evaluation, and adaptation under real-world constraints.</p>
+  <p class="closing-kicker">My research thesis</p>
+  <h1>The next useful agents will not only follow instructions. They will learn from interaction, preserve the right experience, and improve safely in the environments where people work.</h1>
+  <p>My five first-author projects build toward that goal through problem framing, demonstration learning, memory evaluation, annotation-free post-training, and context-native agent architecture.</p>
   <div class="closing-grid">
-    <span>Understand the field</span>
-    <span>Build the data</span>
-    <span>Measure the bottleneck</span>
-    <span>Train from interaction</span>
-    <span>Put memory inside the policy</span>
+    <span>Strong research questions</span>
+    <span>End-to-end execution</span>
+    <span>Evidence-driven iteration</span>
+    <span>Research-to-product experience</span>
   </div>
+  <div class="closing-contact"><b>Guangyi Liu</b><span>guangyiliu@zju.edu.cn</span><span>lgy0404.github.io</span></div>
 </div>
