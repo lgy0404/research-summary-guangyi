@@ -1,0 +1,17 @@
+{
+  "name": "guangyi-research-summary-slides",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "slidev interview-slides/slides.md",
+    "build": "slidev build interview-slides/slides.md --out dist",
+    "export": "slidev export interview-slides/slides.md --output interview-slides/dist/guangyi-liu-interview.pdf"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.0.0",
+    "@slidev/theme-default": "^0.25.0",
+    "slidev-theme-frankfurt": "^1.1.0"
+  }
+}
+
