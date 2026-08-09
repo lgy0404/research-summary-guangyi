@@ -310,6 +310,43 @@ section: LearnAct
 
 ---
 
+# Experimental Evidence: Online Transfer and Ablation
+
+<div class="table-evidence-grid learnact-evidence">
+  <div class="table-evidence-block">
+    <div class="table-kicker">LearnGUI-Online · task success rate (%)</div>
+    <table class="result-table compact-table">
+      <thead><tr><th>Model</th><th>Params</th><th>SR</th><th>Gain</th></tr></thead>
+      <tbody>
+        <tr class="reference-row"><td>GPT-4o</td><td>-</td><td>34.5</td><td>-</td></tr>
+        <tr><td>Qwen2-VL-Instruct · 0-shot</td><td>7B</td><td>9.9</td><td>-</td></tr>
+        <tr class="ours-row"><td>+ LearnAct</td><td>7B</td><td><b>21.1</b></td><td class="gain">+11.2</td></tr>
+        <tr><td>Qwen3-VL-Instruct · 0-shot</td><td>8B</td><td>47.6</td><td>-</td></tr>
+        <tr class="ours-row"><td>+ LearnAct</td><td>8B</td><td><b>56.9</b></td><td class="gain">+9.3</td></tr>
+        <tr><td>UI-TARS-SFT · 0-shot</td><td>7B</td><td>18.1</td><td>-</td></tr>
+        <tr class="ours-row"><td>+ LearnAct</td><td>7B</td><td><b>32.8</b></td><td class="gain">+14.7</td></tr>
+      </tbody>
+    </table>
+    <p class="table-source">Paper Table 3 · all LearnAct variants improve online success.</p>
+  </div>
+  <div class="table-evidence-block">
+    <div class="table-kicker">Component ablation · offline average accuracy</div>
+    <table class="result-table ablation-table">
+      <thead><tr><th>DemoParser</th><th>KnowSeeker</th><th>Average</th></tr></thead>
+      <tbody>
+        <tr><td>-</td><td>-</td><td>19.3</td></tr>
+        <tr><td>-</td><td>Yes</td><td>40.6</td></tr>
+        <tr><td>Yes</td><td>-</td><td>41.6</td></tr>
+        <tr class="ours-row"><td>Yes</td><td>Yes</td><td><b>51.7</b></td></tr>
+      </tbody>
+    </table>
+    <div class="evidence-note"><b>Complementary components</b><span>Parsing demonstrations and retrieving the right knowledge are both necessary.</span></div>
+    <p class="table-source">Paper Table 4.</p>
+  </div>
+</div>
+
+---
+
 # What LearnAct Taught Me
 
 <div class="two-by-two">
@@ -424,6 +461,57 @@ section: MemGUI-Bench
 
 <div class="image-panel heatmap">
   <img src="./assets/papers/memgui-failure-heatmap.svg" />
+</div>
+
+---
+
+# Experimental Evidence: The Memory Leaderboard
+
+<div class="leaderboard-layout">
+  <table class="result-table leaderboard-table">
+    <thead>
+      <tr><th>Agent</th><th>Architecture</th><th>Pass@1</th><th>Pass@3</th></tr>
+    </thead>
+    <tbody>
+      <tr class="best-row"><td>M3A</td><td>Agentic workflow</td><td><b>32.8</b></td><td>47.7</td></tr>
+      <tr class="best-row"><td>Agent-S2</td><td>Agentic workflow + LTM</td><td>27.3</td><td><b>49.2</b></td></tr>
+      <tr><td>T3A</td><td>Agentic workflow</td><td>22.7</td><td>42.2</td></tr>
+      <tr><td>Mobile-Agent-E</td><td>Agentic workflow + LTM</td><td>5.5</td><td>10.2</td></tr>
+      <tr class="divider-row"><td>GUI-Owl-7B</td><td>Agent-as-a-model</td><td>6.2</td><td>10.2</td></tr>
+      <tr><td>UI-Venus-7B</td><td>Agent-as-a-model</td><td>5.5</td><td>7.8</td></tr>
+      <tr><td>UI-TARS-1.5-7B</td><td>Agent-as-a-model</td><td>3.1</td><td>6.2</td></tr>
+      <tr><td>CogAgent</td><td>Agent-as-a-model</td><td>0.0</td><td>0.0</td></tr>
+    </tbody>
+  </table>
+  <div class="leaderboard-callouts">
+    <div><b>32.8%</b><span>best single-attempt result</span></div>
+    <div><b>49.2%</b><span>best multi-attempt result</span></div>
+    <div><b>0-10.2%</b><span>end-to-end model range at Pass@3</span></div>
+  </div>
+</div>
+
+<p class="table-source footer-source">MemGUI-Bench Table 2 · 128 tasks, 26 apps, up to three attempts per task.</p>
+
+---
+
+# Controlled Evidence: What Memory Actually Changes
+
+<table class="result-table causal-table">
+  <thead>
+    <tr><th>Controlled change</th><th>Baseline</th><th>Variant</th><th>Observed effect</th><th>Interpretation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Remove M3A memory agent</td><td>SR@1 32.5</td><td>2.5</td><td class="loss">-30.0 pp</td><td>Short-term memory is mandatory.</td></tr>
+    <tr><td>Remove Agent-S2 long-term memory</td><td>SR@3 45.0</td><td>25.0</td><td class="loss">-20.0 pp</td><td>LTM enables cross-attempt learning.</td></tr>
+    <tr><td>Enable M3A multi-turn context</td><td>SR@1 32.8</td><td>51.6</td><td class="gain">+18.8 pp</td><td>Long context has large untapped value.</td></tr>
+    <tr><td>Increase Agent-S2 from 1 to 4 apps</td><td>SR@1 50.0</td><td>10.0</td><td class="loss">-40.0 pp</td><td>Cross-app transfer is the main bottleneck.</td></tr>
+  </tbody>
+</table>
+
+<div class="evidence-band">
+  <span><b>Table 3</b> memory-component ablations</span>
+  <span><b>Figure 6</b> long-context intervention</span>
+  <span><b>Table 4</b> cross-application complexity</span>
 </div>
 
 ---
@@ -546,6 +634,40 @@ section: MobileForge
     <img src="./assets/papers/mobileforge-main-performance.png" />
   </div>
 </div>
+
+---
+
+# Experimental Evidence: Scaling and Cross-Domain Transfer
+
+<div class="stacked-table-evidence">
+  <div>
+    <div class="table-kicker">AndroidWorld in-domain adaptation · 116 tasks</div>
+    <table class="result-table forge-table">
+      <thead><tr><th>Base agent</th><th>Generated tasks</th><th>Pass@1</th><th>Pass@2</th><th>Pass@3</th><th>Hard</th><th>Overall</th></tr></thead>
+      <tbody>
+        <tr><td>Qwen3-VL-8B</td><td>0</td><td>40.5</td><td>49.1</td><td>55.2</td><td>19.3</td><td>40.7</td></tr>
+        <tr class="ours-row"><td>ForgeQwen3-8B</td><td>900</td><td><b>50.9</b></td><td><b>60.3</b></td><td><b>67.2</b></td><td>17.5</td><td><b>49.8</b></td></tr>
+        <tr><td>GUI-Owl-1.5-8B</td><td>0</td><td>56.0</td><td>68.1</td><td>69.0</td><td>19.3</td><td>54.9</td></tr>
+        <tr class="ours-row"><td>ForgeOwl-8B</td><td>900</td><td><b>67.2</b></td><td><b>75.0</b></td><td><b>77.6</b></td><td><b>29.8</b></td><td><b>63.4</b></td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="transfer-row">
+    <div>
+      <div class="table-kicker">MobileWorld GUI-only · no target-domain adaptation data</div>
+      <table class="result-table transfer-table">
+        <thead><tr><th>Model</th><th>Base</th><th>After MobileForge</th><th>Relative gain</th></tr></thead>
+        <tbody>
+          <tr><td>Qwen3-VL-8B</td><td>7.7</td><td><b>10.3</b></td><td class="gain">+33.8%</td></tr>
+          <tr class="ours-row"><td>GUI-Owl-1.5-8B</td><td>37.6</td><td><b>41.0</b></td><td class="gain">+9.0%</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="transfer-conclusion"><b>Transfer without target-domain rollouts</b><span>AndroidWorld-generated experience improves both generalist and GUI-specialized backbones on MobileWorld.</span></div>
+  </div>
+</div>
+
+<p class="table-source footer-source">MobileForge Tables 1-2 · bold values reproduce the paper's best 900-task results.</p>
 
 ---
 
@@ -675,12 +797,71 @@ section: MemGUI-Agent
     </div>
     <div class="metric-card green">
       <span class="metric">29.1%</span>
-      <b>MobileWorld GUI-only</b>
-      <p>ConAct generalizes to out-of-distribution long-horizon tasks.</p>
+      <b>MemGUI-Agent-235B MobileWorld GUI-only</b>
+      <p>Zero-shot ConAct generalizes to out-of-distribution long-horizon tasks; the trained 8B model reaches 17.9%.</p>
     </div>
   </div>
   <div class="image-panel">
     <img src="./assets/papers/memgui-agent-main-performance.png" />
+  </div>
+</div>
+
+---
+
+# Experimental Evidence: A Protocol Alone Is Not Enough
+
+<table class="result-table conact-scale-table">
+  <thead>
+    <tr><th rowspan="2">Qwen3-VL scale</th><th colspan="2">Pass@1</th><th colspan="2">Pass@3</th><th colspan="2">IRR</th></tr>
+    <tr><th>Base</th><th>ConAct</th><th>Base</th><th>ConAct</th><th>Base</th><th>ConAct</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>2B</td><td>10.0</td><td class="loss">5.0</td><td>17.5</td><td class="loss">10.0</td><td>10.8</td><td class="loss">1.6</td></tr>
+    <tr><td>4B</td><td>20.0</td><td class="loss">12.5</td><td>27.5</td><td class="loss">15.0</td><td>19.0</td><td class="loss">10.7</td></tr>
+    <tr><td>8B</td><td>12.5</td><td class="loss">7.5</td><td>22.5</td><td class="loss">15.0</td><td>15.0</td><td class="loss">10.7</td></tr>
+    <tr><td>235B-Instruct</td><td>23.4</td><td class="loss">19.5</td><td>36.7</td><td class="loss">28.9</td><td>29.2</td><td class="gain">32.5</td></tr>
+    <tr class="best-row"><td>235B-Thinking</td><td>5.0</td><td class="gain"><b>40.0</b></td><td>27.5</td><td class="gain"><b>62.5</b></td><td>19.5</td><td class="gain"><b>51.0</b></td></tr>
+  </tbody>
+</table>
+
+<div class="protocol-evidence">
+  <div><b>Small models regress</b><span>They can emit the format but cannot reliably decide when to fold or write memory.</span></div>
+  <div><b>Strong reasoning helps</b><span>Only 235B-Thinking benefits consistently from zero-shot ConAct.</span></div>
+  <div><b>Therefore: supervise the policy</b><span>This observation motivates MemGUI-3K rather than more prompt engineering.</span></div>
+</div>
+
+<p class="table-source footer-source">MemGUI-Agent Table 1 · zero-shot ConAct on MemGUI-Bench-40.</p>
+
+---
+
+# Experimental Evidence: Learned Context Skills Transfer
+
+<div class="table-evidence-grid agent-transfer-evidence">
+  <div class="table-evidence-block">
+    <div class="table-kicker">MobileWorld GUI-only · Pass@1 (%)</div>
+    <table class="result-table compact-table">
+      <thead><tr><th>Model</th><th>Memory</th><th>SR</th><th>Gain</th></tr></thead>
+      <tbody>
+        <tr><td>Qwen3-VL-235B-Thinking</td><td>Action-Thought</td><td>14.5</td><td>-</td></tr>
+        <tr class="ours-row"><td>MemGUI-Agent-235B</td><td>ConAct</td><td><b>29.1</b></td><td class="gain">+14.6</td></tr>
+        <tr><td>Qwen3-VL-8B-Instruct</td><td>Action-Thought</td><td>9.4</td><td>-</td></tr>
+        <tr class="ours-row"><td>MemGUI-8B-SFT</td><td>ConAct</td><td><b>17.9</b></td><td class="gain">+8.5</td></tr>
+      </tbody>
+    </table>
+    <p class="table-source">Paper Table 3 · no MobileWorld training data.</p>
+  </div>
+  <div class="table-evidence-block">
+    <div class="table-kicker">MemGUI-3K offline skill analysis (%)</div>
+    <table class="result-table skill-table">
+      <thead><tr><th>Agent</th><th>UI action</th><th>Memory F1</th><th>Deep fold</th><th>Range</th><th>Format</th></tr></thead>
+      <tbody>
+        <tr><td>8B zero-shot</td><td>29.2</td><td>19.9</td><td>8.8</td><td>45.2</td><td>94.9</td></tr>
+        <tr class="ours-row"><td>MemGUI-8B-SFT</td><td><b>36.3</b></td><td><b>48.0</b></td><td><b>26.1</b></td><td><b>58.9</b></td><td><b>99.9</b></td></tr>
+        <tr><td>235B zero-shot</td><td>33.9</td><td>34.3</td><td>18.7</td><td>56.7</td><td>99.2</td></tr>
+      </tbody>
+    </table>
+    <div class="evidence-note"><b>Largest gain: memory timing</b><span>Trigger F1 rises from 19.9 to 48.0, showing that supervision teaches decisions, not only output format.</span></div>
+    <p class="table-source">Paper Table 4.</p>
   </div>
 </div>
 

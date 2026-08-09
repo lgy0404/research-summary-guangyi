@@ -1,0 +1,1 @@
+export default import.meta.glob(["../../../../node_modules/slidev-theme-frankfurt/global-bottom.{ts,js,vue}","../../../../node_modules/slidev-theme-frankfurt/GlobalBottom.{ts,js,vue}"], {"eager":true,"exhaustive":true,"import":"default"})

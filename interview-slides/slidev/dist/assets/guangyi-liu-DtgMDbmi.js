@@ -1,0 +1,1 @@
+var e=`/assets/guangyi-liu-Cc2J6-rw.jpeg`;export{e as t};
