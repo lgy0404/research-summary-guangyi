@@ -1,0 +1,4 @@
+Source deck: /Users/liuguangyi05/code/personal-info-guangyi/research-summary-guangyi/interview-slides/pdf/GuangyiLiu-ZJU-codex.pptx
+No external sources or assets were added.
+Requested edit: retain the dynamic current-slide field and append the fixed total slide count, /10, in the slide master footer.
+

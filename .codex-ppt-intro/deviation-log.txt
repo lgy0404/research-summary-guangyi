@@ -1,0 +1,4 @@
+Slide 1: replaced the sample logo image with the candidate portrait while retaining the inherited image frame.
+Slides 1-7: rewrote only inherited text/image targets and speaker notes.
+Master: changed the center footer label to Universal Digital Agents.
+Slides 8-10: removed because they are unused template samples; paper-detail slides will be added later.

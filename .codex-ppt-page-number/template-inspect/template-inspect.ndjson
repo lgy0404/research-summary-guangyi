@@ -1,0 +1,35 @@
+{"kind":"slide","id":"sl/y90nupkv","slide":1,"title":"潘伟洲(josephpan)","textShapes":2}
+{"kind":"textbox","id":"sh/k3yl0zql","slide":1,"name":"副标题 2","placeholder":"subtitle","text":"潘伟洲(josephpan)\nSNG-社交平台部-空间运营中心 \n","textPreview":"潘伟洲(josephpan) | SNG-社交平台部-空间运营中心  |","textChars":33,"textLines":3,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/fu94fe98","slide":1,"name":"矩形 7","bbox":[433.44,543.99,101.6,32.2]}
+{"kind":"textbox","id":"sh/547294r6","slide":1,"name":"标题 1","placeholder":"title","text":"移动客户端通道面试陈述","textPreview":"移动客户端通道面试陈述","textChars":11,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"image","id":"im/7mp0jixo","slide":1,"name":"Picture 1","bbox":[605.41,432.09,79.08,79.08]}
+{"kind":"slide","id":"sl/hwbqtkby","slide":2,"title":"Table of Contents","textShapes":2}
+{"kind":"textbox","id":"sh/9072xkry","slide":2,"name":"标题 1","placeholder":"title","text":"Table of Contents","textPreview":"Table of Contents","textChars":17,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/ozy1ofad","slide":2,"name":"内容占位符 2","text":"个人经历\n项目经验 \n技术影响力\n专业领域优势","textPreview":"个人经历 | 项目经验  | 技术影响力 | 专业领域优势","textChars":23,"textLines":4,"bbox":[226,126.55,828,521.95]}
+{"kind":"slide","id":"sl/ofy9wn61","slide":3,"title":"个人经历","textShapes":1}
+{"kind":"textbox","id":"sh/298ryl4v","slide":3,"name":"标题 3","placeholder":"title","text":"个人经历","textPreview":"个人经历","textChars":4,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/3ah8rqlg","slide":3,"name":"文本占位符 4","placeholder":"body","bbox":[0,0,0,0]}
+{"kind":"slide","id":"sl/jyx0ra1s","slide":4,"title":"条目","textShapes":2}
+{"kind":"textbox","id":"sh/1cj2d8b6","slide":4,"name":"标题 1","placeholder":"title","text":"条目","textPreview":"条目","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/0ba143al","slide":4,"name":"内容占位符 2","text":"项目1\n项目2\n项目3\n项目4\n二级项目1\n二级项目2","textPreview":"项目1 | 项目2 | 项目3 | 项目4 | 二级项目1 | 二级项目2","textChars":27,"textLines":6,"bbox":[226,145.5,828,456.83]}
+{"kind":"slide","id":"sl/i107q5of","slide":5,"title":"分析","textShapes":3}
+{"kind":"textbox","id":"sh/dgbulwnm","slide":5,"name":"标题 1","placeholder":"title","text":"分析","textPreview":"分析","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/z2tcnm5s","slide":5,"name":"同侧圆角矩形 3","bbox":[226,219.25,837.91,51.86]}
+{"kind":"textbox","id":"sh/yhkbe1o7","slide":5,"name":"文本占位符 8","text":"XXX算法","textPreview":"XXX算法","textChars":5,"textLines":1,"bbox":[230.28,226.59,427.5,31]}
+{"kind":"textbox","id":"sh/l4bupwny","slide":5,"name":"文本占位符 10","text":"步骤1\n步骤2\n步骤3","textPreview":"步骤1 | 步骤2 | 步骤3","textChars":11,"textLines":3,"bbox":[226,271.11,837.91,222.13]}
+{"kind":"slide","id":"sl/x8f69ofe","slide":6,"title":"强调","textShapes":3}
+{"kind":"textbox","id":"sh/yhg7epsj","slide":6,"name":"标题 1","placeholder":"title","text":"强调","textPreview":"强调","textChars":2,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"textbox","id":"sh/zi98nu94","slide":6,"name":"内容占位符 2","text":"这是内容","textPreview":"这是内容","textChars":4,"textLines":1,"bbox":[226,126.55,828,521.95]}
+{"kind":"shape","id":"sh/7m98ru9g","slide":6,"name":"圆角矩形 6","bbox":[226,357.87,828.44,59.31]}
+{"kind":"textbox","id":"sh/oryp8fah","slide":6,"name":"文本框 7","text":"这里蹦出来一个强调！","textPreview":"这里蹦出来一个强调！","textChars":10,"textLines":1,"bbox":[521.47,368.14,259.2,38.67]}
+{"kind":"slide","id":"sl/gnmp4jqx","slide":7,"title":"项目经验","textShapes":1}
+{"kind":"textbox","id":"sh/ydkbm5sv","slide":7,"name":"标题 3","placeholder":"title","text":"项目经验","textPreview":"项目经验","textChars":4,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/zedcfa9g","slide":7,"name":"文本占位符 4","placeholder":"body","bbox":[0,0,0,0]}
+{"kind":"slide","id":"sl/fu1gfa1s","slide":8,"title":"技术影响力","textShapes":1}
+{"kind":"textbox","id":"sh/ri9g7uhw","slide":8,"name":"标题 3","placeholder":"title","text":"技术影响力","textPreview":"技术影响力","textChars":5,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/6h0fypgb","slide":8,"name":"文本占位符 4","placeholder":"body","bbox":[0,0,0,0]}
+{"kind":"slide","id":"sl/udsvah03","slide":9,"title":"专业领域优势","textShapes":1}
+{"kind":"textbox","id":"sh/nex4jq5k","slide":9,"name":"标题 3","placeholder":"title","text":"专业领域优势","textPreview":"专业领域优势","textChars":6,"textLines":1,"bbox":[0,0,0,0]}
+{"kind":"shape","id":"sh/mdonql4z","slide":9,"name":"文本占位符 4","placeholder":"body","bbox":[0,0,0,0]}
+{"kind":"slide","id":"sl/m90b6t0r","slide":10,"title":"欢迎批评指正！","textShapes":1}
+{"kind":"textbox","id":"sh/xc3mho32","slide":10,"name":"矩形 1","text":"欢迎批评指正！","textPreview":"欢迎批评指正！","textChars":7,"textLines":1,"bbox":[375.85,282.13,523.2,96.8]}

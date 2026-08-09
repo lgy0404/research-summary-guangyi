@@ -1,0 +1,5 @@
+The source PPTX contains 10 template/sample slides sharing one master and 11 layouts.
+Slides 1-7 provide the required inherited patterns: cover, overview, section intro, bullet list, analysis card, emphasized content, and transition.
+Slides 8-10 are sample placeholders and are intentionally removed from the intro-only deliverable.
+The master footer author and color bars are retained. The center footer label changes from title to Universal Digital Agents. The dynamic page field is preserved through a narrow post-export OOXML repair because artifact-tool does not expose PowerPoint field nodes.
+

@@ -1,0 +1,2 @@
+Global intentional change: slide master shape id 10 now displays the existing dynamic current-slide field followed by /10.
+No slide-local deviations.

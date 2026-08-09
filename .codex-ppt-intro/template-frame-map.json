@@ -1,0 +1,17 @@
+{
+  "outputSlides": [
+    { "outputSlide": 1, "sourceSlide": 1, "narrativeRole": "cover", "reuseMode": "duplicate-slide", "editTargets": ["sh/547294r6", "sh/k3yl0zql", "im/7mp0jixo"] },
+    { "outputSlide": 2, "sourceSlide": 2, "narrativeRole": "candidate snapshot", "reuseMode": "duplicate-slide", "editTargets": ["sh/9072xkry", "sh/ozy1ofad"] },
+    { "outputSlide": 3, "sourceSlide": 3, "narrativeRole": "education", "reuseMode": "duplicate-slide", "editTargets": ["sh/298ryl4v", "sh/3ah8rqlg"] },
+    { "outputSlide": 4, "sourceSlide": 4, "narrativeRole": "industry research", "reuseMode": "duplicate-slide", "editTargets": ["sh/1cj2d8b6", "sh/0ba143al"] },
+    { "outputSlide": 5, "sourceSlide": 5, "narrativeRole": "research thesis", "reuseMode": "duplicate-slide", "editTargets": ["sh/dgbulwnm", "sh/yhkbe1o7", "sh/l4bupwny"] },
+    { "outputSlide": 6, "sourceSlide": 6, "narrativeRole": "end-to-end ownership", "reuseMode": "duplicate-slide", "editTargets": ["sh/yhg7epsj", "sh/zi98nu94", "sh/oryp8fah"] },
+    { "outputSlide": 7, "sourceSlide": 7, "narrativeRole": "paper transition", "reuseMode": "duplicate-slide", "editTargets": ["sh/ydkbm5sv", "sh/zedcfa9g"] }
+  ],
+  "omittedSourceSlides": [
+    { "sourceSlide": 8, "reason": "sample section placeholder not needed in intro-only deck" },
+    { "sourceSlide": 9, "reason": "sample section placeholder not needed in intro-only deck" },
+    { "sourceSlide": 10, "reason": "sample closing placeholder not needed before paper-detail authoring" }
+  ]
+}
+

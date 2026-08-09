@@ -1,0 +1,7 @@
+The source deck contains 10 slides, 11 layouts, and one slide master.
+All 10 slides inherit /ppt/slideMasters/slideMaster1.xml.
+The footer contains three colored bars: author, title, and page-number regions.
+Master shape id 10 contains the dynamic slidenum field at the bottom right, using 10 pt Hiragino Sans GB W3 and the bg1 theme color.
+The requested change is global and belongs in the master. Slide-local content, layouts, geometry, fonts, colors, media, and notes remain unchanged.
+Artifact-tool was used for full-deck inspection and rendering. Its imported model does not expose the PowerPoint field node, so the field-preserving edit is applied narrowly to the existing OOXML field rather than replacing it with static text.
+

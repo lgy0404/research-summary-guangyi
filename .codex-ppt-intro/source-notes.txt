@@ -1,0 +1,12 @@
+Primary personal facts:
+- /Users/liuguangyi05/code/personal-info-guangyi/Guangyi-CV-latex/main.tex
+- /Users/liuguangyi05/code/personal-info-guangyi/lgy0404.github.io/_pages/about.md
+
+Narrative and paper ordering:
+- /Users/liuguangyi05/code/personal-info-guangyi/research-summary-guangyi/interview-slides/slidev/slides.md
+
+Visual asset:
+- /Users/liuguangyi05/code/personal-info-guangyi/Guangyi-CV-latex/images/profile.jpeg
+
+No web research or newly generated visual asset was used. Quantitative profile metrics are dated 2026.08.09 in the source CV.
+
