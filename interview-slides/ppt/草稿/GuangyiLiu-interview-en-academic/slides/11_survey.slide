@@ -1,0 +1,255 @@
+<Slide>
+    <Box style={{
+        width: '100%',
+        height: '100%',
+        background: '#FFFFFF',
+        position: 'relative',
+        padding: 0,
+    }}>
+        <Box style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            right: 0,
+            height: 80,
+            background: '#0E3F8C',
+            flexDirection: 'row',
+            alignItems: 'center',
+            padding: '0 40px',
+            gap: 14,
+        }}>
+            <Box style={{
+                width: 6,
+                height: 28,
+                background: '#FFFFFF',
+            }} />
+            <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#FFFFFF', letterSpacing: 1 }}>
+                Phone GUI Survey
+            </Text>
+            <Box style={{
+                background: '#FFC107',
+                borderRadius: 4,
+                padding: '3px 8px',
+                marginTop: 4,
+            }}>
+                <Text style={{ fontSize: 11, color: '#0E3F8C', fontWeight: 600 }}>TMLR 2025</Text>
+            </Box>
+        </Box>
+
+        <Box style={{
+            position: 'absolute',
+            top: 80,
+            left: 0,
+            right: 0,
+            height: 544,
+            padding: '20px 40px',
+            flexDirection: 'column',
+            gap: 12,
+        }}>
+            <Box style={{
+                flex: 1.25,
+                flexDirection: 'row',
+                gap: 18,
+            }}>
+                <Box style={{
+                    flex: 1,
+                    flexDirection: 'column',
+                    gap: 10,
+                }}>
+                    <Box style={{
+                        background: '#F7F9FC',
+                        borderRadius: 6,
+                        padding: '12px 14px',
+                        border: '1px solid #D6DCE5',
+                        borderLeft: '3px solid #D9534F',
+                    }}>
+                        <Text style={{ fontSize: 11, color: '#D9534F', fontWeight: 600, marginBottom: 4 }}>
+                            MOTIVATION
+                        </Text>
+                        <Text style={{ fontSize: 12, color: '#1A2230', lineHeight: 1.55 }}>
+                            Phone automation long relied on scripts — <span style={{ fontWeight: 'bold' }}>limited generality, high maintenance, weak intent</span>. No systematic survey focused on the <span style={{ fontWeight: 'bold' }}>phone</span> side (vs desktop / Web).
+                        </Text>
+                    </Box>
+
+                    <Box style={{
+                        background: '#F7F9FC',
+                        borderRadius: 6,
+                        padding: '12px 14px',
+                        border: '1px solid #D6DCE5',
+                        flex: 1,
+                    }}>
+                        <Text style={{ fontSize: 11, color: '#0E3F8C', fontWeight: 600, marginBottom: 6 }}>
+                            Perception–Brain–Action Unified Framework
+                        </Text>
+                        <Box style={{ flexDirection: 'column', gap: 5 }}>
+                            <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                                <span style={{ fontWeight: 'bold', color: '#1E4FA8' }}>Perception</span> · UI tree (DroidBot-GPT natural language / AutoDroid HTML) vs Screenshot (SoM + Icon/OCR)
+                            </Text>
+                            <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                                <span style={{ fontWeight: 'bold', color: '#1E4FA8' }}>Brain</span> · Memory (focus history) + Knowledge (UTG / RAG) · Planning / Reasoning / Reflection
+                            </Text>
+                            <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                                <span style={{ fontWeight: 'bold', color: '#1E4FA8' }}>Action</span> · Touch primitives (click/type/back) + Atomic Skills (Tools / APIs)
+                            </Text>
+                            <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                                <span style={{ fontWeight: 'bold', color: '#1E4FA8' }}>Advanced</span> · Multi-Agent (role vs scene split) · Plan-Then-Act (explicit plan/exec separation)
+                            </Text>
+                        </Box>
+                    </Box>
+                </Box>
+
+                <Box style={{
+                    flex: 1.1,
+                    flexDirection: 'column',
+                    gap: 8,
+                }}>
+                    <Box style={{
+                        flex: 1,
+                        background: '#F7F9FC',
+                        borderRadius: 8,
+                        border: '1px solid #D6DCE5',
+                        overflow: 'hidden',
+                        padding: 10,
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                    }}>
+                        <Image
+                            src="assets/survey-framework.png"
+                            style={{
+                                width: '100%',
+                                height: '100%',
+                                objectFit: 'contain',
+                            }}
+                        />
+                    </Box>
+                    <Box style={{
+                        background: '#E8EFF8',
+                        borderRadius: 6,
+                        padding: '8px 12px',
+                        border: '1px solid #D6DCE5',
+                    }}>
+                        <Text style={{ fontSize: 11, color: '#0E3F8C', lineHeight: 1.5, textAlign: 'center' }}>
+                            Unified framework: Perception → Brain → Action; 31 datasets/benchmarks
+                        </Text>
+                    </Box>
+                </Box>
+            </Box>
+
+            <Box style={{
+                flex: 1,
+                flexDirection: 'row',
+                gap: 10,
+            }}>
+                <Box style={{
+                    flex: 1,
+                    background: '#E8EFF8',
+                    borderRadius: 6,
+                    padding: '12px 14px',
+                    border: '1px solid #D6DCE5',
+                    flexDirection: 'column',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#0E3F8C', fontWeight: 600, marginBottom: 6 }}>
+                        Cross-Paradigm Comparison (§5.3)
+                    </Text>
+                    <Box style={{ flexDirection: 'column', gap: 4, flex: 1 }}>
+                        <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                            · AndroidWorld online: Mobile-Agent-v3 <span style={{ fontWeight: 'bold', color: '#1E4FA8' }}>73.3%</span> &gt; GUI-Owl-7B 66.4% &gt; GPT-4o 34.5%
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                            · AndroidControl(High): MagicGUI-RFT <span style={{ fontWeight: 'bold', color: '#1E4FA8' }}>93.5%</span> (RL &gt;&gt; SFT)
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                            · ScreenSpot: UI-R1-3B <span style={{ fontWeight: 'bold', color: '#1E4FA8' }}>90.2%</span> vs GPT-4o 22.6%
+                        </Text>
+                    </Box>
+                </Box>
+
+                <Box style={{
+                    flex: 1,
+                    background: '#F7F9FC',
+                    borderRadius: 6,
+                    padding: '12px 14px',
+                    border: '1px solid #D6DCE5',
+                    flexDirection: 'column',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#0E3F8C', fontWeight: 600, marginBottom: 6 }}>
+                        Key Insights
+                    </Text>
+                    <Box style={{ flexDirection: 'column', gap: 4, flex: 1 }}>
+                        <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                            · <span style={{ fontWeight: 'bold' }}>Online-offline gap</span>: UI-TARS offline &gt;90% → online only 46.6%
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                            · <span style={{ fontWeight: 'bold' }}>RL &gt; SFT</span> on single-step, but prompt-based frameworks still win long-horizon online
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                            · <span style={{ fontWeight: 'bold' }}>3 open challenges</span>: on-device · personalization · security
+                        </Text>
+                    </Box>
+                </Box>
+
+                <Box style={{
+                    flex: 1,
+                    background: '#0E3F8C',
+                    borderRadius: 6,
+                    padding: '12px 14px',
+                    flexDirection: 'column',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#B8CCE4', fontWeight: 600, marginBottom: 6 }}>
+                        KEY CONTRIBUTIONS
+                    </Text>
+                    <Box style={{ flexDirection: 'column', gap: 4, flex: 1 }}>
+                        <Text style={{ fontSize: 11, color: '#FFFFFF', lineHeight: 1.5 }}>
+                            First systematic survey focused on <span style={{ fontWeight: 'bold' }}>phone-side</span> LLM GUI agents
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#FFFFFF', lineHeight: 1.5 }}>
+                            Perception–Brain–Action unified analytical framework
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#FFFFFF', lineHeight: 1.5 }}>
+                            Cross-paradigm performance comparison table
+                        </Text>
+                    </Box>
+                </Box>
+            </Box>
+        </Box>
+
+        {/* 引用脚注 */}
+        <Box style={{
+            position: 'absolute',
+            top: 624,
+            left: 0,
+            right: 0,
+            height: 36,
+            flexDirection: 'row',
+            alignItems: 'center',
+            justifyContent: 'center',
+            borderTop: '1px solid #E5E7EB',
+            padding: '0 40px',
+        }}>
+            <Text style={{ fontSize: 11, color: '#4A5568', fontStyle: 'italic', fontFamily: "'Times New Roman', Georgia, serif", textAlign: 'center', lineHeight: 1.4 }}>
+                G. Liu, et al. LLM-Powered GUI Agents in Phone Automation: Surveying Progress and Prospects. TMLR, 2025.
+            </Text>
+        </Box>
+
+        <Box style={{
+            position: 'absolute',
+            bottom: 0,
+            left: 0,
+            right: 0,
+            height: 60,
+            background: '#F7F9FC',
+            borderTop: '1px solid #D6DCE5',
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+            padding: '0 40px',
+        }}>
+            <Text style={{ fontSize: 13, color: '#8B97A8' }}>
+                Zhejiang University · Control Science & Engineering
+            </Text>
+            <Text style={{ fontSize: 14, color: '#0E3F8C', fontWeight: 600 }}>
+                11 / 16
+            </Text>
+        </Box>
+    </Box>
+</Slide>

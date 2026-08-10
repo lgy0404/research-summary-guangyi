@@ -1,0 +1,1558 @@
+=== boot pid=9575 ts=2026-08-09 14:44:57.820 cwd=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic argv=/Users/liuguangyi05/.workbuddy/binaries/node/versions/22.22.2/bin/slidep-start --project "/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic" --filename GuangyiLiu-Interview-Academic.pptx ===
+[2026-08-09 14:44:57.819] [INFO ] [pid=9575] [start] invoked pid=9575 cwd=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic daemonChild=no dev=no argv=[--project /Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic --filename GuangyiLiu-Interview-Academic.pptx]
+[2026-08-09 14:44:57.822] [INFO ] [pid=9575] [start] spawning daemon projectDir=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic filename=GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 14:44:57.826] [INFO ] [pid=9575] [start] daemon spawned childPid=9581; waiting started ipc
+=== boot pid=9581 ts=2026-08-09 14:45:02.024 cwd=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic argv=/Users/liuguangyi05/.workbuddy/binaries/node/versions/22.22.2/bin/slidep-start --project "/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic" --filename GuangyiLiu-Interview-Academic.pptx --__daemon-child ===
+[2026-08-09 14:45:02.023] [INFO ] [pid=9581] [start] invoked pid=9581 cwd=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic daemonChild=yes dev=no argv=[--project /Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic --filename GuangyiLiu-Interview-Academic.pptx --__daemon-child]
+[2026-08-09 14:45:02.028] [INFO ] [pid=9581] [start] daemon child runWorker ppid=9575
+[2026-08-09 14:45:02.029] [INFO ] [pid=9581] [worker] start projectDir=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic filename=GuangyiLiu-Interview-Academic.pptx version=5.4.4
+[2026-08-09 14:45:02.030] [INFO ] [pid=9581] [worker] init ok dirs=ready
+[2026-08-09 14:45:02.031] [INFO ] [pid=9581] [server-url] env TENCENT_DOCS_LOCAL_MCP = http://127.0.0.1:39099/mcp
+[2026-08-09 14:45:02.032] [INFO ] [pid=9581] [worker] openFile start
+[2026-08-09 14:45:02.033] [INFO ] [pid=9581] [open-file] copy blank.pptx start src=/Users/liuguangyi05/.workbuddy/binaries/node/versions/22.22.2/lib/node_modules/@tencent/slidep/dist/resources/pptx/blank.pptx dest=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 14:45:02.037] [INFO ] [pid=9581] [open-file] copy blank.pptx ok dest=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=3
+[2026-08-09 14:45:02.075] [ERROR] [pid=9581] [http] editorStatus http 404 url=http://127.0.0.1:39099/api/editor/status body={"code":-1,"message":"no editor open for file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx"} ms=37
+[2026-08-09 14:45:02.077] [INFO ] [pid=9581] [open-file] open send url=http://127.0.0.1:39099/localapi/open filePath=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 14:45:02.083] [INFO ] [pid=9581] [open-file] open ok fileId=D23454B0 fileType=slide filePath=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=5
+[2026-08-09 14:45:02.084] [INFO ] [pid=9581] [worker] openFile ok fileId=D23454B0 filePath=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 14:45:02.085] [INFO ] [pid=9581] [worker] previewUrl=http://127.0.0.1:39099/static/slide/pc.html?local_edit=1&client=sdk_local&localFilePath=%2FUsers%2Fliuguangyi05%2FWorkBuddy+AI%2F2026-08-09-12-04-22%2FGuangyiLiu-interview-en-academic%2FGuangyiLiu-Interview-Academic.pptx
+[2026-08-09 14:45:02.086] [INFO ] [pid=9581] [state] state.json not found, creating path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.slidep/state.json filePath=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 14:45:02.088] [INFO ] [pid=9581] [worker] commitEndpoint=http://127.0.0.1:39099/localapi/commitrevision
+[2026-08-09 14:45:02.096] [INFO ] [pid=9581] [mcp] mcp:slide_get_info send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B"}
+[2026-08-09 14:45:02.100] [INFO ] [pid=9581] [mcp] mcp:slide_get_info ok ms=3
+[2026-08-09 14:45:02.101] [INFO ] [pid=9581] [purge] purge start backendSlideCount=0
+[2026-08-09 14:45:02.102] [INFO ] [pid=9581] [purge] purge ok removed=0 ms=11
+[2026-08-09 14:45:02.104] [INFO ] [pid=9581] [worker] initial sync submitted pages=0
+[2026-08-09 14:45:02.105] [INFO ] [pid=9581] [sync] submit nextRound=1 dirty=<none> pendingDirtySize=0 merged=no
+[2026-08-09 14:45:02.106] [INFO ] [pid=9581] [sync] drain start round=1 pendingDirtySize=0
+[2026-08-09 14:45:02.108] [INFO ] [pid=9581] [sync] aligned round=1 attempt=1 size=0 desired=0 pendingDirtySize=0
+[2026-08-09 14:45:02.112] [INFO ] [pid=9581] [worker] ready fileId=D23454B0 backendUrl=http://127.0.0.1:39099 initialPages=0 ms=83
+[2026-08-09 14:45:02.113] [INFO ] [pid=9581] [sync] reconcile ok round=1 attempt=1 ms=5
+[2026-08-09 14:45:02.113] [INFO ] [pid=9575] [start] daemon started childPid=9581 ms=4291
+[2026-08-09 14:45:02.114] [INFO ] [pid=9581] [sync] drain end round=1 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=8
+[2026-08-09 14:45:02.119] [INFO ] [pid=9581] [watcher] ready dir=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides
+[2026-08-09 14:56:00.395] [INFO ] [pid=9581] [watcher] event=add file=slides/01_cover.slide
+[2026-08-09 14:56:00.900] [INFO ] [pid=9581] [watcher] flush batch dirty=[01_cover] size=1
+[2026-08-09 14:56:00.901] [INFO ] [pid=9581] [sync] submit nextRound=2 dirty=01_cover pendingDirtySize=1 merged=no
+[2026-08-09 14:56:00.902] [INFO ] [pid=9581] [sync] drain start round=2 pendingDirtySize=1
+[2026-08-09 14:56:00.903] [INFO ] [pid=9581] [sync] step=add round=2 attempt=1 pageId=01_cover index=0
+[2026-08-09 14:56:00.904] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=01_cover index=0
+[2026-08-09 14:56:00.906] [INFO ] [pid=9581] [render] start pageId=01_cover file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/01_cover.slide
+[2026-08-09 14:56:01.193] [INFO ] [pid=9581] [render] ok pageId=01_cover slides=1 ms=287
+[2026-08-09 14:56:01.194] [INFO ] [pid=9581] [render] renderSlideData result.resources={
+  images: {
+    'rel:00qvppk5': {
+      id: 'rel:00qvppk5',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/4178a8d0b8af790d89dd0797cfb5a39e.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 14:56:01.203] [INFO ] [pid=9581] [commit] commit send pageId=07c3b3 targetIndex=0 version=1 baseVersion=0 revisionBytes=577000
+[2026-08-09 14:56:01.213] [INFO ] [pid=9581] [commit] commit ok pageId=07c3b3 revisionId=fbccaa3a ms=9
+[2026-08-09 14:56:01.215] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=01_cover slideId=07c3b3 index=0 version=1 baseVersion=0 revisionId=fbccaa3a code=0 images=[local=1 remote=0 cached=0 failed=0] ms=311
+[2026-08-09 14:56:01.216] [INFO ] [pid=9581] [sync] aligned round=2 attempt=1 size=1 desired=1 pendingDirtySize=0
+[2026-08-09 14:56:01.217] [INFO ] [pid=9581] [sync] reconcile ok round=2 attempt=1 ms=314
+[2026-08-09 14:56:01.218] [INFO ] [pid=9581] [backend-ops] save start file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 14:56:01.219] [INFO ] [pid=9581] [commit] save send filePath=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 14:56:01.230] [INFO ] [pid=9581] [commit] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=11
+[2026-08-09 14:56:01.231] [INFO ] [pid=9581] [backend-ops] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=13
+[2026-08-09 14:56:01.231] [INFO ] [pid=9581] [sync] drain end round=2 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=329
+[2026-08-09 14:56:37.446] [INFO ] [pid=9581] [watcher] event=add file=slides/02_toc.slide
+[2026-08-09 14:56:37.948] [INFO ] [pid=9581] [watcher] flush batch dirty=[02_toc] size=1
+[2026-08-09 14:56:37.949] [INFO ] [pid=9581] [sync] submit nextRound=3 dirty=02_toc pendingDirtySize=1 merged=no
+[2026-08-09 14:56:37.950] [INFO ] [pid=9581] [sync] drain start round=3 pendingDirtySize=1
+[2026-08-09 14:56:37.952] [INFO ] [pid=9581] [sync] step=add round=3 attempt=1 pageId=02_toc index=1
+[2026-08-09 14:56:37.952] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=02_toc index=1
+[2026-08-09 14:56:37.953] [INFO ] [pid=9581] [render] start pageId=02_toc file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/02_toc.slide
+[2026-08-09 14:56:38.067] [INFO ] [pid=9581] [render] ok pageId=02_toc slides=1 ms=114
+[2026-08-09 14:56:38.067] [INFO ] [pid=9581] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-09 14:56:38.077] [INFO ] [pid=9581] [commit] commit send pageId=f58f46 targetIndex=1 version=2 baseVersion=1 revisionBytes=36760
+[2026-08-09 14:56:38.083] [INFO ] [pid=9581] [commit] commit ok pageId=f58f46 revisionId=e2b14fee ms=4
+[2026-08-09 14:56:38.085] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=02_toc slideId=f58f46 index=1 version=2 baseVersion=1 revisionId=e2b14fee code=0 images=[local=0 remote=0 cached=0 failed=0] ms=133
+[2026-08-09 14:56:38.086] [INFO ] [pid=9581] [sync] aligned round=3 attempt=1 size=2 desired=2 pendingDirtySize=0
+[2026-08-09 14:56:38.087] [INFO ] [pid=9581] [sync] reconcile ok round=3 attempt=1 ms=136
+[2026-08-09 14:56:38.088] [INFO ] [pid=9581] [backend-ops] save start file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 14:56:38.089] [INFO ] [pid=9581] [commit] save send filePath=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 14:56:38.107] [INFO ] [pid=9581] [commit] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=17
+[2026-08-09 14:56:38.109] [INFO ] [pid=9581] [backend-ops] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=21
+[2026-08-09 14:56:38.110] [INFO ] [pid=9581] [sync] drain end round=3 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=160
+[2026-08-09 14:57:16.094] [INFO ] [pid=9581] [watcher] event=add file=slides/03_bio.slide
+[2026-08-09 14:57:16.597] [INFO ] [pid=9581] [watcher] flush batch dirty=[03_bio] size=1
+[2026-08-09 14:57:16.598] [INFO ] [pid=9581] [sync] submit nextRound=4 dirty=03_bio pendingDirtySize=1 merged=no
+[2026-08-09 14:57:16.599] [INFO ] [pid=9581] [sync] drain start round=4 pendingDirtySize=1
+[2026-08-09 14:57:16.600] [INFO ] [pid=9581] [sync] step=add round=4 attempt=1 pageId=03_bio index=2
+[2026-08-09 14:57:16.600] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=03_bio index=2
+[2026-08-09 14:57:16.601] [INFO ] [pid=9581] [render] start pageId=03_bio file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/03_bio.slide
+[2026-08-09 14:57:16.749] [INFO ] [pid=9581] [render] ok pageId=03_bio slides=1 ms=148
+[2026-08-09 14:57:16.749] [INFO ] [pid=9581] [render] renderSlideData result.resources={
+  images: {
+    'rel:01kgka7l': {
+      id: 'rel:01kgka7l',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/d370813671379a83b11c5a71978255ad.jpeg'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 14:57:16.761] [INFO ] [pid=9581] [commit] commit send pageId=df9406 targetIndex=2 version=3 baseVersion=2 revisionBytes=888808
+[2026-08-09 14:57:16.778] [INFO ] [pid=9581] [commit] commit ok pageId=df9406 revisionId=e580f455 ms=17
+[2026-08-09 14:57:16.779] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=03_bio slideId=df9406 index=2 version=3 baseVersion=2 revisionId=e580f455 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=179
+[2026-08-09 14:57:16.781] [INFO ] [pid=9581] [sync] aligned round=4 attempt=1 size=3 desired=3 pendingDirtySize=0
+[2026-08-09 14:57:16.781] [INFO ] [pid=9581] [sync] reconcile ok round=4 attempt=1 ms=182
+[2026-08-09 14:57:16.782] [INFO ] [pid=9581] [backend-ops] save start file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 14:57:16.783] [INFO ] [pid=9581] [commit] save send filePath=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 14:57:16.804] [INFO ] [pid=9581] [commit] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=20
+[2026-08-09 14:57:16.804] [INFO ] [pid=9581] [backend-ops] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=22
+[2026-08-09 14:57:16.805] [INFO ] [pid=9581] [sync] drain end round=4 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=206
+[2026-08-09 14:57:54.472] [INFO ] [pid=9581] [watcher] event=add file=slides/04_education.slide
+[2026-08-09 14:57:54.974] [INFO ] [pid=9581] [watcher] flush batch dirty=[04_education] size=1
+[2026-08-09 14:57:54.975] [INFO ] [pid=9581] [sync] submit nextRound=5 dirty=04_education pendingDirtySize=1 merged=no
+[2026-08-09 14:57:54.976] [INFO ] [pid=9581] [sync] drain start round=5 pendingDirtySize=1
+[2026-08-09 14:57:54.977] [INFO ] [pid=9581] [sync] step=add round=5 attempt=1 pageId=04_education index=3
+[2026-08-09 14:57:54.978] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=04_education index=3
+[2026-08-09 14:57:54.978] [INFO ] [pid=9581] [render] start pageId=04_education file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/04_education.slide
+[2026-08-09 14:57:55.070] [INFO ] [pid=9581] [render] ok pageId=04_education slides=1 ms=92
+[2026-08-09 14:57:55.071] [INFO ] [pid=9581] [render] renderSlideData result.resources={
+  images: {
+    'rel:00qvppk5': {
+      id: 'rel:00qvppk5',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/4178a8d0b8af790d89dd0797cfb5a39e.png'
+    },
+    'rel:00alpfzs': {
+      id: 'rel:00alpfzs',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/6d00bc2f2b6510db0b5628954fa1f3f2.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 14:57:55.079] [INFO ] [pid=9581] [commit] commit send pageId=b126a9 targetIndex=3 version=4 baseVersion=3 revisionBytes=777236
+[2026-08-09 14:57:55.094] [INFO ] [pid=9581] [commit] commit ok pageId=b126a9 revisionId=0047a6d0 ms=13
+[2026-08-09 14:57:55.096] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=04_education slideId=b126a9 index=3 version=4 baseVersion=3 revisionId=0047a6d0 code=0 images=[local=2 remote=0 cached=0 failed=0] ms=118
+[2026-08-09 14:57:55.097] [INFO ] [pid=9581] [sync] aligned round=5 attempt=1 size=4 desired=4 pendingDirtySize=0
+[2026-08-09 14:57:55.098] [INFO ] [pid=9581] [sync] reconcile ok round=5 attempt=1 ms=121
+[2026-08-09 14:57:55.099] [INFO ] [pid=9581] [backend-ops] save start file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 14:57:55.101] [INFO ] [pid=9581] [commit] save send filePath=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 14:57:55.129] [INFO ] [pid=9581] [commit] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=27
+[2026-08-09 14:57:55.129] [INFO ] [pid=9581] [backend-ops] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=30
+[2026-08-09 14:57:55.130] [INFO ] [pid=9581] [sync] drain end round=5 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=154
+[2026-08-09 14:58:39.331] [INFO ] [pid=9581] [watcher] event=add file=slides/05_industry.slide
+[2026-08-09 14:58:39.834] [INFO ] [pid=9581] [watcher] flush batch dirty=[05_industry] size=1
+[2026-08-09 14:58:39.835] [INFO ] [pid=9581] [sync] submit nextRound=6 dirty=05_industry pendingDirtySize=1 merged=no
+[2026-08-09 14:58:39.838] [INFO ] [pid=9581] [sync] drain start round=6 pendingDirtySize=1
+[2026-08-09 14:58:39.839] [INFO ] [pid=9581] [sync] step=add round=6 attempt=1 pageId=05_industry index=4
+[2026-08-09 14:58:39.839] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=05_industry index=4
+[2026-08-09 14:58:39.840] [INFO ] [pid=9581] [render] start pageId=05_industry file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/05_industry.slide
+[2026-08-09 14:58:39.949] [INFO ] [pid=9581] [render] ok pageId=05_industry slides=1 ms=109
+[2026-08-09 14:58:39.950] [INFO ] [pid=9581] [render] renderSlideData result.resources={
+  images: {
+    'rel:00be7mi0': {
+      id: 'rel:00be7mi0',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/c89e8d9f6d3d2a730e0bb448cb33ba3c.png'
+    },
+    'rel:00j9cjsw': {
+      id: 'rel:00j9cjsw',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/4b71bd60bee11cee002cd30c77d641ee.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 14:58:39.959] [INFO ] [pid=9581] [commit] commit send pageId=e6229b targetIndex=4 version=5 baseVersion=4 revisionBytes=420540
+[2026-08-09 14:58:39.969] [INFO ] [pid=9581] [commit] commit ok pageId=e6229b revisionId=cd0abc37 ms=10
+[2026-08-09 14:58:39.971] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=05_industry slideId=e6229b index=4 version=5 baseVersion=4 revisionId=cd0abc37 code=0 images=[local=2 remote=0 cached=0 failed=0] ms=132
+[2026-08-09 14:58:39.972] [INFO ] [pid=9581] [sync] aligned round=6 attempt=1 size=5 desired=5 pendingDirtySize=0
+[2026-08-09 14:58:39.972] [INFO ] [pid=9581] [sync] reconcile ok round=6 attempt=1 ms=134
+[2026-08-09 14:58:39.973] [INFO ] [pid=9581] [backend-ops] save start file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 14:58:39.974] [INFO ] [pid=9581] [commit] save send filePath=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 14:58:40.003] [INFO ] [pid=9581] [commit] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=27
+[2026-08-09 14:58:40.003] [INFO ] [pid=9581] [backend-ops] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=30
+[2026-08-09 14:58:40.005] [INFO ] [pid=9581] [sync] drain end round=6 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=167
+[2026-08-09 14:59:22.728] [INFO ] [pid=9581] [watcher] event=add file=slides/06_research.slide
+[2026-08-09 14:59:23.231] [INFO ] [pid=9581] [watcher] flush batch dirty=[06_research] size=1
+[2026-08-09 14:59:23.232] [INFO ] [pid=9581] [sync] submit nextRound=7 dirty=06_research pendingDirtySize=1 merged=no
+[2026-08-09 14:59:23.232] [INFO ] [pid=9581] [sync] drain start round=7 pendingDirtySize=1
+[2026-08-09 14:59:23.234] [INFO ] [pid=9581] [sync] step=add round=7 attempt=1 pageId=06_research index=5
+[2026-08-09 14:59:23.235] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=06_research index=5
+[2026-08-09 14:59:23.236] [INFO ] [pid=9581] [render] start pageId=06_research file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/06_research.slide
+[2026-08-09 14:59:23.338] [INFO ] [pid=9581] [render] ok pageId=06_research slides=1 ms=102
+[2026-08-09 14:59:23.339] [INFO ] [pid=9581] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-09 14:59:23.348] [INFO ] [pid=9581] [commit] commit send pageId=cad58c targetIndex=5 version=6 baseVersion=5 revisionBytes=43240
+[2026-08-09 14:59:23.355] [INFO ] [pid=9581] [commit] commit ok pageId=cad58c revisionId=b1574c04 ms=5
+[2026-08-09 14:59:23.357] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=06_research slideId=cad58c index=5 version=6 baseVersion=5 revisionId=b1574c04 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=122
+[2026-08-09 14:59:23.358] [INFO ] [pid=9581] [sync] aligned round=7 attempt=1 size=6 desired=6 pendingDirtySize=0
+[2026-08-09 14:59:23.359] [INFO ] [pid=9581] [sync] reconcile ok round=7 attempt=1 ms=126
+[2026-08-09 14:59:23.360] [INFO ] [pid=9581] [backend-ops] save start file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 14:59:23.361] [INFO ] [pid=9581] [commit] save send filePath=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 14:59:23.392] [INFO ] [pid=9581] [commit] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=31
+[2026-08-09 14:59:23.393] [INFO ] [pid=9581] [backend-ops] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=33
+[2026-08-09 14:59:23.394] [INFO ] [pid=9581] [sync] drain end round=7 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=162
+[2026-08-09 15:00:14.308] [INFO ] [pid=9581] [watcher] event=add file=slides/07_papers.slide
+[2026-08-09 15:00:14.810] [INFO ] [pid=9581] [watcher] flush batch dirty=[07_papers] size=1
+[2026-08-09 15:00:14.811] [INFO ] [pid=9581] [sync] submit nextRound=8 dirty=07_papers pendingDirtySize=1 merged=no
+[2026-08-09 15:00:14.812] [INFO ] [pid=9581] [sync] drain start round=8 pendingDirtySize=1
+[2026-08-09 15:00:14.813] [INFO ] [pid=9581] [sync] step=add round=8 attempt=1 pageId=07_papers index=6
+[2026-08-09 15:00:14.814] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=07_papers index=6
+[2026-08-09 15:00:14.815] [INFO ] [pid=9581] [render] start pageId=07_papers file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/07_papers.slide
+[2026-08-09 15:00:14.927] [INFO ] [pid=9581] [render] ok pageId=07_papers slides=1 ms=112
+[2026-08-09 15:00:14.927] [INFO ] [pid=9581] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-09 15:00:14.933] [INFO ] [pid=9581] [commit] commit send pageId=0ba07d targetIndex=6 version=7 baseVersion=6 revisionBytes=53084
+[2026-08-09 15:00:14.942] [INFO ] [pid=9581] [commit] commit ok pageId=0ba07d revisionId=1b23fe8b ms=7
+[2026-08-09 15:00:14.944] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=07_papers slideId=0ba07d index=6 version=7 baseVersion=6 revisionId=1b23fe8b code=0 images=[local=0 remote=0 cached=0 failed=0] ms=130
+[2026-08-09 15:00:14.945] [INFO ] [pid=9581] [sync] aligned round=8 attempt=1 size=7 desired=7 pendingDirtySize=0
+[2026-08-09 15:00:14.946] [INFO ] [pid=9581] [sync] reconcile ok round=8 attempt=1 ms=133
+[2026-08-09 15:00:14.947] [INFO ] [pid=9581] [backend-ops] save start file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 15:00:14.948] [INFO ] [pid=9581] [commit] save send filePath=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 15:00:14.994] [INFO ] [pid=9581] [commit] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=45
+[2026-08-09 15:00:14.994] [INFO ] [pid=9581] [backend-ops] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=47
+[2026-08-09 15:00:14.996] [INFO ] [pid=9581] [sync] drain end round=8 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=184
+[2026-08-09 15:00:58.121] [INFO ] [pid=9581] [watcher] event=add file=slides/08_honors.slide
+[2026-08-09 15:00:58.622] [INFO ] [pid=9581] [watcher] flush batch dirty=[08_honors] size=1
+[2026-08-09 15:00:58.623] [INFO ] [pid=9581] [sync] submit nextRound=9 dirty=08_honors pendingDirtySize=1 merged=no
+[2026-08-09 15:00:58.624] [INFO ] [pid=9581] [sync] drain start round=9 pendingDirtySize=1
+[2026-08-09 15:00:58.624] [INFO ] [pid=9581] [sync] step=add round=9 attempt=1 pageId=08_honors index=7
+[2026-08-09 15:00:58.625] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=08_honors index=7
+[2026-08-09 15:00:58.626] [INFO ] [pid=9581] [render] start pageId=08_honors file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/08_honors.slide
+[2026-08-09 15:00:58.716] [INFO ] [pid=9581] [render] ok pageId=08_honors slides=1 ms=90
+[2026-08-09 15:00:58.717] [INFO ] [pid=9581] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-09 15:00:58.722] [INFO ] [pid=9581] [commit] commit send pageId=3e06d0 targetIndex=7 version=8 baseVersion=7 revisionBytes=46360
+[2026-08-09 15:00:58.728] [INFO ] [pid=9581] [commit] commit ok pageId=3e06d0 revisionId=e8e0bc73 ms=5
+[2026-08-09 15:00:58.729] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=08_honors slideId=3e06d0 index=7 version=8 baseVersion=7 revisionId=e8e0bc73 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=104
+[2026-08-09 15:00:58.730] [INFO ] [pid=9581] [sync] aligned round=9 attempt=1 size=8 desired=8 pendingDirtySize=0
+[2026-08-09 15:00:58.731] [INFO ] [pid=9581] [sync] reconcile ok round=9 attempt=1 ms=107
+[2026-08-09 15:00:58.731] [INFO ] [pid=9581] [backend-ops] save start file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 15:00:58.732] [INFO ] [pid=9581] [commit] save send filePath=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 15:00:58.770] [INFO ] [pid=9581] [commit] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=38
+[2026-08-09 15:00:58.770] [INFO ] [pid=9581] [backend-ops] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=39
+[2026-08-09 15:00:58.771] [INFO ] [pid=9581] [sync] drain end round=9 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=147
+[2026-08-09 15:01:20.216] [INFO ] [pid=9581] [watcher] event=add file=slides/09_transition.slide
+[2026-08-09 15:01:20.718] [INFO ] [pid=9581] [watcher] flush batch dirty=[09_transition] size=1
+[2026-08-09 15:01:20.719] [INFO ] [pid=9581] [sync] submit nextRound=10 dirty=09_transition pendingDirtySize=1 merged=no
+[2026-08-09 15:01:20.720] [INFO ] [pid=9581] [sync] drain start round=10 pendingDirtySize=1
+[2026-08-09 15:01:20.726] [INFO ] [pid=9581] [sync] step=add round=10 attempt=1 pageId=09_transition index=8
+[2026-08-09 15:01:20.728] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=09_transition index=8
+[2026-08-09 15:01:20.729] [INFO ] [pid=9581] [render] start pageId=09_transition file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/09_transition.slide
+[2026-08-09 15:01:20.781] [INFO ] [pid=9581] [render] ok pageId=09_transition slides=1 ms=52
+[2026-08-09 15:01:20.782] [INFO ] [pid=9581] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-09 15:01:20.786] [INFO ] [pid=9581] [commit] commit send pageId=c46a7a targetIndex=8 version=9 baseVersion=8 revisionBytes=16104
+[2026-08-09 15:01:20.790] [INFO ] [pid=9581] [commit] commit ok pageId=c46a7a revisionId=ac9f2bcd ms=3
+[2026-08-09 15:01:20.791] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=09_transition slideId=c46a7a index=8 version=9 baseVersion=8 revisionId=ac9f2bcd code=0 images=[local=0 remote=0 cached=0 failed=0] ms=63
+[2026-08-09 15:01:20.793] [INFO ] [pid=9581] [sync] aligned round=10 attempt=1 size=9 desired=9 pendingDirtySize=0
+[2026-08-09 15:01:20.793] [INFO ] [pid=9581] [sync] reconcile ok round=10 attempt=1 ms=67
+[2026-08-09 15:01:20.794] [INFO ] [pid=9581] [backend-ops] save start file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 15:01:20.794] [INFO ] [pid=9581] [commit] save send filePath=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 15:01:20.837] [INFO ] [pid=9581] [commit] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=42
+[2026-08-09 15:01:20.838] [INFO ] [pid=9581] [backend-ops] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=44
+[2026-08-09 15:01:20.839] [INFO ] [pid=9581] [sync] drain end round=10 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=119
+[2026-08-09 15:02:02.154] [INFO ] [pid=9581] [watcher] event=add file=slides/10_survey.slide
+[2026-08-09 15:02:02.656] [INFO ] [pid=9581] [watcher] flush batch dirty=[10_survey] size=1
+[2026-08-09 15:02:02.656] [INFO ] [pid=9581] [sync] submit nextRound=11 dirty=10_survey pendingDirtySize=1 merged=no
+[2026-08-09 15:02:02.657] [INFO ] [pid=9581] [sync] drain start round=11 pendingDirtySize=1
+[2026-08-09 15:02:02.658] [INFO ] [pid=9581] [sync] step=add round=11 attempt=1 pageId=10_survey index=9
+[2026-08-09 15:02:02.659] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=10_survey index=9
+[2026-08-09 15:02:02.660] [INFO ] [pid=9581] [render] start pageId=10_survey file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/10_survey.slide
+[2026-08-09 15:02:02.793] [INFO ] [pid=9581] [render] ok pageId=10_survey slides=1 ms=133
+[2026-08-09 15:02:02.795] [INFO ] [pid=9581] [render] renderSlideData result.resources={
+  images: {
+    'rel:01dihgk3': {
+      id: 'rel:01dihgk3',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/80b16f12b3091c91e4e27830be6f4e55.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:02:02.800] [INFO ] [pid=9581] [commit] commit send pageId=a847d5 targetIndex=9 version=10 baseVersion=9 revisionBytes=715216
+[2026-08-09 15:02:02.821] [INFO ] [pid=9581] [commit] commit ok pageId=a847d5 revisionId=8d5849f9 ms=20
+[2026-08-09 15:02:02.822] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=10_survey slideId=a847d5 index=9 version=10 baseVersion=9 revisionId=8d5849f9 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=163
+[2026-08-09 15:02:02.823] [INFO ] [pid=9581] [sync] aligned round=11 attempt=1 size=10 desired=10 pendingDirtySize=0
+[2026-08-09 15:02:02.824] [INFO ] [pid=9581] [sync] reconcile ok round=11 attempt=1 ms=166
+[2026-08-09 15:02:02.825] [INFO ] [pid=9581] [backend-ops] save start file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 15:02:02.826] [INFO ] [pid=9581] [commit] save send filePath=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 15:02:02.871] [INFO ] [pid=9581] [commit] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=43
+[2026-08-09 15:02:02.871] [INFO ] [pid=9581] [backend-ops] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=46
+[2026-08-09 15:02:02.872] [INFO ] [pid=9581] [sync] drain end round=11 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=215
+[2026-08-09 15:02:41.461] [INFO ] [pid=9581] [watcher] event=add file=slides/11_learnact.slide
+[2026-08-09 15:02:41.964] [INFO ] [pid=9581] [watcher] flush batch dirty=[11_learnact] size=1
+[2026-08-09 15:02:41.964] [INFO ] [pid=9581] [sync] submit nextRound=12 dirty=11_learnact pendingDirtySize=1 merged=no
+[2026-08-09 15:02:41.965] [INFO ] [pid=9581] [sync] drain start round=12 pendingDirtySize=1
+[2026-08-09 15:02:41.966] [INFO ] [pid=9581] [sync] step=add round=12 attempt=1 pageId=11_learnact index=10
+[2026-08-09 15:02:41.967] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=11_learnact index=10
+[2026-08-09 15:02:41.967] [INFO ] [pid=9581] [render] start pageId=11_learnact file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/11_learnact.slide
+[2026-08-09 15:02:42.072] [INFO ] [pid=9581] [render] ok pageId=11_learnact slides=1 ms=105
+[2026-08-09 15:02:42.073] [INFO ] [pid=9581] [render] renderSlideData result.resources={
+  images: {
+    'rel:002foibq': {
+      id: 'rel:002foibq',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/6f4c52c671cd31e9264713c05cf143be.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:02:42.082] [INFO ] [pid=9581] [commit] commit send pageId=476d10 targetIndex=10 version=11 baseVersion=10 revisionBytes=616624
+[2026-08-09 15:02:42.094] [INFO ] [pid=9581] [commit] commit ok pageId=476d10 revisionId=d29e02c5 ms=12
+[2026-08-09 15:02:42.096] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=11_learnact slideId=476d10 index=10 version=11 baseVersion=10 revisionId=d29e02c5 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=129
+[2026-08-09 15:02:42.097] [INFO ] [pid=9581] [sync] aligned round=12 attempt=1 size=11 desired=11 pendingDirtySize=0
+[2026-08-09 15:02:42.097] [INFO ] [pid=9581] [sync] reconcile ok round=12 attempt=1 ms=131
+[2026-08-09 15:02:42.098] [INFO ] [pid=9581] [backend-ops] save start file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 15:02:42.099] [INFO ] [pid=9581] [commit] save send filePath=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 15:02:42.145] [INFO ] [pid=9581] [commit] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=46
+[2026-08-09 15:02:42.146] [INFO ] [pid=9581] [backend-ops] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=48
+[2026-08-09 15:02:42.147] [INFO ] [pid=9581] [sync] drain end round=12 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=182
+[2026-08-09 15:03:21.746] [INFO ] [pid=9581] [watcher] event=add file=slides/12_memgui_bench.slide
+[2026-08-09 15:03:22.247] [INFO ] [pid=9581] [watcher] flush batch dirty=[12_memgui_bench] size=1
+[2026-08-09 15:03:22.247] [INFO ] [pid=9581] [sync] submit nextRound=13 dirty=12_memgui_bench pendingDirtySize=1 merged=no
+[2026-08-09 15:03:22.249] [INFO ] [pid=9581] [sync] drain start round=13 pendingDirtySize=1
+[2026-08-09 15:03:22.251] [INFO ] [pid=9581] [sync] step=add round=13 attempt=1 pageId=12_memgui_bench index=11
+[2026-08-09 15:03:22.252] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=12_memgui_bench index=11
+[2026-08-09 15:03:22.253] [INFO ] [pid=9581] [render] start pageId=12_memgui_bench file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/12_memgui_bench.slide
+[2026-08-09 15:03:22.346] [INFO ] [pid=9581] [render] ok pageId=12_memgui_bench slides=1 ms=93
+[2026-08-09 15:03:22.347] [INFO ] [pid=9581] [render] renderSlideData result.resources={
+  images: {
+    'rel:01jvddo6': {
+      id: 'rel:01jvddo6',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/9a6b345bfedcf13b99b07818aff17ae8.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:03:22.354] [INFO ] [pid=9581] [commit] commit send pageId=eb4ca3 targetIndex=11 version=12 baseVersion=11 revisionBytes=878260
+[2026-08-09 15:03:22.369] [INFO ] [pid=9581] [commit] commit ok pageId=eb4ca3 revisionId=6451c9d5 ms=14
+[2026-08-09 15:03:22.371] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=12_memgui_bench slideId=eb4ca3 index=11 version=12 baseVersion=11 revisionId=6451c9d5 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=119
+[2026-08-09 15:03:22.374] [INFO ] [pid=9581] [sync] aligned round=13 attempt=1 size=12 desired=12 pendingDirtySize=0
+[2026-08-09 15:03:22.376] [INFO ] [pid=9581] [sync] reconcile ok round=13 attempt=1 ms=125
+[2026-08-09 15:03:22.378] [INFO ] [pid=9581] [backend-ops] save start file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 15:03:22.380] [INFO ] [pid=9581] [commit] save send filePath=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 15:03:22.435] [INFO ] [pid=9581] [commit] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=53
+[2026-08-09 15:03:22.435] [INFO ] [pid=9581] [backend-ops] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=57
+[2026-08-09 15:03:22.436] [INFO ] [pid=9581] [sync] drain end round=13 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=187
+[2026-08-09 15:04:03.741] [INFO ] [pid=9581] [watcher] event=add file=slides/13_memgui_agent.slide
+[2026-08-09 15:04:04.242] [INFO ] [pid=9581] [watcher] flush batch dirty=[13_memgui_agent] size=1
+[2026-08-09 15:04:04.243] [INFO ] [pid=9581] [sync] submit nextRound=14 dirty=13_memgui_agent pendingDirtySize=1 merged=no
+[2026-08-09 15:04:04.245] [INFO ] [pid=9581] [sync] drain start round=14 pendingDirtySize=1
+[2026-08-09 15:04:04.246] [INFO ] [pid=9581] [sync] step=add round=14 attempt=1 pageId=13_memgui_agent index=12
+[2026-08-09 15:04:04.246] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=13_memgui_agent index=12
+[2026-08-09 15:04:04.247] [INFO ] [pid=9581] [render] start pageId=13_memgui_agent file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/13_memgui_agent.slide
+[2026-08-09 15:04:04.383] [INFO ] [pid=9581] [render] ok pageId=13_memgui_agent slides=1 ms=136
+[2026-08-09 15:04:04.383] [INFO ] [pid=9581] [render] renderSlideData result.resources={
+  images: {
+    'rel:01s4oynl': {
+      id: 'rel:01s4oynl',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/e043abd62d0e48ea03c4749414896ea6.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:04:04.389] [INFO ] [pid=9581] [commit] commit send pageId=ccfdc7 targetIndex=12 version=13 baseVersion=12 revisionBytes=716488
+[2026-08-09 15:04:04.403] [INFO ] [pid=9581] [commit] commit ok pageId=ccfdc7 revisionId=b461da05 ms=13
+[2026-08-09 15:04:04.404] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=13_memgui_agent slideId=ccfdc7 index=12 version=13 baseVersion=12 revisionId=b461da05 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=158
+[2026-08-09 15:04:04.405] [INFO ] [pid=9581] [sync] aligned round=14 attempt=1 size=13 desired=13 pendingDirtySize=0
+[2026-08-09 15:04:04.406] [INFO ] [pid=9581] [sync] reconcile ok round=14 attempt=1 ms=161
+[2026-08-09 15:04:04.406] [INFO ] [pid=9581] [backend-ops] save start file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 15:04:04.407] [INFO ] [pid=9581] [commit] save send filePath=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 15:04:04.476] [INFO ] [pid=9581] [commit] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=69
+[2026-08-09 15:04:04.477] [INFO ] [pid=9581] [backend-ops] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=71
+[2026-08-09 15:04:04.478] [INFO ] [pid=9581] [sync] drain end round=14 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=233
+[2026-08-09 15:04:45.491] [INFO ] [pid=9581] [watcher] event=add file=slides/14_mobileforge.slide
+[2026-08-09 15:04:45.993] [INFO ] [pid=9581] [watcher] flush batch dirty=[14_mobileforge] size=1
+[2026-08-09 15:04:45.993] [INFO ] [pid=9581] [sync] submit nextRound=15 dirty=14_mobileforge pendingDirtySize=1 merged=no
+[2026-08-09 15:04:45.994] [INFO ] [pid=9581] [sync] drain start round=15 pendingDirtySize=1
+[2026-08-09 15:04:45.995] [INFO ] [pid=9581] [sync] step=add round=15 attempt=1 pageId=14_mobileforge index=13
+[2026-08-09 15:04:45.996] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=14_mobileforge index=13
+[2026-08-09 15:04:45.997] [INFO ] [pid=9581] [render] start pageId=14_mobileforge file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/14_mobileforge.slide
+[2026-08-09 15:04:46.085] [INFO ] [pid=9581] [render] ok pageId=14_mobileforge slides=1 ms=88
+[2026-08-09 15:04:46.086] [INFO ] [pid=9581] [render] renderSlideData result.resources={
+  images: {
+    'rel:00rfmawq': {
+      id: 'rel:00rfmawq',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/dc4d3b4d2c92599fbb2b579961407ede.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:04:46.093] [INFO ] [pid=9581] [commit] commit send pageId=80bf2d targetIndex=13 version=14 baseVersion=13 revisionBytes=528032
+[2026-08-09 15:04:46.104] [INFO ] [pid=9581] [commit] commit ok pageId=80bf2d revisionId=2ac70be4 ms=11
+[2026-08-09 15:04:46.105] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=14_mobileforge slideId=80bf2d index=13 version=14 baseVersion=13 revisionId=2ac70be4 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=109
+[2026-08-09 15:04:46.107] [INFO ] [pid=9581] [sync] aligned round=15 attempt=1 size=14 desired=14 pendingDirtySize=0
+[2026-08-09 15:04:46.109] [INFO ] [pid=9581] [sync] reconcile ok round=15 attempt=1 ms=114
+[2026-08-09 15:04:46.110] [INFO ] [pid=9581] [backend-ops] save start file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 15:04:46.111] [INFO ] [pid=9581] [commit] save send filePath=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 15:04:46.175] [INFO ] [pid=9581] [commit] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=62
+[2026-08-09 15:04:46.176] [INFO ] [pid=9581] [backend-ops] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=66
+[2026-08-09 15:04:46.177] [INFO ] [pid=9581] [sync] drain end round=15 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=183
+[2026-08-09 15:05:08.593] [INFO ] [pid=9581] [watcher] event=add file=slides/15_thanks.slide
+[2026-08-09 15:05:09.096] [INFO ] [pid=9581] [watcher] flush batch dirty=[15_thanks] size=1
+[2026-08-09 15:05:09.097] [INFO ] [pid=9581] [sync] submit nextRound=16 dirty=15_thanks pendingDirtySize=1 merged=no
+[2026-08-09 15:05:09.098] [INFO ] [pid=9581] [sync] drain start round=16 pendingDirtySize=1
+[2026-08-09 15:05:09.098] [INFO ] [pid=9581] [sync] step=add round=16 attempt=1 pageId=15_thanks index=14
+[2026-08-09 15:05:09.099] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=15_thanks index=14
+[2026-08-09 15:05:09.099] [INFO ] [pid=9581] [render] start pageId=15_thanks file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/15_thanks.slide
+[2026-08-09 15:05:09.150] [INFO ] [pid=9581] [render] ok pageId=15_thanks slides=1 ms=51
+[2026-08-09 15:05:09.151] [INFO ] [pid=9581] [render] renderSlideData result.resources={
+  images: {
+    'rel:00qvppk5': {
+      id: 'rel:00qvppk5',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/4178a8d0b8af790d89dd0797cfb5a39e.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:05:09.157] [INFO ] [pid=9581] [commit] commit send pageId=e3cb0b targetIndex=14 version=15 baseVersion=14 revisionBytes=576924
+[2026-08-09 15:05:09.169] [INFO ] [pid=9581] [commit] commit ok pageId=e3cb0b revisionId=dbe4e25b ms=11
+[2026-08-09 15:05:09.170] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=15_thanks slideId=e3cb0b index=14 version=15 baseVersion=14 revisionId=dbe4e25b code=0 images=[local=1 remote=0 cached=0 failed=0] ms=71
+[2026-08-09 15:05:09.171] [INFO ] [pid=9581] [sync] aligned round=16 attempt=1 size=15 desired=15 pendingDirtySize=0
+[2026-08-09 15:05:09.172] [INFO ] [pid=9581] [sync] reconcile ok round=16 attempt=1 ms=74
+[2026-08-09 15:05:09.172] [INFO ] [pid=9581] [backend-ops] save start file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 15:05:09.173] [INFO ] [pid=9581] [commit] save send filePath=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 15:05:09.241] [INFO ] [pid=9581] [commit] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=68
+[2026-08-09 15:05:09.241] [INFO ] [pid=9581] [backend-ops] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=69
+[2026-08-09 15:05:09.242] [INFO ] [pid=9581] [sync] drain end round=16 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=144
+=== boot pid=44005 ts=2026-08-09 15:05:20.628 cwd=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic argv=/Users/liuguangyi05/.workbuddy/binaries/node/versions/22.22.2/bin/slidep-validate --all --project "/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic" ===
+[2026-08-09 15:05:20.628] [INFO ] [pid=44005] [validate] --all mode: found 15 files in /Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides
+[2026-08-09 15:05:20.630] [INFO ] [pid=44005] [validate] batch start files=15 checkOverflow=true
+[2026-08-09 15:05:22.300] [INFO ] [pid=44005] [validate] batch done total=15 passed=15 failed=0 ms=1673
+[2026-08-09 15:41:47.800] [INFO ] [pid=9581] [watcher] event=change file=slides/11_learnact.slide
+[2026-08-09 15:41:47.801] [INFO ] [pid=9581] [watcher] event=change file=slides/13_memgui_agent.slide
+[2026-08-09 15:41:47.802] [INFO ] [pid=9581] [watcher] event=change file=slides/12_memgui_bench.slide
+[2026-08-09 15:41:47.803] [INFO ] [pid=9581] [watcher] event=change file=slides/01_cover.slide
+[2026-08-09 15:41:47.804] [INFO ] [pid=9581] [watcher] event=change file=slides/14_mobileforge.slide
+[2026-08-09 15:41:47.805] [INFO ] [pid=9581] [watcher] event=change file=slides/10_survey.slide
+[2026-08-09 15:41:48.306] [INFO ] [pid=9581] [watcher] flush batch dirty=[11_learnact,13_memgui_agent,12_memgui_bench,01_cover,14_mobileforge,10_survey] size=6
+[2026-08-09 15:41:48.307] [INFO ] [pid=9581] [sync] submit nextRound=17 dirty=11_learnact,13_memgui_agent,12_memgui_bench,01_cover,14_mobileforge,10_survey pendingDirtySize=6 merged=no
+[2026-08-09 15:41:48.308] [INFO ] [pid=9581] [sync] drain start round=17 pendingDirtySize=6
+[2026-08-09 15:41:48.309] [INFO ] [pid=9581] [sync] step=remove-dirty round=17 attempt=1 pageId=01_cover index=0
+[2026-08-09 15:41:48.309] [INFO ] [pid=9581] [backend-ops] removeSlideAt start index=0
+[2026-08-09 15:41:48.316] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":0}
+[2026-08-09 15:41:48.319] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide ok ms=3
+[2026-08-09 15:41:48.319] [INFO ] [pid=9581] [backend-ops] removeSlideAt ok index=0 serverVersion=16 ms=10
+[2026-08-09 15:41:48.320] [INFO ] [pid=9581] [sync] step=remove-dirty round=17 attempt=1 pageId=10_survey index=8
+[2026-08-09 15:41:48.321] [INFO ] [pid=9581] [backend-ops] removeSlideAt start index=8
+[2026-08-09 15:41:48.325] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":8}
+[2026-08-09 15:41:48.327] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-09 15:41:48.328] [INFO ] [pid=9581] [backend-ops] removeSlideAt ok index=8 serverVersion=17 ms=7
+[2026-08-09 15:41:48.328] [INFO ] [pid=9581] [sync] step=remove-dirty round=17 attempt=1 pageId=11_learnact index=8
+[2026-08-09 15:41:48.329] [INFO ] [pid=9581] [backend-ops] removeSlideAt start index=8
+[2026-08-09 15:41:48.332] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":8}
+[2026-08-09 15:41:48.335] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide ok ms=3
+[2026-08-09 15:41:48.335] [INFO ] [pid=9581] [backend-ops] removeSlideAt ok index=8 serverVersion=18 ms=6
+[2026-08-09 15:41:48.336] [INFO ] [pid=9581] [sync] step=remove-dirty round=17 attempt=1 pageId=12_memgui_bench index=8
+[2026-08-09 15:41:48.337] [INFO ] [pid=9581] [backend-ops] removeSlideAt start index=8
+[2026-08-09 15:41:48.339] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":8}
+[2026-08-09 15:41:48.343] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide ok ms=3
+[2026-08-09 15:41:48.343] [INFO ] [pid=9581] [backend-ops] removeSlideAt ok index=8 serverVersion=19 ms=6
+[2026-08-09 15:41:48.344] [INFO ] [pid=9581] [sync] step=remove-dirty round=17 attempt=1 pageId=13_memgui_agent index=8
+[2026-08-09 15:41:48.345] [INFO ] [pid=9581] [backend-ops] removeSlideAt start index=8
+[2026-08-09 15:41:48.348] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":8}
+[2026-08-09 15:41:48.352] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide ok ms=3
+[2026-08-09 15:41:48.355] [INFO ] [pid=9581] [backend-ops] removeSlideAt ok index=8 serverVersion=20 ms=10
+[2026-08-09 15:41:48.356] [INFO ] [pid=9581] [sync] step=remove-dirty round=17 attempt=1 pageId=14_mobileforge index=8
+[2026-08-09 15:41:48.356] [INFO ] [pid=9581] [backend-ops] removeSlideAt start index=8
+[2026-08-09 15:41:48.358] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":8}
+[2026-08-09 15:41:48.361] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-09 15:41:48.361] [INFO ] [pid=9581] [backend-ops] removeSlideAt ok index=8 serverVersion=21 ms=5
+[2026-08-09 15:41:48.362] [INFO ] [pid=9581] [sync] step=add round=17 attempt=1 pageId=01_cover index=0
+[2026-08-09 15:41:48.363] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=01_cover index=0
+[2026-08-09 15:41:48.364] [INFO ] [pid=9581] [render] start pageId=01_cover file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/01_cover.slide
+[2026-08-09 15:41:48.450] [INFO ] [pid=9581] [render] ok pageId=01_cover slides=1 ms=86
+[2026-08-09 15:41:48.453] [INFO ] [pid=9581] [render] renderSlideData result.resources={
+  images: {
+    'rel:00qvppk5': {
+      id: 'rel:00qvppk5',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/4178a8d0b8af790d89dd0797cfb5a39e.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:41:48.467] [INFO ] [pid=9581] [commit] commit send pageId=46619a targetIndex=0 version=16 baseVersion=21 revisionBytes=577080
+[2026-08-09 15:41:48.484] [INFO ] [pid=9581] [commit] commit ok pageId=46619a revisionId=1ef8c723 ms=17
+[2026-08-09 15:41:48.485] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=01_cover slideId=46619a index=0 version=16 baseVersion=21 revisionId=1ef8c723 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=122
+[2026-08-09 15:41:48.486] [INFO ] [pid=9581] [sync] step=add round=17 attempt=1 pageId=10_survey index=9
+[2026-08-09 15:41:48.489] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=10_survey index=9
+[2026-08-09 15:41:48.489] [INFO ] [pid=9581] [render] start pageId=10_survey file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/10_survey.slide
+[2026-08-09 15:41:48.605] [INFO ] [pid=9581] [render] ok pageId=10_survey slides=1 ms=116
+[2026-08-09 15:41:48.606] [INFO ] [pid=9581] [render] renderSlideData result.resources={
+  images: {
+    'rel:01dihgk3': {
+      id: 'rel:01dihgk3',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/80b16f12b3091c91e4e27830be6f4e55.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:41:48.612] [INFO ] [pid=9581] [commit] commit send pageId=fbb50f targetIndex=9 version=17 baseVersion=22 revisionBytes=715200
+[2026-08-09 15:41:48.625] [INFO ] [pid=9581] [commit] commit ok pageId=fbb50f revisionId=970b6822 ms=13
+[2026-08-09 15:41:48.626] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=10_survey slideId=fbb50f index=9 version=17 baseVersion=22 revisionId=970b6822 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=137
+[2026-08-09 15:41:48.627] [INFO ] [pid=9581] [sync] step=add round=17 attempt=1 pageId=11_learnact index=10
+[2026-08-09 15:41:48.628] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=11_learnact index=10
+[2026-08-09 15:41:48.629] [INFO ] [pid=9581] [render] start pageId=11_learnact file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/11_learnact.slide
+[2026-08-09 15:41:48.689] [INFO ] [pid=9581] [render] ok pageId=11_learnact slides=1 ms=60
+[2026-08-09 15:41:48.690] [INFO ] [pid=9581] [render] renderSlideData result.resources={
+  images: {
+    'rel:002foibq': {
+      id: 'rel:002foibq',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/6f4c52c671cd31e9264713c05cf143be.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:41:48.694] [INFO ] [pid=9581] [commit] commit send pageId=58e0f6 targetIndex=10 version=18 baseVersion=23 revisionBytes=616620
+[2026-08-09 15:41:48.706] [INFO ] [pid=9581] [commit] commit ok pageId=58e0f6 revisionId=7faf8f59 ms=11
+[2026-08-09 15:41:48.708] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=11_learnact slideId=58e0f6 index=10 version=18 baseVersion=23 revisionId=7faf8f59 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=80
+[2026-08-09 15:41:48.709] [INFO ] [pid=9581] [sync] step=add round=17 attempt=1 pageId=12_memgui_bench index=11
+[2026-08-09 15:41:48.710] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=12_memgui_bench index=11
+[2026-08-09 15:41:48.710] [INFO ] [pid=9581] [render] start pageId=12_memgui_bench file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/12_memgui_bench.slide
+[2026-08-09 15:41:48.805] [INFO ] [pid=9581] [render] ok pageId=12_memgui_bench slides=1 ms=95
+[2026-08-09 15:41:48.806] [INFO ] [pid=9581] [render] renderSlideData result.resources={
+  images: {
+    'rel:01jvddo6': {
+      id: 'rel:01jvddo6',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/9a6b345bfedcf13b99b07818aff17ae8.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:41:48.811] [INFO ] [pid=9581] [commit] commit send pageId=9f193e targetIndex=11 version=19 baseVersion=24 revisionBytes=878260
+[2026-08-09 15:41:48.826] [INFO ] [pid=9581] [commit] commit ok pageId=9f193e revisionId=a2fe80f4 ms=14
+[2026-08-09 15:41:48.827] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=12_memgui_bench slideId=9f193e index=11 version=19 baseVersion=24 revisionId=a2fe80f4 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=117
+[2026-08-09 15:41:48.828] [INFO ] [pid=9581] [sync] step=add round=17 attempt=1 pageId=13_memgui_agent index=12
+[2026-08-09 15:41:48.828] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=13_memgui_agent index=12
+[2026-08-09 15:41:48.829] [INFO ] [pid=9581] [render] start pageId=13_memgui_agent file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/13_memgui_agent.slide
+[2026-08-09 15:41:48.889] [INFO ] [pid=9581] [render] ok pageId=13_memgui_agent slides=1 ms=60
+[2026-08-09 15:41:48.890] [INFO ] [pid=9581] [render] renderSlideData result.resources={
+  images: {
+    'rel:01s4oynl': {
+      id: 'rel:01s4oynl',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/e043abd62d0e48ea03c4749414896ea6.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:41:48.895] [INFO ] [pid=9581] [commit] commit send pageId=781311 targetIndex=12 version=20 baseVersion=25 revisionBytes=716488
+[2026-08-09 15:41:48.907] [INFO ] [pid=9581] [commit] commit ok pageId=781311 revisionId=4411f109 ms=11
+[2026-08-09 15:41:48.907] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=13_memgui_agent slideId=781311 index=12 version=20 baseVersion=25 revisionId=4411f109 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=79
+[2026-08-09 15:41:48.908] [INFO ] [pid=9581] [sync] step=add round=17 attempt=1 pageId=14_mobileforge index=13
+[2026-08-09 15:41:48.909] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=14_mobileforge index=13
+[2026-08-09 15:41:48.910] [INFO ] [pid=9581] [render] start pageId=14_mobileforge file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/14_mobileforge.slide
+[2026-08-09 15:41:48.990] [INFO ] [pid=9581] [render] ok pageId=14_mobileforge slides=1 ms=80
+[2026-08-09 15:41:48.991] [INFO ] [pid=9581] [render] renderSlideData result.resources={
+  images: {
+    'rel:00rfmawq': {
+      id: 'rel:00rfmawq',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/dc4d3b4d2c92599fbb2b579961407ede.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:41:48.996] [INFO ] [pid=9581] [commit] commit send pageId=09b85f targetIndex=13 version=21 baseVersion=26 revisionBytes=528032
+[2026-08-09 15:41:49.006] [INFO ] [pid=9581] [commit] commit ok pageId=09b85f revisionId=e2f91b3b ms=9
+[2026-08-09 15:41:49.008] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=14_mobileforge slideId=09b85f index=13 version=21 baseVersion=26 revisionId=e2f91b3b code=0 images=[local=1 remote=0 cached=0 failed=0] ms=99
+[2026-08-09 15:41:49.008] [INFO ] [pid=9581] [sync] aligned round=17 attempt=1 size=15 desired=15 pendingDirtySize=0
+[2026-08-09 15:41:49.009] [INFO ] [pid=9581] [sync] reconcile ok round=17 attempt=1 ms=701
+[2026-08-09 15:41:49.010] [INFO ] [pid=9581] [backend-ops] save start file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 15:41:49.010] [INFO ] [pid=9581] [commit] save send filePath=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 15:41:49.082] [INFO ] [pid=9581] [commit] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=71
+[2026-08-09 15:41:49.082] [INFO ] [pid=9581] [backend-ops] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=72
+[2026-08-09 15:41:49.083] [INFO ] [pid=9581] [sync] drain end round=17 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=775
+[2026-08-09 15:43:12.087] [INFO ] [pid=9581] [watcher] event=change file=slides/10_survey.slide
+[2026-08-09 15:43:12.089] [INFO ] [pid=9581] [watcher] event=change file=slides/12_memgui_bench.slide
+[2026-08-09 15:43:12.092] [INFO ] [pid=9581] [watcher] event=change file=slides/13_memgui_agent.slide
+[2026-08-09 15:43:12.094] [INFO ] [pid=9581] [watcher] event=change file=slides/11_learnact.slide
+[2026-08-09 15:43:12.096] [INFO ] [pid=9581] [watcher] event=change file=slides/14_mobileforge.slide
+[2026-08-09 15:43:12.597] [INFO ] [pid=9581] [watcher] flush batch dirty=[10_survey,12_memgui_bench,13_memgui_agent,11_learnact,14_mobileforge] size=5
+[2026-08-09 15:43:12.598] [INFO ] [pid=9581] [sync] submit nextRound=18 dirty=10_survey,12_memgui_bench,13_memgui_agent,11_learnact,14_mobileforge pendingDirtySize=5 merged=no
+[2026-08-09 15:43:12.600] [INFO ] [pid=9581] [sync] drain start round=18 pendingDirtySize=5
+[2026-08-09 15:43:12.601] [INFO ] [pid=9581] [sync] step=remove-dirty round=18 attempt=1 pageId=10_survey index=9
+[2026-08-09 15:43:12.602] [INFO ] [pid=9581] [backend-ops] removeSlideAt start index=9
+[2026-08-09 15:43:12.607] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":9}
+[2026-08-09 15:43:12.613] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide ok ms=3
+[2026-08-09 15:43:12.614] [INFO ] [pid=9581] [backend-ops] removeSlideAt ok index=9 serverVersion=28 ms=12
+[2026-08-09 15:43:12.615] [INFO ] [pid=9581] [sync] step=remove-dirty round=18 attempt=1 pageId=11_learnact index=9
+[2026-08-09 15:43:12.615] [INFO ] [pid=9581] [backend-ops] removeSlideAt start index=9
+[2026-08-09 15:43:12.617] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":9}
+[2026-08-09 15:43:12.620] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-09 15:43:12.622] [INFO ] [pid=9581] [backend-ops] removeSlideAt ok index=9 serverVersion=29 ms=7
+[2026-08-09 15:43:12.623] [INFO ] [pid=9581] [sync] step=remove-dirty round=18 attempt=1 pageId=12_memgui_bench index=9
+[2026-08-09 15:43:12.623] [INFO ] [pid=9581] [backend-ops] removeSlideAt start index=9
+[2026-08-09 15:43:12.625] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":9}
+[2026-08-09 15:43:12.628] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-09 15:43:12.628] [INFO ] [pid=9581] [backend-ops] removeSlideAt ok index=9 serverVersion=30 ms=5
+[2026-08-09 15:43:12.629] [INFO ] [pid=9581] [sync] step=remove-dirty round=18 attempt=1 pageId=13_memgui_agent index=9
+[2026-08-09 15:43:12.630] [INFO ] [pid=9581] [backend-ops] removeSlideAt start index=9
+[2026-08-09 15:43:12.631] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":9}
+[2026-08-09 15:43:12.634] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-09 15:43:12.635] [INFO ] [pid=9581] [backend-ops] removeSlideAt ok index=9 serverVersion=31 ms=5
+[2026-08-09 15:43:12.636] [INFO ] [pid=9581] [sync] step=remove-dirty round=18 attempt=1 pageId=14_mobileforge index=9
+[2026-08-09 15:43:12.636] [INFO ] [pid=9581] [backend-ops] removeSlideAt start index=9
+[2026-08-09 15:43:12.638] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":9}
+[2026-08-09 15:43:12.641] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-09 15:43:12.642] [INFO ] [pid=9581] [backend-ops] removeSlideAt ok index=9 serverVersion=32 ms=6
+[2026-08-09 15:43:12.643] [INFO ] [pid=9581] [sync] step=add round=18 attempt=1 pageId=10_survey index=9
+[2026-08-09 15:43:12.643] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=10_survey index=9
+[2026-08-09 15:43:12.644] [INFO ] [pid=9581] [render] start pageId=10_survey file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/10_survey.slide
+[2026-08-09 15:43:12.734] [INFO ] [pid=9581] [render] ok pageId=10_survey slides=1 ms=90
+[2026-08-09 15:43:12.734] [INFO ] [pid=9581] [render] renderSlideData result.resources={
+  images: {
+    'rel:01dihgk3': {
+      id: 'rel:01dihgk3',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/80b16f12b3091c91e4e27830be6f4e55.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:43:12.740] [INFO ] [pid=9581] [commit] commit send pageId=c769c7 targetIndex=9 version=22 baseVersion=32 revisionBytes=717348
+[2026-08-09 15:43:12.753] [INFO ] [pid=9581] [commit] commit ok pageId=c769c7 revisionId=3f1fe8b5 ms=12
+[2026-08-09 15:43:12.753] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=10_survey slideId=c769c7 index=9 version=22 baseVersion=32 revisionId=3f1fe8b5 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=110
+[2026-08-09 15:43:12.754] [INFO ] [pid=9581] [sync] step=add round=18 attempt=1 pageId=11_learnact index=10
+[2026-08-09 15:43:12.755] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=11_learnact index=10
+[2026-08-09 15:43:12.756] [INFO ] [pid=9581] [render] start pageId=11_learnact file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/11_learnact.slide
+[2026-08-09 15:43:12.843] [INFO ] [pid=9581] [render] ok pageId=11_learnact slides=1 ms=87
+[2026-08-09 15:43:12.844] [INFO ] [pid=9581] [render] renderSlideData result.resources={
+  images: {
+    'rel:002foibq': {
+      id: 'rel:002foibq',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/6f4c52c671cd31e9264713c05cf143be.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:43:12.849] [INFO ] [pid=9581] [commit] commit send pageId=389f16 targetIndex=10 version=23 baseVersion=33 revisionBytes=618756
+[2026-08-09 15:43:12.860] [INFO ] [pid=9581] [commit] commit ok pageId=389f16 revisionId=b3faabd7 ms=10
+[2026-08-09 15:43:12.861] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=11_learnact slideId=389f16 index=10 version=23 baseVersion=33 revisionId=b3faabd7 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=106
+[2026-08-09 15:43:12.862] [INFO ] [pid=9581] [sync] step=add round=18 attempt=1 pageId=12_memgui_bench index=11
+[2026-08-09 15:43:12.863] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=12_memgui_bench index=11
+[2026-08-09 15:43:12.863] [INFO ] [pid=9581] [render] start pageId=12_memgui_bench file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/12_memgui_bench.slide
+[2026-08-09 15:43:12.924] [INFO ] [pid=9581] [render] ok pageId=12_memgui_bench slides=1 ms=61
+[2026-08-09 15:43:12.925] [INFO ] [pid=9581] [render] renderSlideData result.resources={
+  images: {
+    'rel:01jvddo6': {
+      id: 'rel:01jvddo6',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/9a6b345bfedcf13b99b07818aff17ae8.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:43:12.932] [INFO ] [pid=9581] [commit] commit send pageId=aeeb72 targetIndex=11 version=24 baseVersion=34 revisionBytes=880412
+[2026-08-09 15:43:12.946] [INFO ] [pid=9581] [commit] commit ok pageId=aeeb72 revisionId=398b2a23 ms=14
+[2026-08-09 15:43:12.947] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=12_memgui_bench slideId=aeeb72 index=11 version=24 baseVersion=34 revisionId=398b2a23 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=84
+[2026-08-09 15:43:12.948] [INFO ] [pid=9581] [sync] step=add round=18 attempt=1 pageId=13_memgui_agent index=12
+[2026-08-09 15:43:12.949] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=13_memgui_agent index=12
+[2026-08-09 15:43:12.950] [INFO ] [pid=9581] [render] start pageId=13_memgui_agent file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/13_memgui_agent.slide
+[2026-08-09 15:43:13.005] [INFO ] [pid=9581] [render] ok pageId=13_memgui_agent slides=1 ms=55
+[2026-08-09 15:43:13.006] [INFO ] [pid=9581] [render] renderSlideData result.resources={
+  images: {
+    'rel:01s4oynl': {
+      id: 'rel:01s4oynl',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/e043abd62d0e48ea03c4749414896ea6.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:43:13.011] [INFO ] [pid=9581] [commit] commit send pageId=a0afc3 targetIndex=12 version=25 baseVersion=35 revisionBytes=718672
+[2026-08-09 15:43:13.025] [INFO ] [pid=9581] [commit] commit ok pageId=a0afc3 revisionId=e6f4acc0 ms=13
+[2026-08-09 15:43:13.026] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=13_memgui_agent slideId=a0afc3 index=12 version=25 baseVersion=35 revisionId=e6f4acc0 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=77
+[2026-08-09 15:43:13.027] [INFO ] [pid=9581] [sync] step=add round=18 attempt=1 pageId=14_mobileforge index=13
+[2026-08-09 15:43:13.028] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=14_mobileforge index=13
+[2026-08-09 15:43:13.028] [INFO ] [pid=9581] [render] start pageId=14_mobileforge file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/14_mobileforge.slide
+[2026-08-09 15:43:13.088] [INFO ] [pid=9581] [render] ok pageId=14_mobileforge slides=1 ms=60
+[2026-08-09 15:43:13.089] [INFO ] [pid=9581] [render] renderSlideData result.resources={
+  images: {
+    'rel:00rfmawq': {
+      id: 'rel:00rfmawq',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/dc4d3b4d2c92599fbb2b579961407ede.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:43:13.094] [INFO ] [pid=9581] [commit] commit send pageId=22be7b targetIndex=13 version=26 baseVersion=36 revisionBytes=530300
+[2026-08-09 15:43:13.105] [INFO ] [pid=9581] [commit] commit ok pageId=22be7b revisionId=b50f0d3f ms=10
+[2026-08-09 15:43:13.106] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=14_mobileforge slideId=22be7b index=13 version=26 baseVersion=36 revisionId=b50f0d3f code=0 images=[local=1 remote=0 cached=0 failed=0] ms=78
+[2026-08-09 15:43:13.107] [INFO ] [pid=9581] [sync] aligned round=18 attempt=1 size=15 desired=15 pendingDirtySize=0
+[2026-08-09 15:43:13.108] [INFO ] [pid=9581] [sync] reconcile ok round=18 attempt=1 ms=507
+[2026-08-09 15:43:13.109] [INFO ] [pid=9581] [backend-ops] save start file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 15:43:13.110] [INFO ] [pid=9581] [commit] save send filePath=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 15:43:13.178] [INFO ] [pid=9581] [commit] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=67
+[2026-08-09 15:43:13.179] [INFO ] [pid=9581] [backend-ops] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=70
+[2026-08-09 15:43:13.182] [INFO ] [pid=9581] [sync] drain end round=18 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=582
+[2026-08-09 15:44:49.986] [INFO ] [pid=9581] [watcher] event=change file=slides/09_transition.slide
+[2026-08-09 15:44:50.487] [INFO ] [pid=9581] [watcher] flush batch dirty=[09_transition] size=1
+[2026-08-09 15:44:50.488] [INFO ] [pid=9581] [sync] submit nextRound=19 dirty=09_transition pendingDirtySize=1 merged=no
+[2026-08-09 15:44:50.489] [INFO ] [pid=9581] [sync] drain start round=19 pendingDirtySize=1
+[2026-08-09 15:44:50.490] [INFO ] [pid=9581] [sync] step=remove-dirty round=19 attempt=1 pageId=09_transition index=8
+[2026-08-09 15:44:50.492] [INFO ] [pid=9581] [backend-ops] removeSlideAt start index=8
+[2026-08-09 15:44:50.497] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":8}
+[2026-08-09 15:44:50.499] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-09 15:44:50.500] [INFO ] [pid=9581] [backend-ops] removeSlideAt ok index=8 serverVersion=38 ms=8
+[2026-08-09 15:44:50.501] [INFO ] [pid=9581] [sync] step=add round=19 attempt=1 pageId=09_transition index=8
+[2026-08-09 15:44:50.502] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=09_transition index=8
+[2026-08-09 15:44:50.504] [INFO ] [pid=9581] [render] start pageId=09_transition file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/09_transition.slide
+[2026-08-09 15:44:50.567] [INFO ] [pid=9581] [render] ok pageId=09_transition slides=1 ms=63
+[2026-08-09 15:44:50.567] [INFO ] [pid=9581] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-09 15:44:50.573] [INFO ] [pid=9581] [commit] commit send pageId=008c23 targetIndex=8 version=27 baseVersion=38 revisionBytes=17372
+[2026-08-09 15:44:50.575] [INFO ] [pid=9581] [commit] commit ok pageId=008c23 revisionId=33808a9e ms=2
+[2026-08-09 15:44:50.577] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=09_transition slideId=008c23 index=8 version=27 baseVersion=38 revisionId=33808a9e code=0 images=[local=0 remote=0 cached=0 failed=0] ms=75
+[2026-08-09 15:44:50.577] [INFO ] [pid=9581] [sync] aligned round=19 attempt=1 size=15 desired=15 pendingDirtySize=0
+[2026-08-09 15:44:50.578] [INFO ] [pid=9581] [sync] reconcile ok round=19 attempt=1 ms=88
+[2026-08-09 15:44:50.579] [INFO ] [pid=9581] [backend-ops] save start file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 15:44:50.579] [INFO ] [pid=9581] [commit] save send filePath=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 15:44:50.647] [INFO ] [pid=9581] [commit] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=66
+[2026-08-09 15:44:50.647] [INFO ] [pid=9581] [backend-ops] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=68
+[2026-08-09 15:44:50.648] [INFO ] [pid=9581] [sync] drain end round=19 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=159
+[2026-08-09 15:45:27.743] [INFO ] [pid=9581] [watcher] event=add file=slides/03_part01.slide
+[2026-08-09 15:45:28.246] [INFO ] [pid=9581] [watcher] flush batch dirty=[03_part01] size=1
+[2026-08-09 15:45:28.247] [INFO ] [pid=9581] [sync] submit nextRound=20 dirty=03_part01 pendingDirtySize=1 merged=no
+[2026-08-09 15:45:28.248] [INFO ] [pid=9581] [sync] drain start round=20 pendingDirtySize=1
+[2026-08-09 15:45:28.264] [INFO ] [pid=9581] [sync] step=add round=20 attempt=1 pageId=03_part01 index=3
+[2026-08-09 15:45:28.265] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=03_part01 index=3
+[2026-08-09 15:45:28.266] [INFO ] [pid=9581] [render] start pageId=03_part01 file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/03_part01.slide
+[2026-08-09 15:45:28.310] [INFO ] [pid=9581] [render] ok pageId=03_part01 slides=1 ms=44
+[2026-08-09 15:45:28.311] [INFO ] [pid=9581] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-09 15:45:28.316] [INFO ] [pid=9581] [commit] commit send pageId=314c9d targetIndex=3 version=28 baseVersion=39 revisionBytes=16144
+[2026-08-09 15:45:28.320] [INFO ] [pid=9581] [commit] commit ok pageId=314c9d revisionId=a11098bb ms=2
+[2026-08-09 15:45:28.321] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=03_part01 slideId=314c9d index=3 version=28 baseVersion=39 revisionId=a11098bb code=0 images=[local=0 remote=0 cached=0 failed=0] ms=56
+[2026-08-09 15:45:28.322] [INFO ] [pid=9581] [sync] aligned round=20 attempt=1 size=16 desired=16 pendingDirtySize=0
+[2026-08-09 15:45:28.323] [INFO ] [pid=9581] [sync] reconcile ok round=20 attempt=1 ms=73
+[2026-08-09 15:45:28.324] [INFO ] [pid=9581] [backend-ops] save start file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 15:45:28.324] [INFO ] [pid=9581] [commit] save send filePath=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 15:45:28.382] [INFO ] [pid=9581] [commit] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=57
+[2026-08-09 15:45:28.383] [INFO ] [pid=9581] [backend-ops] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=59
+[2026-08-09 15:45:28.384] [INFO ] [pid=9581] [sync] drain end round=20 reconciles=1 mergedSubmits=1 pendingDirtySize=0 ms=136
+[2026-08-09 15:45:55.154] [INFO ] [pid=9581] [watcher] event=unlink file=slides/04_education.slide
+[2026-08-09 15:45:55.154] [INFO ] [pid=9581] [sync] submit nextRound=21 dirty=<none> pendingDirtySize=0 merged=no
+[2026-08-09 15:45:55.155] [INFO ] [pid=9581] [sync] drain start round=21 pendingDirtySize=0
+[2026-08-09 15:45:55.155] [INFO ] [pid=9581] [sync] step=remove-orphan round=21 attempt=1 pageId=03_bio index=2
+[2026-08-09 15:45:55.157] [INFO ] [pid=9581] [backend-ops] removeSlideAt start index=2
+[2026-08-09 15:45:55.159] [INFO ] [pid=9581] [watcher] event=unlink file=slides/15_thanks.slide
+[2026-08-09 15:45:55.159] [INFO ] [pid=9581] [sync] submit round=21 dirty=<none> pendingDirtySize=0 merged=yes
+[2026-08-09 15:45:55.160] [INFO ] [pid=9581] [watcher] event=unlink file=slides/12_memgui_bench.slide
+[2026-08-09 15:45:55.161] [INFO ] [pid=9581] [sync] submit round=21 dirty=<none> pendingDirtySize=0 merged=yes
+[2026-08-09 15:45:55.161] [INFO ] [pid=9581] [watcher] event=unlink file=slides/10_survey.slide
+[2026-08-09 15:45:55.162] [INFO ] [pid=9581] [sync] submit round=21 dirty=<none> pendingDirtySize=0 merged=yes
+[2026-08-09 15:45:55.162] [INFO ] [pid=9581] [watcher] event=unlink file=slides/07_papers.slide
+[2026-08-09 15:45:55.163] [INFO ] [pid=9581] [sync] submit round=21 dirty=<none> pendingDirtySize=0 merged=yes
+[2026-08-09 15:45:55.163] [INFO ] [pid=9581] [watcher] event=unlink file=slides/06_research.slide
+[2026-08-09 15:45:55.164] [INFO ] [pid=9581] [sync] submit round=21 dirty=<none> pendingDirtySize=0 merged=yes
+[2026-08-09 15:45:55.165] [INFO ] [pid=9581] [watcher] event=unlink file=slides/03_bio.slide
+[2026-08-09 15:45:55.165] [INFO ] [pid=9581] [sync] submit round=21 dirty=<none> pendingDirtySize=0 merged=yes
+[2026-08-09 15:45:55.166] [INFO ] [pid=9581] [watcher] event=unlink file=slides/05_industry.slide
+[2026-08-09 15:45:55.167] [INFO ] [pid=9581] [sync] submit round=21 dirty=<none> pendingDirtySize=0 merged=yes
+[2026-08-09 15:45:55.167] [INFO ] [pid=9581] [watcher] event=unlink file=slides/08_honors.slide
+[2026-08-09 15:45:55.168] [INFO ] [pid=9581] [sync] submit round=21 dirty=<none> pendingDirtySize=0 merged=yes
+[2026-08-09 15:45:55.168] [INFO ] [pid=9581] [watcher] event=unlink file=slides/11_learnact.slide
+[2026-08-09 15:45:55.169] [INFO ] [pid=9581] [sync] submit round=21 dirty=<none> pendingDirtySize=0 merged=yes
+[2026-08-09 15:45:55.170] [INFO ] [pid=9581] [watcher] event=unlink file=slides/13_memgui_agent.slide
+[2026-08-09 15:45:55.170] [INFO ] [pid=9581] [sync] submit round=21 dirty=<none> pendingDirtySize=0 merged=yes
+[2026-08-09 15:45:55.171] [INFO ] [pid=9581] [watcher] event=unlink file=slides/09_transition.slide
+[2026-08-09 15:45:55.171] [INFO ] [pid=9581] [sync] submit round=21 dirty=<none> pendingDirtySize=0 merged=yes
+[2026-08-09 15:45:55.172] [INFO ] [pid=9581] [watcher] event=unlink file=slides/14_mobileforge.slide
+[2026-08-09 15:45:55.173] [INFO ] [pid=9581] [sync] submit round=21 dirty=<none> pendingDirtySize=0 merged=yes
+[2026-08-09 15:45:55.175] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":2}
+[2026-08-09 15:45:55.177] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-09 15:45:55.177] [INFO ] [pid=9581] [backend-ops] removeSlideAt ok index=2 serverVersion=41 ms=20
+[2026-08-09 15:45:55.178] [INFO ] [pid=9581] [sync] step=remove-orphan round=21 attempt=1 pageId=04_education index=3
+[2026-08-09 15:45:55.179] [INFO ] [pid=9581] [backend-ops] removeSlideAt start index=3
+[2026-08-09 15:45:55.181] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":3}
+[2026-08-09 15:45:55.183] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-09 15:45:55.183] [INFO ] [pid=9581] [backend-ops] removeSlideAt ok index=3 serverVersion=42 ms=4
+[2026-08-09 15:45:55.184] [INFO ] [pid=9581] [sync] step=remove-orphan round=21 attempt=1 pageId=05_industry index=3
+[2026-08-09 15:45:55.185] [INFO ] [pid=9581] [backend-ops] removeSlideAt start index=3
+[2026-08-09 15:45:55.187] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":3}
+[2026-08-09 15:45:55.189] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-09 15:45:55.189] [INFO ] [pid=9581] [backend-ops] removeSlideAt ok index=3 serverVersion=43 ms=4
+[2026-08-09 15:45:55.190] [INFO ] [pid=9581] [sync] step=remove-orphan round=21 attempt=1 pageId=06_research index=3
+[2026-08-09 15:45:55.191] [INFO ] [pid=9581] [backend-ops] removeSlideAt start index=3
+[2026-08-09 15:45:55.193] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":3}
+[2026-08-09 15:45:55.195] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-09 15:45:55.195] [INFO ] [pid=9581] [backend-ops] removeSlideAt ok index=3 serverVersion=44 ms=4
+[2026-08-09 15:45:55.196] [INFO ] [pid=9581] [sync] step=remove-orphan round=21 attempt=1 pageId=07_papers index=3
+[2026-08-09 15:45:55.196] [INFO ] [pid=9581] [backend-ops] removeSlideAt start index=3
+[2026-08-09 15:45:55.198] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":3}
+[2026-08-09 15:45:55.201] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-09 15:45:55.201] [INFO ] [pid=9581] [backend-ops] removeSlideAt ok index=3 serverVersion=45 ms=5
+[2026-08-09 15:45:55.202] [INFO ] [pid=9581] [sync] step=remove-orphan round=21 attempt=1 pageId=08_honors index=3
+[2026-08-09 15:45:55.202] [INFO ] [pid=9581] [backend-ops] removeSlideAt start index=3
+[2026-08-09 15:45:55.204] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":3}
+[2026-08-09 15:45:55.206] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-09 15:45:55.207] [INFO ] [pid=9581] [backend-ops] removeSlideAt ok index=3 serverVersion=46 ms=5
+[2026-08-09 15:45:55.208] [INFO ] [pid=9581] [sync] step=remove-orphan round=21 attempt=1 pageId=09_transition index=3
+[2026-08-09 15:45:55.208] [INFO ] [pid=9581] [backend-ops] removeSlideAt start index=3
+[2026-08-09 15:45:55.210] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":3}
+[2026-08-09 15:45:55.212] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide ok ms=1
+[2026-08-09 15:45:55.212] [INFO ] [pid=9581] [backend-ops] removeSlideAt ok index=3 serverVersion=47 ms=4
+[2026-08-09 15:45:55.213] [INFO ] [pid=9581] [sync] step=remove-orphan round=21 attempt=1 pageId=10_survey index=3
+[2026-08-09 15:45:55.213] [INFO ] [pid=9581] [backend-ops] removeSlideAt start index=3
+[2026-08-09 15:45:55.215] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":3}
+[2026-08-09 15:45:55.217] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide ok ms=1
+[2026-08-09 15:45:55.218] [INFO ] [pid=9581] [backend-ops] removeSlideAt ok index=3 serverVersion=48 ms=5
+[2026-08-09 15:45:55.218] [INFO ] [pid=9581] [sync] step=remove-orphan round=21 attempt=1 pageId=11_learnact index=3
+[2026-08-09 15:45:55.219] [INFO ] [pid=9581] [backend-ops] removeSlideAt start index=3
+[2026-08-09 15:45:55.221] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":3}
+[2026-08-09 15:45:55.223] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide ok ms=1
+[2026-08-09 15:45:55.223] [INFO ] [pid=9581] [backend-ops] removeSlideAt ok index=3 serverVersion=49 ms=4
+[2026-08-09 15:45:55.223] [INFO ] [pid=9581] [sync] step=remove-orphan round=21 attempt=1 pageId=12_memgui_bench index=3
+[2026-08-09 15:45:55.224] [INFO ] [pid=9581] [backend-ops] removeSlideAt start index=3
+[2026-08-09 15:45:55.226] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":3}
+[2026-08-09 15:45:55.227] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide ok ms=1
+[2026-08-09 15:45:55.228] [INFO ] [pid=9581] [backend-ops] removeSlideAt ok index=3 serverVersion=50 ms=4
+[2026-08-09 15:45:55.228] [INFO ] [pid=9581] [sync] step=remove-orphan round=21 attempt=1 pageId=13_memgui_agent index=3
+[2026-08-09 15:45:55.229] [INFO ] [pid=9581] [backend-ops] removeSlideAt start index=3
+[2026-08-09 15:45:55.231] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":3}
+[2026-08-09 15:45:55.232] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide ok ms=1
+[2026-08-09 15:45:55.233] [INFO ] [pid=9581] [backend-ops] removeSlideAt ok index=3 serverVersion=51 ms=4
+[2026-08-09 15:45:55.233] [INFO ] [pid=9581] [sync] step=remove-orphan round=21 attempt=1 pageId=14_mobileforge index=3
+[2026-08-09 15:45:55.234] [INFO ] [pid=9581] [backend-ops] removeSlideAt start index=3
+[2026-08-09 15:45:55.235] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":3}
+[2026-08-09 15:45:55.237] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide ok ms=1
+[2026-08-09 15:45:55.237] [INFO ] [pid=9581] [backend-ops] removeSlideAt ok index=3 serverVersion=52 ms=3
+[2026-08-09 15:45:55.238] [INFO ] [pid=9581] [sync] step=remove-orphan round=21 attempt=1 pageId=15_thanks index=3
+[2026-08-09 15:45:55.238] [INFO ] [pid=9581] [backend-ops] removeSlideAt start index=3
+[2026-08-09 15:45:55.240] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":3}
+[2026-08-09 15:45:55.242] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide ok ms=1
+[2026-08-09 15:45:55.242] [INFO ] [pid=9581] [backend-ops] removeSlideAt ok index=3 serverVersion=53 ms=4
+[2026-08-09 15:45:55.243] [INFO ] [pid=9581] [sync] step=add round=21 attempt=1 pageId=04_bio index=3
+[2026-08-09 15:45:55.243] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=04_bio index=3
+[2026-08-09 15:45:55.244] [INFO ] [pid=9581] [render] start pageId=04_bio file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/04_bio.slide
+[2026-08-09 15:45:55.400] [INFO ] [pid=9581] [render] ok pageId=04_bio slides=1 ms=156
+[2026-08-09 15:45:55.401] [INFO ] [pid=9581] [render] renderSlideData result.resources={
+  images: {
+    'rel:01kgka7l': {
+      id: 'rel:01kgka7l',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/d370813671379a83b11c5a71978255ad.jpeg'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:45:55.408] [INFO ] [pid=9581] [commit] commit send pageId=a740a0 targetIndex=3 version=29 baseVersion=53 revisionBytes=888804
+[2026-08-09 15:45:55.412] [INFO ] [pid=9581] [watcher] event=change file=slides/02_toc.slide
+[2026-08-09 15:45:55.412] [INFO ] [pid=9581] [watcher] event=add file=slides/05_education.slide
+[2026-08-09 15:45:55.413] [INFO ] [pid=9581] [watcher] event=add file=slides/08_papers.slide
+[2026-08-09 15:45:55.414] [INFO ] [pid=9581] [watcher] event=add file=slides/06_industry.slide
+[2026-08-09 15:45:55.415] [INFO ] [pid=9581] [watcher] event=add file=slides/10_part02.slide
+[2026-08-09 15:45:55.417] [INFO ] [pid=9581] [watcher] event=add file=slides/11_survey.slide
+[2026-08-09 15:45:55.418] [INFO ] [pid=9581] [watcher] event=add file=slides/09_honors.slide
+[2026-08-09 15:45:55.419] [INFO ] [pid=9581] [watcher] event=add file=slides/12_learnact.slide
+[2026-08-09 15:45:55.419] [INFO ] [pid=9581] [watcher] event=add file=slides/13_memgui_bench.slide
+[2026-08-09 15:45:55.421] [INFO ] [pid=9581] [watcher] event=add file=slides/14_memgui_agent.slide
+[2026-08-09 15:45:55.421] [INFO ] [pid=9581] [watcher] event=add file=slides/15_mobileforge.slide
+[2026-08-09 15:45:55.423] [INFO ] [pid=9581] [watcher] event=add file=slides/16_thanks.slide
+[2026-08-09 15:45:55.424] [INFO ] [pid=9581] [watcher] event=add file=slides/07_research.slide
+[2026-08-09 15:45:55.425] [INFO ] [pid=9581] [watcher] event=add file=slides/04_bio.slide
+[2026-08-09 15:45:55.439] [INFO ] [pid=9581] [commit] commit ok pageId=a740a0 revisionId=2307c638 ms=31
+[2026-08-09 15:45:55.450] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=04_bio slideId=a740a0 index=3 version=29 baseVersion=53 revisionId=2307c638 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=207
+[2026-08-09 15:45:55.451] [INFO ] [pid=9581] [sync] step=add round=21 attempt=1 pageId=05_education index=4
+[2026-08-09 15:45:55.452] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=05_education index=4
+[2026-08-09 15:45:55.453] [INFO ] [pid=9581] [render] start pageId=05_education file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/05_education.slide
+[2026-08-09 15:45:55.546] [INFO ] [pid=9581] [render] ok pageId=05_education slides=1 ms=93
+[2026-08-09 15:45:55.547] [INFO ] [pid=9581] [render] renderSlideData result.resources={
+  images: {
+    'rel:00qvppk5': {
+      id: 'rel:00qvppk5',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/4178a8d0b8af790d89dd0797cfb5a39e.png'
+    },
+    'rel:00alpfzs': {
+      id: 'rel:00alpfzs',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/6d00bc2f2b6510db0b5628954fa1f3f2.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:45:55.552] [INFO ] [pid=9581] [commit] commit send pageId=f6c73d targetIndex=4 version=30 baseVersion=54 revisionBytes=777248
+[2026-08-09 15:45:55.564] [INFO ] [pid=9581] [commit] commit ok pageId=f6c73d revisionId=c6e17a04 ms=11
+[2026-08-09 15:45:55.566] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=05_education slideId=f6c73d index=4 version=30 baseVersion=54 revisionId=c6e17a04 code=0 images=[local=2 remote=0 cached=0 failed=0] ms=114
+[2026-08-09 15:45:55.567] [INFO ] [pid=9581] [sync] step=add round=21 attempt=1 pageId=06_industry index=5
+[2026-08-09 15:45:55.568] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=06_industry index=5
+[2026-08-09 15:45:55.568] [INFO ] [pid=9581] [render] start pageId=06_industry file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/06_industry.slide
+[2026-08-09 15:45:55.651] [INFO ] [pid=9581] [render] ok pageId=06_industry slides=1 ms=83
+[2026-08-09 15:45:55.652] [INFO ] [pid=9581] [render] renderSlideData result.resources={
+  images: {
+    'rel:00be7mi0': {
+      id: 'rel:00be7mi0',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/c89e8d9f6d3d2a730e0bb448cb33ba3c.png'
+    },
+    'rel:00j9cjsw': {
+      id: 'rel:00j9cjsw',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/4b71bd60bee11cee002cd30c77d641ee.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:45:55.657] [INFO ] [pid=9581] [commit] commit send pageId=333a60 targetIndex=5 version=31 baseVersion=55 revisionBytes=420516
+[2026-08-09 15:45:55.666] [INFO ] [pid=9581] [commit] commit ok pageId=333a60 revisionId=f2518ab5 ms=8
+[2026-08-09 15:45:55.667] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=06_industry slideId=333a60 index=5 version=31 baseVersion=55 revisionId=f2518ab5 code=0 images=[local=2 remote=0 cached=0 failed=0] ms=99
+[2026-08-09 15:45:55.668] [INFO ] [pid=9581] [sync] step=add round=21 attempt=1 pageId=07_research index=6
+[2026-08-09 15:45:55.669] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=07_research index=6
+[2026-08-09 15:45:55.669] [INFO ] [pid=9581] [render] start pageId=07_research file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/07_research.slide
+[2026-08-09 15:45:55.715] [INFO ] [pid=9581] [render] ok pageId=07_research slides=1 ms=46
+[2026-08-09 15:45:55.715] [INFO ] [pid=9581] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-09 15:45:55.719] [INFO ] [pid=9581] [commit] commit send pageId=a845f9 targetIndex=6 version=32 baseVersion=56 revisionBytes=43240
+[2026-08-09 15:45:55.725] [INFO ] [pid=9581] [commit] commit ok pageId=a845f9 revisionId=9b9372ed ms=4
+[2026-08-09 15:45:55.726] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=07_research slideId=a845f9 index=6 version=32 baseVersion=56 revisionId=9b9372ed code=0 images=[local=0 remote=0 cached=0 failed=0] ms=57
+[2026-08-09 15:45:55.727] [INFO ] [pid=9581] [sync] step=add round=21 attempt=1 pageId=08_papers index=7
+[2026-08-09 15:45:55.727] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=08_papers index=7
+[2026-08-09 15:45:55.728] [INFO ] [pid=9581] [render] start pageId=08_papers file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/08_papers.slide
+[2026-08-09 15:45:55.795] [INFO ] [pid=9581] [render] ok pageId=08_papers slides=1 ms=67
+[2026-08-09 15:45:55.795] [INFO ] [pid=9581] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-09 15:45:55.802] [INFO ] [pid=9581] [commit] commit send pageId=8e1b00 targetIndex=7 version=33 baseVersion=57 revisionBytes=53096
+[2026-08-09 15:45:55.810] [INFO ] [pid=9581] [commit] commit ok pageId=8e1b00 revisionId=d8a7459a ms=8
+[2026-08-09 15:45:55.811] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=08_papers slideId=8e1b00 index=7 version=33 baseVersion=57 revisionId=d8a7459a code=0 images=[local=0 remote=0 cached=0 failed=0] ms=84
+[2026-08-09 15:45:55.812] [INFO ] [pid=9581] [sync] step=add round=21 attempt=1 pageId=09_honors index=8
+[2026-08-09 15:45:55.812] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=09_honors index=8
+[2026-08-09 15:45:55.813] [INFO ] [pid=9581] [render] start pageId=09_honors file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/09_honors.slide
+[2026-08-09 15:45:55.862] [INFO ] [pid=9581] [render] ok pageId=09_honors slides=1 ms=49
+[2026-08-09 15:45:55.862] [INFO ] [pid=9581] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-09 15:45:55.866] [INFO ] [pid=9581] [commit] commit send pageId=d10488 targetIndex=8 version=34 baseVersion=58 revisionBytes=46356
+[2026-08-09 15:45:55.871] [INFO ] [pid=9581] [commit] commit ok pageId=d10488 revisionId=1916c881 ms=4
+[2026-08-09 15:45:55.872] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=09_honors slideId=d10488 index=8 version=34 baseVersion=58 revisionId=1916c881 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=60
+[2026-08-09 15:45:55.875] [INFO ] [pid=9581] [sync] step=add round=21 attempt=1 pageId=10_part02 index=9
+[2026-08-09 15:45:55.875] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=10_part02 index=9
+[2026-08-09 15:45:55.876] [INFO ] [pid=9581] [render] start pageId=10_part02 file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/10_part02.slide
+[2026-08-09 15:45:55.898] [INFO ] [pid=9581] [render] ok pageId=10_part02 slides=1 ms=22
+[2026-08-09 15:45:55.898] [INFO ] [pid=9581] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-09 15:45:55.902] [INFO ] [pid=9581] [commit] commit send pageId=2a6bef targetIndex=9 version=35 baseVersion=59 revisionBytes=17380
+[2026-08-09 15:45:55.905] [INFO ] [pid=9581] [commit] commit ok pageId=2a6bef revisionId=24425f63 ms=2
+[2026-08-09 15:45:55.906] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=10_part02 slideId=2a6bef index=9 version=35 baseVersion=59 revisionId=24425f63 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=31
+[2026-08-09 15:45:55.907] [INFO ] [pid=9581] [sync] step=add round=21 attempt=1 pageId=11_survey index=10
+[2026-08-09 15:45:55.907] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=11_survey index=10
+[2026-08-09 15:45:55.908] [INFO ] [pid=9581] [render] start pageId=11_survey file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/11_survey.slide
+[2026-08-09 15:45:55.931] [INFO ] [pid=9581] [watcher] flush batch dirty=[02_toc,05_education,08_papers,06_industry,10_part02,11_survey,09_honors,12_learnact,13_memgui_bench,14_memgui_agent,15_mobileforge,16_thanks,07_research,04_bio] size=14
+[2026-08-09 15:45:55.931] [INFO ] [pid=9581] [sync] submit round=21 dirty=02_toc,05_education,08_papers,06_industry,10_part02,11_survey,09_honors,12_learnact,13_memgui_bench,14_memgui_agent,15_mobileforge,16_thanks,07_research,04_bio pendingDirtySize=14 merged=yes
+[2026-08-09 15:45:55.998] [INFO ] [pid=9581] [render] ok pageId=11_survey slides=1 ms=90
+[2026-08-09 15:45:55.999] [INFO ] [pid=9581] [render] renderSlideData result.resources={
+  images: {
+    'rel:01dihgk3': {
+      id: 'rel:01dihgk3',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/80b16f12b3091c91e4e27830be6f4e55.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:45:56.013] [INFO ] [pid=9581] [commit] commit send pageId=a707cc targetIndex=10 version=36 baseVersion=60 revisionBytes=717348
+[2026-08-09 15:45:56.030] [INFO ] [pid=9581] [commit] commit ok pageId=a707cc revisionId=6ccfc8ba ms=16
+[2026-08-09 15:45:56.031] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=11_survey slideId=a707cc index=10 version=36 baseVersion=60 revisionId=6ccfc8ba code=0 images=[local=1 remote=0 cached=0 failed=0] ms=124
+[2026-08-09 15:45:56.031] [INFO ] [pid=9581] [sync] step=remove-dirty round=21 attempt=1 pageId=02_toc index=1
+[2026-08-09 15:45:56.032] [INFO ] [pid=9581] [backend-ops] removeSlideAt start index=1
+[2026-08-09 15:45:56.036] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":1}
+[2026-08-09 15:45:56.038] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-09 15:45:56.038] [INFO ] [pid=9581] [backend-ops] removeSlideAt ok index=1 serverVersion=62 ms=6
+[2026-08-09 15:45:56.039] [INFO ] [pid=9581] [sync] step=remove-dirty round=21 attempt=1 pageId=04_bio index=2
+[2026-08-09 15:45:56.040] [INFO ] [pid=9581] [backend-ops] removeSlideAt start index=2
+[2026-08-09 15:45:56.042] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":2}
+[2026-08-09 15:45:56.045] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-09 15:45:56.045] [INFO ] [pid=9581] [backend-ops] removeSlideAt ok index=2 serverVersion=63 ms=5
+[2026-08-09 15:45:56.046] [INFO ] [pid=9581] [sync] step=remove-dirty round=21 attempt=1 pageId=05_education index=2
+[2026-08-09 15:45:56.047] [INFO ] [pid=9581] [backend-ops] removeSlideAt start index=2
+[2026-08-09 15:45:56.048] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":2}
+[2026-08-09 15:45:56.051] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-09 15:45:56.052] [INFO ] [pid=9581] [backend-ops] removeSlideAt ok index=2 serverVersion=64 ms=5
+[2026-08-09 15:45:56.053] [INFO ] [pid=9581] [sync] step=remove-dirty round=21 attempt=1 pageId=06_industry index=2
+[2026-08-09 15:45:56.053] [INFO ] [pid=9581] [backend-ops] removeSlideAt start index=2
+[2026-08-09 15:45:56.055] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":2}
+[2026-08-09 15:45:56.056] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide ok ms=1
+[2026-08-09 15:45:56.057] [INFO ] [pid=9581] [backend-ops] removeSlideAt ok index=2 serverVersion=65 ms=4
+[2026-08-09 15:45:56.059] [INFO ] [pid=9581] [sync] step=remove-dirty round=21 attempt=1 pageId=07_research index=2
+[2026-08-09 15:45:56.060] [INFO ] [pid=9581] [backend-ops] removeSlideAt start index=2
+[2026-08-09 15:45:56.062] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":2}
+[2026-08-09 15:45:56.064] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide ok ms=1
+[2026-08-09 15:45:56.065] [INFO ] [pid=9581] [backend-ops] removeSlideAt ok index=2 serverVersion=66 ms=5
+[2026-08-09 15:45:56.066] [INFO ] [pid=9581] [sync] step=remove-dirty round=21 attempt=1 pageId=08_papers index=2
+[2026-08-09 15:45:56.067] [INFO ] [pid=9581] [backend-ops] removeSlideAt start index=2
+[2026-08-09 15:45:56.070] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":2}
+[2026-08-09 15:45:56.071] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide ok ms=1
+[2026-08-09 15:45:56.072] [INFO ] [pid=9581] [backend-ops] removeSlideAt ok index=2 serverVersion=67 ms=5
+[2026-08-09 15:45:56.073] [INFO ] [pid=9581] [sync] step=remove-dirty round=21 attempt=1 pageId=09_honors index=2
+[2026-08-09 15:45:56.073] [INFO ] [pid=9581] [backend-ops] removeSlideAt start index=2
+[2026-08-09 15:45:56.075] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":2}
+[2026-08-09 15:45:56.078] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-09 15:45:56.079] [INFO ] [pid=9581] [backend-ops] removeSlideAt ok index=2 serverVersion=68 ms=6
+[2026-08-09 15:45:56.080] [INFO ] [pid=9581] [sync] step=remove-dirty round=21 attempt=1 pageId=10_part02 index=2
+[2026-08-09 15:45:56.080] [INFO ] [pid=9581] [backend-ops] removeSlideAt start index=2
+[2026-08-09 15:45:56.084] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":2}
+[2026-08-09 15:45:56.086] [INFO ] [pid=9581] [mcp] mcp:slide_remove_slide ok ms=1
+[2026-08-09 15:45:56.086] [INFO ] [pid=9581] [backend-ops] removeSlideAt ok index=2 serverVersion=69 ms=6
+[2026-08-09 15:45:56.087] [INFO ] [pid=9581] [sync] step=add round=21 attempt=1 pageId=02_toc index=1
+[2026-08-09 15:45:56.088] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=02_toc index=1
+[2026-08-09 15:45:56.088] [INFO ] [pid=9581] [render] start pageId=02_toc file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/02_toc.slide
+[2026-08-09 15:45:56.135] [INFO ] [pid=9581] [render] ok pageId=02_toc slides=1 ms=47
+[2026-08-09 15:45:56.135] [INFO ] [pid=9581] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-09 15:45:56.138] [INFO ] [pid=9581] [commit] commit send pageId=8ccfa0 targetIndex=1 version=37 baseVersion=69 revisionBytes=36768
+[2026-08-09 15:45:56.144] [INFO ] [pid=9581] [commit] commit ok pageId=8ccfa0 revisionId=8b8ec2eb ms=5
+[2026-08-09 15:45:56.144] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=02_toc slideId=8ccfa0 index=1 version=37 baseVersion=69 revisionId=8b8ec2eb code=0 images=[local=0 remote=0 cached=0 failed=0] ms=56
+[2026-08-09 15:45:56.145] [INFO ] [pid=9581] [sync] step=add round=21 attempt=1 pageId=04_bio index=3
+[2026-08-09 15:45:56.145] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=04_bio index=3
+[2026-08-09 15:45:56.146] [INFO ] [pid=9581] [render] start pageId=04_bio file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/04_bio.slide
+[2026-08-09 15:45:56.216] [INFO ] [pid=9581] [render] ok pageId=04_bio slides=1 ms=70
+[2026-08-09 15:45:56.217] [INFO ] [pid=9581] [render] renderSlideData result.resources={
+  images: {
+    'rel:01kgka7l': {
+      id: 'rel:01kgka7l',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/d370813671379a83b11c5a71978255ad.jpeg'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:45:56.222] [INFO ] [pid=9581] [commit] commit send pageId=727fee targetIndex=3 version=38 baseVersion=70 revisionBytes=888792
+[2026-08-09 15:45:56.238] [INFO ] [pid=9581] [commit] commit ok pageId=727fee revisionId=90ff4927 ms=15
+[2026-08-09 15:45:56.247] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=04_bio slideId=727fee index=3 version=38 baseVersion=70 revisionId=90ff4927 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=102
+[2026-08-09 15:45:56.249] [INFO ] [pid=9581] [sync] step=add round=21 attempt=1 pageId=05_education index=4
+[2026-08-09 15:45:56.250] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=05_education index=4
+[2026-08-09 15:45:56.251] [INFO ] [pid=9581] [render] start pageId=05_education file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/05_education.slide
+[2026-08-09 15:45:56.304] [INFO ] [pid=9581] [render] ok pageId=05_education slides=1 ms=53
+[2026-08-09 15:45:56.305] [INFO ] [pid=9581] [render] renderSlideData result.resources={
+  images: {
+    'rel:00qvppk5': {
+      id: 'rel:00qvppk5',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/4178a8d0b8af790d89dd0797cfb5a39e.png'
+    },
+    'rel:00alpfzs': {
+      id: 'rel:00alpfzs',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/6d00bc2f2b6510db0b5628954fa1f3f2.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:45:56.311] [INFO ] [pid=9581] [commit] commit send pageId=c1db40 targetIndex=4 version=39 baseVersion=71 revisionBytes=777236
+[2026-08-09 15:45:56.323] [INFO ] [pid=9581] [commit] commit ok pageId=c1db40 revisionId=fda69934 ms=12
+[2026-08-09 15:45:56.323] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=05_education slideId=c1db40 index=4 version=39 baseVersion=71 revisionId=fda69934 code=0 images=[local=2 remote=0 cached=0 failed=0] ms=73
+[2026-08-09 15:45:56.325] [INFO ] [pid=9581] [sync] step=add round=21 attempt=1 pageId=06_industry index=5
+[2026-08-09 15:45:56.326] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=06_industry index=5
+[2026-08-09 15:45:56.326] [INFO ] [pid=9581] [render] start pageId=06_industry file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/06_industry.slide
+[2026-08-09 15:45:56.375] [INFO ] [pid=9581] [render] ok pageId=06_industry slides=1 ms=49
+[2026-08-09 15:45:56.376] [INFO ] [pid=9581] [render] renderSlideData result.resources={
+  images: {
+    'rel:00be7mi0': {
+      id: 'rel:00be7mi0',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/c89e8d9f6d3d2a730e0bb448cb33ba3c.png'
+    },
+    'rel:00j9cjsw': {
+      id: 'rel:00j9cjsw',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/4b71bd60bee11cee002cd30c77d641ee.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:45:56.381] [INFO ] [pid=9581] [commit] commit send pageId=87cf18 targetIndex=5 version=40 baseVersion=72 revisionBytes=420520
+[2026-08-09 15:45:56.391] [INFO ] [pid=9581] [commit] commit ok pageId=87cf18 revisionId=cf41ac9c ms=8
+[2026-08-09 15:45:56.391] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=06_industry slideId=87cf18 index=5 version=40 baseVersion=72 revisionId=cf41ac9c code=0 images=[local=2 remote=0 cached=0 failed=0] ms=65
+[2026-08-09 15:45:56.392] [INFO ] [pid=9581] [sync] step=add round=21 attempt=1 pageId=07_research index=6
+[2026-08-09 15:45:56.393] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=07_research index=6
+[2026-08-09 15:45:56.394] [INFO ] [pid=9581] [render] start pageId=07_research file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/07_research.slide
+[2026-08-09 15:45:56.438] [INFO ] [pid=9581] [render] ok pageId=07_research slides=1 ms=44
+[2026-08-09 15:45:56.438] [INFO ] [pid=9581] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-09 15:45:56.442] [INFO ] [pid=9581] [commit] commit send pageId=589509 targetIndex=6 version=41 baseVersion=73 revisionBytes=43244
+[2026-08-09 15:45:56.446] [INFO ] [pid=9581] [commit] commit ok pageId=589509 revisionId=3cf90091 ms=4
+[2026-08-09 15:45:56.447] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=07_research slideId=589509 index=6 version=41 baseVersion=73 revisionId=3cf90091 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=54
+[2026-08-09 15:45:56.447] [INFO ] [pid=9581] [sync] step=add round=21 attempt=1 pageId=08_papers index=7
+[2026-08-09 15:45:56.448] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=08_papers index=7
+[2026-08-09 15:45:56.450] [INFO ] [pid=9581] [render] start pageId=08_papers file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/08_papers.slide
+[2026-08-09 15:45:56.507] [INFO ] [pid=9581] [render] ok pageId=08_papers slides=1 ms=57
+[2026-08-09 15:45:56.508] [INFO ] [pid=9581] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-09 15:45:56.515] [INFO ] [pid=9581] [commit] commit send pageId=bc77c4 targetIndex=7 version=42 baseVersion=74 revisionBytes=53096
+[2026-08-09 15:45:56.520] [INFO ] [pid=9581] [commit] commit ok pageId=bc77c4 revisionId=4c2a7761 ms=5
+[2026-08-09 15:45:56.521] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=08_papers slideId=bc77c4 index=7 version=42 baseVersion=74 revisionId=4c2a7761 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=73
+[2026-08-09 15:45:56.522] [INFO ] [pid=9581] [sync] step=add round=21 attempt=1 pageId=09_honors index=8
+[2026-08-09 15:45:56.522] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=09_honors index=8
+[2026-08-09 15:45:56.523] [INFO ] [pid=9581] [render] start pageId=09_honors file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/09_honors.slide
+[2026-08-09 15:45:56.571] [INFO ] [pid=9581] [render] ok pageId=09_honors slides=1 ms=48
+[2026-08-09 15:45:56.572] [INFO ] [pid=9581] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-09 15:45:56.575] [INFO ] [pid=9581] [commit] commit send pageId=37ef67 targetIndex=8 version=43 baseVersion=75 revisionBytes=46348
+[2026-08-09 15:45:56.580] [INFO ] [pid=9581] [commit] commit ok pageId=37ef67 revisionId=aae587e6 ms=4
+[2026-08-09 15:45:56.581] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=09_honors slideId=37ef67 index=8 version=43 baseVersion=75 revisionId=aae587e6 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=59
+[2026-08-09 15:45:56.582] [INFO ] [pid=9581] [sync] step=add round=21 attempt=1 pageId=10_part02 index=9
+[2026-08-09 15:45:56.583] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=10_part02 index=9
+[2026-08-09 15:45:56.583] [INFO ] [pid=9581] [render] start pageId=10_part02 file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/10_part02.slide
+[2026-08-09 15:45:56.604] [INFO ] [pid=9581] [render] ok pageId=10_part02 slides=1 ms=21
+[2026-08-09 15:45:56.605] [INFO ] [pid=9581] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-09 15:45:56.608] [INFO ] [pid=9581] [commit] commit send pageId=3d19aa targetIndex=9 version=44 baseVersion=76 revisionBytes=17380
+[2026-08-09 15:45:56.611] [INFO ] [pid=9581] [commit] commit ok pageId=3d19aa revisionId=a9054529 ms=2
+[2026-08-09 15:45:56.612] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=10_part02 slideId=3d19aa index=9 version=44 baseVersion=76 revisionId=a9054529 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=29
+[2026-08-09 15:45:56.613] [INFO ] [pid=9581] [sync] step=add round=21 attempt=1 pageId=12_learnact index=11
+[2026-08-09 15:45:56.613] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=12_learnact index=11
+[2026-08-09 15:45:56.614] [INFO ] [pid=9581] [render] start pageId=12_learnact file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/12_learnact.slide
+[2026-08-09 15:45:56.712] [INFO ] [pid=9581] [render] ok pageId=12_learnact slides=1 ms=98
+[2026-08-09 15:45:56.712] [INFO ] [pid=9581] [render] renderSlideData result.resources={
+  images: {
+    'rel:002foibq': {
+      id: 'rel:002foibq',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/6f4c52c671cd31e9264713c05cf143be.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:45:56.716] [INFO ] [pid=9581] [commit] commit send pageId=cdb527 targetIndex=11 version=45 baseVersion=77 revisionBytes=618748
+[2026-08-09 15:45:56.727] [INFO ] [pid=9581] [commit] commit ok pageId=cdb527 revisionId=95fb0005 ms=10
+[2026-08-09 15:45:56.728] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=12_learnact slideId=cdb527 index=11 version=45 baseVersion=77 revisionId=95fb0005 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=115
+[2026-08-09 15:45:56.728] [INFO ] [pid=9581] [sync] step=add round=21 attempt=1 pageId=13_memgui_bench index=12
+[2026-08-09 15:45:56.729] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=13_memgui_bench index=12
+[2026-08-09 15:45:56.730] [INFO ] [pid=9581] [render] start pageId=13_memgui_bench file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/13_memgui_bench.slide
+[2026-08-09 15:45:56.783] [INFO ] [pid=9581] [render] ok pageId=13_memgui_bench slides=1 ms=53
+[2026-08-09 15:45:56.783] [INFO ] [pid=9581] [render] renderSlideData result.resources={
+  images: {
+    'rel:01jvddo6': {
+      id: 'rel:01jvddo6',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/9a6b345bfedcf13b99b07818aff17ae8.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:45:56.788] [INFO ] [pid=9581] [commit] commit send pageId=ca80aa targetIndex=12 version=46 baseVersion=78 revisionBytes=880424
+[2026-08-09 15:45:56.803] [INFO ] [pid=9581] [commit] commit ok pageId=ca80aa revisionId=df77c5e5 ms=15
+[2026-08-09 15:45:56.804] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=13_memgui_bench slideId=ca80aa index=12 version=46 baseVersion=78 revisionId=df77c5e5 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=75
+[2026-08-09 15:45:56.805] [INFO ] [pid=9581] [sync] step=add round=21 attempt=1 pageId=14_memgui_agent index=13
+[2026-08-09 15:45:56.806] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=14_memgui_agent index=13
+[2026-08-09 15:45:56.807] [INFO ] [pid=9581] [render] start pageId=14_memgui_agent file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/14_memgui_agent.slide
+[2026-08-09 15:45:56.862] [INFO ] [pid=9581] [render] ok pageId=14_memgui_agent slides=1 ms=55
+[2026-08-09 15:45:56.863] [INFO ] [pid=9581] [render] renderSlideData result.resources={
+  images: {
+    'rel:01s4oynl': {
+      id: 'rel:01s4oynl',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/e043abd62d0e48ea03c4749414896ea6.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:45:56.867] [INFO ] [pid=9581] [commit] commit send pageId=e00ce0 targetIndex=13 version=47 baseVersion=79 revisionBytes=718684
+[2026-08-09 15:45:56.878] [INFO ] [pid=9581] [commit] commit ok pageId=e00ce0 revisionId=00a5f388 ms=10
+[2026-08-09 15:45:56.879] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=14_memgui_agent slideId=e00ce0 index=13 version=47 baseVersion=79 revisionId=00a5f388 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=73
+[2026-08-09 15:45:56.880] [INFO ] [pid=9581] [sync] step=add round=21 attempt=1 pageId=15_mobileforge index=14
+[2026-08-09 15:45:56.881] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=15_mobileforge index=14
+[2026-08-09 15:45:56.882] [INFO ] [pid=9581] [render] start pageId=15_mobileforge file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/15_mobileforge.slide
+[2026-08-09 15:45:56.952] [INFO ] [pid=9581] [render] ok pageId=15_mobileforge slides=1 ms=70
+[2026-08-09 15:45:56.953] [INFO ] [pid=9581] [render] renderSlideData result.resources={
+  images: {
+    'rel:00rfmawq': {
+      id: 'rel:00rfmawq',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/dc4d3b4d2c92599fbb2b579961407ede.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:45:56.959] [INFO ] [pid=9581] [commit] commit send pageId=6d96bc targetIndex=14 version=48 baseVersion=80 revisionBytes=530316
+[2026-08-09 15:45:56.969] [INFO ] [pid=9581] [commit] commit ok pageId=6d96bc revisionId=8d43d19d ms=8
+[2026-08-09 15:45:56.969] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=15_mobileforge slideId=6d96bc index=14 version=48 baseVersion=80 revisionId=8d43d19d code=0 images=[local=1 remote=0 cached=0 failed=0] ms=88
+[2026-08-09 15:45:56.971] [INFO ] [pid=9581] [sync] step=add round=21 attempt=1 pageId=16_thanks index=15
+[2026-08-09 15:45:56.971] [INFO ] [pid=9581] [backend-ops] addSlideAt start pageId=16_thanks index=15
+[2026-08-09 15:45:56.972] [INFO ] [pid=9581] [render] start pageId=16_thanks file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/16_thanks.slide
+[2026-08-09 15:45:56.992] [INFO ] [pid=9581] [render] ok pageId=16_thanks slides=1 ms=20
+[2026-08-09 15:45:56.993] [INFO ] [pid=9581] [render] renderSlideData result.resources={
+  images: {
+    'rel:00qvppk5': {
+      id: 'rel:00qvppk5',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/4178a8d0b8af790d89dd0797cfb5a39e.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:45:56.996] [INFO ] [pid=9581] [commit] commit send pageId=64a5ac targetIndex=15 version=49 baseVersion=81 revisionBytes=576916
+[2026-08-09 15:45:57.005] [INFO ] [pid=9581] [commit] commit ok pageId=64a5ac revisionId=02793793 ms=9
+[2026-08-09 15:45:57.006] [INFO ] [pid=9581] [backend-ops] addSlideAt ok pageId=16_thanks slideId=64a5ac index=15 version=49 baseVersion=81 revisionId=02793793 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=35
+[2026-08-09 15:45:57.007] [INFO ] [pid=9581] [sync] aligned round=21 attempt=1 size=16 desired=16 pendingDirtySize=0
+[2026-08-09 15:45:57.007] [INFO ] [pid=9581] [sync] reconcile ok round=21 attempt=1 ms=1852
+[2026-08-09 15:45:57.008] [INFO ] [pid=9581] [sync] aligned round=21 attempt=2 size=16 desired=16 pendingDirtySize=0
+[2026-08-09 15:45:57.010] [INFO ] [pid=9581] [sync] reconcile ok round=21 attempt=2 ms=2
+[2026-08-09 15:45:57.011] [INFO ] [pid=9581] [backend-ops] save start file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 15:45:57.012] [INFO ] [pid=9581] [commit] save send filePath=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 15:45:57.070] [INFO ] [pid=9581] [commit] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=57
+[2026-08-09 15:45:57.071] [INFO ] [pid=9581] [backend-ops] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=60
+[2026-08-09 15:45:57.071] [INFO ] [pid=9581] [sync] drain end round=21 reconciles=2 mergedSubmits=14 pendingDirtySize=0 ms=1916
+=== boot pid=8556 ts=2026-08-09 15:47:39.564 cwd=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic argv=/Users/liuguangyi05/.workbuddy/binaries/node/versions/22.22.2/bin/slidep-stop ===
+[2026-08-09 15:47:39.563] [INFO ] [pid=8556] [stop] invoked pid=8556 cwd=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic projectDir=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic force=no timeoutMs=10000
+[2026-08-09 15:47:39.567] [INFO ] [pid=8556] [stop] killing targetPid=9581 signal=SIGTERM timeoutMs=10000 projectDir=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic
+[2026-08-09 15:47:39.568] [INFO ] [pid=9581] [worker] shutdown received sig=SIGTERM
+[2026-08-09 15:47:39.631] [INFO ] [pid=9581] [worker] shutdown ok sig=SIGTERM ms=63
+[2026-08-09 15:47:39.669] [INFO ] [pid=8556] [stop] ok targetPid=9581 signal=SIGTERM ms=106
+=== boot pid=8562 ts=2026-08-09 15:47:40.527 cwd=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic argv=/Users/liuguangyi05/.workbuddy/binaries/node/versions/22.22.2/bin/slidep-start --project "/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic" --filename GuangyiLiu-Interview-Academic.pptx ===
+[2026-08-09 15:47:40.526] [INFO ] [pid=8562] [start] invoked pid=8562 cwd=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic daemonChild=no dev=no argv=[--project /Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic --filename GuangyiLiu-Interview-Academic.pptx]
+[2026-08-09 15:47:40.529] [INFO ] [pid=8562] [start] spawning daemon projectDir=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic filename=GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 15:47:40.531] [INFO ] [pid=8562] [start] daemon spawned childPid=8573; waiting started ipc
+=== boot pid=8573 ts=2026-08-09 15:47:41.440 cwd=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic argv=/Users/liuguangyi05/.workbuddy/binaries/node/versions/22.22.2/bin/slidep-start --project "/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic" --filename GuangyiLiu-Interview-Academic.pptx --__daemon-child ===
+[2026-08-09 15:47:41.439] [INFO ] [pid=8573] [start] invoked pid=8573 cwd=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic daemonChild=yes dev=no argv=[--project /Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic --filename GuangyiLiu-Interview-Academic.pptx --__daemon-child]
+[2026-08-09 15:47:41.442] [INFO ] [pid=8573] [start] daemon child runWorker ppid=8562
+[2026-08-09 15:47:41.444] [INFO ] [pid=8573] [worker] start projectDir=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic filename=GuangyiLiu-Interview-Academic.pptx version=5.4.4
+[2026-08-09 15:47:41.445] [INFO ] [pid=8573] [worker] init ok dirs=ready
+[2026-08-09 15:47:41.447] [INFO ] [pid=8573] [server-url] env TENCENT_DOCS_LOCAL_MCP = http://127.0.0.1:39099/mcp
+[2026-08-09 15:47:41.448] [INFO ] [pid=8573] [worker] openFile start
+[2026-08-09 15:47:41.454] [INFO ] [pid=8573] [open-file] backup (copy) existing pptx dest=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.slidep/bak/GuangyiLiu-Interview-Academic.bak-20260809-154741.pptx
+[2026-08-09 15:47:41.454] [INFO ] [pid=8573] [open-file] reopen existing pptx (preserve birthtime) filePath=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 15:47:41.471] [INFO ] [pid=8573] [open-file] open skip (already in pool) fileId=D23454B0 filePath=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 15:47:41.472] [INFO ] [pid=8573] [worker] openFile ok fileId=D23454B0 filePath=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 15:47:41.473] [INFO ] [pid=8573] [worker] previewUrl=http://127.0.0.1:39099/static/slide/pc.html?local_edit=1&client=sdk_local&localFilePath=%2FUsers%2Fliuguangyi05%2FWorkBuddy+AI%2F2026-08-09-12-04-22%2FGuangyiLiu-interview-en-academic%2FGuangyiLiu-Interview-Academic.pptx
+[2026-08-09 15:47:41.475] [INFO ] [pid=8573] [worker] commitEndpoint=http://127.0.0.1:39099/localapi/commitrevision
+[2026-08-09 15:47:41.477] [INFO ] [pid=8573] [mcp] mcp:slide_get_info send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B"}
+[2026-08-09 15:47:41.480] [INFO ] [pid=8573] [mcp] mcp:slide_get_info ok ms=1
+[2026-08-09 15:47:41.481] [INFO ] [pid=8573] [purge] purge start backendSlideCount=16
+[2026-08-09 15:47:41.483] [INFO ] [pid=8573] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":0}
+[2026-08-09 15:47:41.486] [INFO ] [pid=8573] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-09 15:47:41.489] [INFO ] [pid=8573] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":0}
+[2026-08-09 15:47:41.492] [INFO ] [pid=8573] [mcp] mcp:slide_remove_slide ok ms=1
+[2026-08-09 15:47:41.494] [INFO ] [pid=8573] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":0}
+[2026-08-09 15:47:41.497] [INFO ] [pid=8573] [mcp] mcp:slide_remove_slide ok ms=3
+[2026-08-09 15:47:41.500] [INFO ] [pid=8573] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":0}
+[2026-08-09 15:47:41.502] [INFO ] [pid=8573] [mcp] mcp:slide_remove_slide ok ms=1
+[2026-08-09 15:47:41.504] [INFO ] [pid=8573] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":0}
+[2026-08-09 15:47:41.506] [INFO ] [pid=8573] [mcp] mcp:slide_remove_slide ok ms=1
+[2026-08-09 15:47:41.508] [INFO ] [pid=8573] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":0}
+[2026-08-09 15:47:41.510] [INFO ] [pid=8573] [mcp] mcp:slide_remove_slide ok ms=1
+[2026-08-09 15:47:41.511] [INFO ] [pid=8573] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":0}
+[2026-08-09 15:47:41.514] [INFO ] [pid=8573] [mcp] mcp:slide_remove_slide ok ms=1
+[2026-08-09 15:47:41.516] [INFO ] [pid=8573] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":0}
+[2026-08-09 15:47:41.519] [INFO ] [pid=8573] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-09 15:47:41.521] [INFO ] [pid=8573] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":0}
+[2026-08-09 15:47:41.525] [INFO ] [pid=8573] [mcp] mcp:slide_remove_slide ok ms=3
+[2026-08-09 15:47:41.527] [INFO ] [pid=8573] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":0}
+[2026-08-09 15:47:41.530] [INFO ] [pid=8573] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-09 15:47:41.532] [INFO ] [pid=8573] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":0}
+[2026-08-09 15:47:41.535] [INFO ] [pid=8573] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-09 15:47:41.539] [INFO ] [pid=8573] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":0}
+[2026-08-09 15:47:41.543] [INFO ] [pid=8573] [mcp] mcp:slide_remove_slide ok ms=2
+[2026-08-09 15:47:41.544] [INFO ] [pid=8573] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":0}
+[2026-08-09 15:47:41.549] [INFO ] [pid=8573] [mcp] mcp:slide_remove_slide ok ms=3
+[2026-08-09 15:47:41.551] [INFO ] [pid=8573] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":0}
+[2026-08-09 15:47:41.555] [INFO ] [pid=8573] [mcp] mcp:slide_remove_slide ok ms=3
+[2026-08-09 15:47:41.558] [INFO ] [pid=8573] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":0}
+[2026-08-09 15:47:41.560] [INFO ] [pid=8573] [mcp] mcp:slide_remove_slide ok ms=1
+[2026-08-09 15:47:41.562] [INFO ] [pid=8573] [mcp] mcp:slide_remove_slide send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B","page_index":0}
+[2026-08-09 15:47:41.565] [INFO ] [pid=8573] [mcp] mcp:slide_remove_slide ok ms=1
+[2026-08-09 15:47:41.568] [INFO ] [pid=8573] [purge] purge ok removed=16 ms=93
+[2026-08-09 15:47:41.569] [INFO ] [pid=8573] [worker] initial sync submitted pages=16
+[2026-08-09 15:47:41.570] [INFO ] [pid=8573] [sync] submit nextRound=1 dirty=<none> pendingDirtySize=0 merged=no
+[2026-08-09 15:47:41.571] [INFO ] [pid=8573] [sync] drain start round=1 pendingDirtySize=0
+[2026-08-09 15:47:41.573] [INFO ] [pid=8573] [sync] step=add round=1 attempt=1 pageId=01_cover index=0
+[2026-08-09 15:47:41.574] [INFO ] [pid=8573] [backend-ops] addSlideAt start pageId=01_cover index=0
+[2026-08-09 15:47:41.575] [INFO ] [pid=8573] [render] start pageId=01_cover file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/01_cover.slide
+[2026-08-09 15:47:41.582] [INFO ] [pid=8573] [worker] ready fileId=D23454B0 backendUrl=http://127.0.0.1:39099 initialPages=16 ms=138
+[2026-08-09 15:47:41.583] [INFO ] [pid=8562] [start] daemon started childPid=8573 ms=1054
+[2026-08-09 15:47:41.615] [INFO ] [pid=8573] [watcher] ready dir=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides
+[2026-08-09 15:47:41.839] [INFO ] [pid=8573] [render] ok pageId=01_cover slides=1 ms=264
+[2026-08-09 15:47:41.839] [INFO ] [pid=8573] [render] renderSlideData result.resources={
+  images: {
+    'rel:00qvppk5': {
+      id: 'rel:00qvppk5',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/4178a8d0b8af790d89dd0797cfb5a39e.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:47:41.849] [INFO ] [pid=8573] [commit] commit send pageId=385b54 targetIndex=0 version=50 baseVersion=0 revisionBytes=577088
+[2026-08-09 15:47:42.274] [ERROR] [pid=8573] [http] commit http 500 url=http://127.0.0.1:39099/localapi/commitrevision body={"error":"CommitRevision failed: [13006][13006]msg:page index out of range, mut_info:mutation info: type:3, page_id:385b54, page_type:1, index:49, shape_tree:72986d, related_layout_id:000008, related_master_id:, slide_master_theme_id:, notes_master_theme_id:,notes_slide_id: , other_msg:","ok":false} ms=424
+[2026-08-09 15:47:42.275] [ERROR] [pid=8573] [backend-ops] addSlideAt commit FAIL pageId=01_cover slideId=385b54 index=0 version=50 baseVersion=0 ms=701
+[2026-08-09 15:47:42.276] [WARN ] [pid=8573] [worker] reconcile failed (H3: commit bad response: HTTP 500 body={"error":"CommitRevision failed: [13006][13006]msg:page index out of range, mut_info:mutation info: type:3, page_id:385b54, page_type:1, index:49, shape_tree:72986d, related_layout_id:000008, related_master_id:, slide_master_theme_id:, notes_master_theme_id:,notes_slide_id: , other_msg:","ok":false}); trying soft recovery (purge backend + sync version, no editor restart)
+[2026-08-09 15:47:42.277] [INFO ] [pid=8573] [mcp] mcp:slide_get_info send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B"}
+[2026-08-09 15:47:42.278] [INFO ] [pid=8573] [mcp] mcp:slide_get_info ok ms=0
+[2026-08-09 15:47:42.280] [INFO ] [pid=8573] [purge] purge start backendSlideCount=0
+[2026-08-09 15:47:42.281] [INFO ] [pid=8573] [purge] purge ok removed=0 ms=5
+[2026-08-09 15:47:42.282] [INFO ] [pid=8573] [mcp] mcp:slide_get_info send url=http://127.0.0.1:39099/mcp args={"file_id":"D23454B0-A74F-4EC6-A497-A2EC3C937B8B"}
+[2026-08-09 15:47:42.283] [INFO ] [pid=8573] [mcp] mcp:slide_get_info ok ms=0
+[2026-08-09 15:47:42.284] [INFO ] [pid=8573] [backend-ops] seedServerVersion from=0 to=98
+[2026-08-09 15:47:42.285] [INFO ] [pid=8573] [worker] recovery (soft) ok: purged=0 backendNow=0page(s) version=98, view reset; reconcile will redo full sync
+[2026-08-09 15:47:42.285] [INFO ] [pid=8573] [sync] reconcile FAIL but recovered via onReconcileFailure round=1 attempt=1 (recovery 1/2) ms=712; re-running reconcile
+[2026-08-09 15:47:42.286] [INFO ] [pid=8573] [sync] step=add round=1 attempt=2 pageId=01_cover index=0
+[2026-08-09 15:47:42.287] [INFO ] [pid=8573] [backend-ops] addSlideAt start pageId=01_cover index=0
+[2026-08-09 15:47:42.288] [INFO ] [pid=8573] [render] start pageId=01_cover file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/01_cover.slide
+[2026-08-09 15:47:42.339] [INFO ] [pid=8573] [render] ok pageId=01_cover slides=1 ms=51
+[2026-08-09 15:47:42.340] [INFO ] [pid=8573] [render] renderSlideData result.resources={
+  images: {
+    'rel:00qvppk5': {
+      id: 'rel:00qvppk5',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/4178a8d0b8af790d89dd0797cfb5a39e.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:47:42.347] [INFO ] [pid=8573] [commit] commit send pageId=08f792 targetIndex=0 version=50 baseVersion=98 revisionBytes=577092
+[2026-08-09 15:47:42.356] [INFO ] [pid=8573] [commit] commit ok pageId=08f792 revisionId=c2a6af86 ms=8
+[2026-08-09 15:47:42.359] [INFO ] [pid=8573] [backend-ops] addSlideAt ok pageId=01_cover slideId=08f792 index=0 version=50 baseVersion=98 revisionId=c2a6af86 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=72
+[2026-08-09 15:47:42.360] [INFO ] [pid=8573] [sync] step=add round=1 attempt=2 pageId=02_toc index=1
+[2026-08-09 15:47:42.362] [INFO ] [pid=8573] [backend-ops] addSlideAt start pageId=02_toc index=1
+[2026-08-09 15:47:42.363] [INFO ] [pid=8573] [render] start pageId=02_toc file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/02_toc.slide
+[2026-08-09 15:47:42.454] [INFO ] [pid=8573] [render] ok pageId=02_toc slides=1 ms=91
+[2026-08-09 15:47:42.455] [INFO ] [pid=8573] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-09 15:47:42.461] [INFO ] [pid=8573] [commit] commit send pageId=315132 targetIndex=1 version=51 baseVersion=99 revisionBytes=36780
+[2026-08-09 15:47:42.466] [INFO ] [pid=8573] [commit] commit ok pageId=315132 revisionId=68ab9338 ms=3
+[2026-08-09 15:47:42.467] [INFO ] [pid=8573] [backend-ops] addSlideAt ok pageId=02_toc slideId=315132 index=1 version=51 baseVersion=99 revisionId=68ab9338 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=105
+[2026-08-09 15:47:42.468] [INFO ] [pid=8573] [sync] step=add round=1 attempt=2 pageId=03_part01 index=2
+[2026-08-09 15:47:42.468] [INFO ] [pid=8573] [backend-ops] addSlideAt start pageId=03_part01 index=2
+[2026-08-09 15:47:42.469] [INFO ] [pid=8573] [render] start pageId=03_part01 file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/03_part01.slide
+[2026-08-09 15:47:42.519] [INFO ] [pid=8573] [render] ok pageId=03_part01 slides=1 ms=50
+[2026-08-09 15:47:42.520] [INFO ] [pid=8573] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-09 15:47:42.523] [INFO ] [pid=8573] [commit] commit send pageId=76a05a targetIndex=2 version=52 baseVersion=100 revisionBytes=16156
+[2026-08-09 15:47:42.527] [INFO ] [pid=8573] [commit] commit ok pageId=76a05a revisionId=76d0e6a3 ms=2
+[2026-08-09 15:47:42.529] [INFO ] [pid=8573] [backend-ops] addSlideAt ok pageId=03_part01 slideId=76a05a index=2 version=52 baseVersion=100 revisionId=76d0e6a3 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=61
+[2026-08-09 15:47:42.530] [INFO ] [pid=8573] [sync] step=add round=1 attempt=2 pageId=04_bio index=3
+[2026-08-09 15:47:42.531] [INFO ] [pid=8573] [backend-ops] addSlideAt start pageId=04_bio index=3
+[2026-08-09 15:47:42.532] [INFO ] [pid=8573] [render] start pageId=04_bio file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/04_bio.slide
+[2026-08-09 15:47:42.625] [INFO ] [pid=8573] [render] ok pageId=04_bio slides=1 ms=93
+[2026-08-09 15:47:42.625] [INFO ] [pid=8573] [render] renderSlideData result.resources={
+  images: {
+    'rel:01kgka7l': {
+      id: 'rel:01kgka7l',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/d370813671379a83b11c5a71978255ad.jpeg'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:47:42.630] [INFO ] [pid=8573] [commit] commit send pageId=d835e2 targetIndex=3 version=53 baseVersion=101 revisionBytes=888780
+[2026-08-09 15:47:42.644] [INFO ] [pid=8573] [commit] commit ok pageId=d835e2 revisionId=3d869401 ms=13
+[2026-08-09 15:47:42.645] [INFO ] [pid=8573] [backend-ops] addSlideAt ok pageId=04_bio slideId=d835e2 index=3 version=53 baseVersion=101 revisionId=3d869401 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=114
+[2026-08-09 15:47:42.647] [INFO ] [pid=8573] [sync] step=add round=1 attempt=2 pageId=05_education index=4
+[2026-08-09 15:47:42.648] [INFO ] [pid=8573] [backend-ops] addSlideAt start pageId=05_education index=4
+[2026-08-09 15:47:42.649] [INFO ] [pid=8573] [render] start pageId=05_education file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/05_education.slide
+[2026-08-09 15:47:42.725] [INFO ] [pid=8573] [render] ok pageId=05_education slides=1 ms=76
+[2026-08-09 15:47:42.726] [INFO ] [pid=8573] [render] renderSlideData result.resources={
+  images: {
+    'rel:00qvppk5': {
+      id: 'rel:00qvppk5',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/4178a8d0b8af790d89dd0797cfb5a39e.png'
+    },
+    'rel:00alpfzs': {
+      id: 'rel:00alpfzs',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/6d00bc2f2b6510db0b5628954fa1f3f2.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:47:42.732] [INFO ] [pid=8573] [commit] commit send pageId=e42abe targetIndex=4 version=54 baseVersion=102 revisionBytes=777244
+[2026-08-09 15:47:42.744] [INFO ] [pid=8573] [commit] commit ok pageId=e42abe revisionId=bf021d06 ms=11
+[2026-08-09 15:47:42.745] [INFO ] [pid=8573] [backend-ops] addSlideAt ok pageId=05_education slideId=e42abe index=4 version=54 baseVersion=102 revisionId=bf021d06 code=0 images=[local=2 remote=0 cached=0 failed=0] ms=97
+[2026-08-09 15:47:42.747] [INFO ] [pid=8573] [sync] step=add round=1 attempt=2 pageId=06_industry index=5
+[2026-08-09 15:47:42.747] [INFO ] [pid=8573] [backend-ops] addSlideAt start pageId=06_industry index=5
+[2026-08-09 15:47:42.748] [INFO ] [pid=8573] [render] start pageId=06_industry file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/06_industry.slide
+[2026-08-09 15:47:42.819] [INFO ] [pid=8573] [render] ok pageId=06_industry slides=1 ms=71
+[2026-08-09 15:47:42.819] [INFO ] [pid=8573] [render] renderSlideData result.resources={
+  images: {
+    'rel:00be7mi0': {
+      id: 'rel:00be7mi0',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/c89e8d9f6d3d2a730e0bb448cb33ba3c.png'
+    },
+    'rel:00j9cjsw': {
+      id: 'rel:00j9cjsw',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/4b71bd60bee11cee002cd30c77d641ee.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:47:42.824] [INFO ] [pid=8573] [commit] commit send pageId=abac40 targetIndex=5 version=55 baseVersion=103 revisionBytes=420540
+[2026-08-09 15:47:42.834] [INFO ] [pid=8573] [commit] commit ok pageId=abac40 revisionId=cfc48e92 ms=9
+[2026-08-09 15:47:42.835] [INFO ] [pid=8573] [backend-ops] addSlideAt ok pageId=06_industry slideId=abac40 index=5 version=55 baseVersion=103 revisionId=cfc48e92 code=0 images=[local=2 remote=0 cached=0 failed=0] ms=88
+[2026-08-09 15:47:42.835] [INFO ] [pid=8573] [sync] step=add round=1 attempt=2 pageId=07_research index=6
+[2026-08-09 15:47:42.836] [INFO ] [pid=8573] [backend-ops] addSlideAt start pageId=07_research index=6
+[2026-08-09 15:47:42.838] [INFO ] [pid=8573] [render] start pageId=07_research file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/07_research.slide
+[2026-08-09 15:47:42.898] [INFO ] [pid=8573] [render] ok pageId=07_research slides=1 ms=60
+[2026-08-09 15:47:42.898] [INFO ] [pid=8573] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-09 15:47:42.902] [INFO ] [pid=8573] [commit] commit send pageId=e17560 targetIndex=6 version=56 baseVersion=104 revisionBytes=43236
+[2026-08-09 15:47:42.906] [INFO ] [pid=8573] [commit] commit ok pageId=e17560 revisionId=1d17b57d ms=3
+[2026-08-09 15:47:42.908] [INFO ] [pid=8573] [backend-ops] addSlideAt ok pageId=07_research slideId=e17560 index=6 version=56 baseVersion=104 revisionId=1d17b57d code=0 images=[local=0 remote=0 cached=0 failed=0] ms=72
+[2026-08-09 15:47:42.909] [INFO ] [pid=8573] [sync] step=add round=1 attempt=2 pageId=08_papers index=7
+[2026-08-09 15:47:42.909] [INFO ] [pid=8573] [backend-ops] addSlideAt start pageId=08_papers index=7
+[2026-08-09 15:47:42.910] [INFO ] [pid=8573] [render] start pageId=08_papers file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/08_papers.slide
+[2026-08-09 15:47:42.988] [INFO ] [pid=8573] [render] ok pageId=08_papers slides=1 ms=78
+[2026-08-09 15:47:42.989] [INFO ] [pid=8573] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-09 15:47:42.994] [INFO ] [pid=8573] [commit] commit send pageId=ed32f3 targetIndex=7 version=57 baseVersion=105 revisionBytes=53076
+[2026-08-09 15:47:42.999] [INFO ] [pid=8573] [commit] commit ok pageId=ed32f3 revisionId=99a6e015 ms=4
+[2026-08-09 15:47:43.001] [INFO ] [pid=8573] [backend-ops] addSlideAt ok pageId=08_papers slideId=ed32f3 index=7 version=57 baseVersion=105 revisionId=99a6e015 code=0 images=[local=0 remote=0 cached=0 failed=0] ms=92
+[2026-08-09 15:47:43.002] [INFO ] [pid=8573] [sync] step=add round=1 attempt=2 pageId=09_honors index=8
+[2026-08-09 15:47:43.002] [INFO ] [pid=8573] [backend-ops] addSlideAt start pageId=09_honors index=8
+[2026-08-09 15:47:43.003] [INFO ] [pid=8573] [render] start pageId=09_honors file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/09_honors.slide
+[2026-08-09 15:47:43.067] [INFO ] [pid=8573] [render] ok pageId=09_honors slides=1 ms=64
+[2026-08-09 15:47:43.068] [INFO ] [pid=8573] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-09 15:47:43.072] [INFO ] [pid=8573] [commit] commit send pageId=19ff0f targetIndex=8 version=58 baseVersion=106 revisionBytes=46376
+[2026-08-09 15:47:43.076] [INFO ] [pid=8573] [commit] commit ok pageId=19ff0f revisionId=1432fb0a ms=3
+[2026-08-09 15:47:43.079] [INFO ] [pid=8573] [backend-ops] addSlideAt ok pageId=09_honors slideId=19ff0f index=8 version=58 baseVersion=106 revisionId=1432fb0a code=0 images=[local=0 remote=0 cached=0 failed=0] ms=77
+[2026-08-09 15:47:43.081] [INFO ] [pid=8573] [sync] step=add round=1 attempt=2 pageId=10_part02 index=9
+[2026-08-09 15:47:43.081] [INFO ] [pid=8573] [backend-ops] addSlideAt start pageId=10_part02 index=9
+[2026-08-09 15:47:43.082] [INFO ] [pid=8573] [render] start pageId=10_part02 file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/10_part02.slide
+[2026-08-09 15:47:43.108] [INFO ] [pid=8573] [render] ok pageId=10_part02 slides=1 ms=26
+[2026-08-09 15:47:43.109] [INFO ] [pid=8573] [render] renderSlideData result.resources={ images: {}, videos: {}, audios: {}, fonts: {} }
+[2026-08-09 15:47:43.111] [INFO ] [pid=8573] [commit] commit send pageId=33ac38 targetIndex=9 version=59 baseVersion=107 revisionBytes=17368
+[2026-08-09 15:47:43.114] [INFO ] [pid=8573] [commit] commit ok pageId=33ac38 revisionId=59262c2f ms=2
+[2026-08-09 15:47:43.115] [INFO ] [pid=8573] [backend-ops] addSlideAt ok pageId=10_part02 slideId=33ac38 index=9 version=59 baseVersion=107 revisionId=59262c2f code=0 images=[local=0 remote=0 cached=0 failed=0] ms=34
+[2026-08-09 15:47:43.116] [INFO ] [pid=8573] [sync] step=add round=1 attempt=2 pageId=11_survey index=10
+[2026-08-09 15:47:43.117] [INFO ] [pid=8573] [backend-ops] addSlideAt start pageId=11_survey index=10
+[2026-08-09 15:47:43.118] [INFO ] [pid=8573] [render] start pageId=11_survey file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/11_survey.slide
+[2026-08-09 15:47:43.197] [INFO ] [pid=8573] [render] ok pageId=11_survey slides=1 ms=79
+[2026-08-09 15:47:43.198] [INFO ] [pid=8573] [render] renderSlideData result.resources={
+  images: {
+    'rel:01dihgk3': {
+      id: 'rel:01dihgk3',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/80b16f12b3091c91e4e27830be6f4e55.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:47:43.204] [INFO ] [pid=8573] [commit] commit send pageId=09ab97 targetIndex=10 version=60 baseVersion=108 revisionBytes=717360
+[2026-08-09 15:47:43.217] [INFO ] [pid=8573] [commit] commit ok pageId=09ab97 revisionId=1e74fd18 ms=12
+[2026-08-09 15:47:43.218] [INFO ] [pid=8573] [backend-ops] addSlideAt ok pageId=11_survey slideId=09ab97 index=10 version=60 baseVersion=108 revisionId=1e74fd18 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=101
+[2026-08-09 15:47:43.219] [INFO ] [pid=8573] [sync] step=add round=1 attempt=2 pageId=12_learnact index=11
+[2026-08-09 15:47:43.220] [INFO ] [pid=8573] [backend-ops] addSlideAt start pageId=12_learnact index=11
+[2026-08-09 15:47:43.221] [INFO ] [pid=8573] [render] start pageId=12_learnact file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/12_learnact.slide
+[2026-08-09 15:47:43.284] [INFO ] [pid=8573] [render] ok pageId=12_learnact slides=1 ms=63
+[2026-08-09 15:47:43.284] [INFO ] [pid=8573] [render] renderSlideData result.resources={
+  images: {
+    'rel:002foibq': {
+      id: 'rel:002foibq',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/6f4c52c671cd31e9264713c05cf143be.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:47:43.290] [INFO ] [pid=8573] [commit] commit send pageId=4071bc targetIndex=11 version=61 baseVersion=109 revisionBytes=618764
+[2026-08-09 15:47:43.300] [INFO ] [pid=8573] [commit] commit ok pageId=4071bc revisionId=dc9d9332 ms=10
+[2026-08-09 15:47:43.301] [INFO ] [pid=8573] [backend-ops] addSlideAt ok pageId=12_learnact slideId=4071bc index=11 version=61 baseVersion=109 revisionId=dc9d9332 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=81
+[2026-08-09 15:47:43.301] [INFO ] [pid=8573] [sync] step=add round=1 attempt=2 pageId=13_memgui_bench index=12
+[2026-08-09 15:47:43.302] [INFO ] [pid=8573] [backend-ops] addSlideAt start pageId=13_memgui_bench index=12
+[2026-08-09 15:47:43.303] [INFO ] [pid=8573] [render] start pageId=13_memgui_bench file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/13_memgui_bench.slide
+[2026-08-09 15:47:43.363] [INFO ] [pid=8573] [render] ok pageId=13_memgui_bench slides=1 ms=60
+[2026-08-09 15:47:43.364] [INFO ] [pid=8573] [render] renderSlideData result.resources={
+  images: {
+    'rel:01jvddo6': {
+      id: 'rel:01jvddo6',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/9a6b345bfedcf13b99b07818aff17ae8.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:47:43.369] [INFO ] [pid=8573] [commit] commit send pageId=c2adb8 targetIndex=12 version=62 baseVersion=110 revisionBytes=880424
+[2026-08-09 15:47:43.381] [INFO ] [pid=8573] [commit] commit ok pageId=c2adb8 revisionId=20127c62 ms=12
+[2026-08-09 15:47:43.383] [INFO ] [pid=8573] [backend-ops] addSlideAt ok pageId=13_memgui_bench slideId=c2adb8 index=12 version=62 baseVersion=110 revisionId=20127c62 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=81
+[2026-08-09 15:47:43.384] [INFO ] [pid=8573] [sync] step=add round=1 attempt=2 pageId=14_memgui_agent index=13
+[2026-08-09 15:47:43.384] [INFO ] [pid=8573] [backend-ops] addSlideAt start pageId=14_memgui_agent index=13
+[2026-08-09 15:47:43.385] [INFO ] [pid=8573] [render] start pageId=14_memgui_agent file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/14_memgui_agent.slide
+[2026-08-09 15:47:43.454] [INFO ] [pid=8573] [render] ok pageId=14_memgui_agent slides=1 ms=69
+[2026-08-09 15:47:43.455] [INFO ] [pid=8573] [render] renderSlideData result.resources={
+  images: {
+    'rel:01s4oynl': {
+      id: 'rel:01s4oynl',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/e043abd62d0e48ea03c4749414896ea6.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:47:43.463] [INFO ] [pid=8573] [commit] commit send pageId=618f19 targetIndex=13 version=63 baseVersion=111 revisionBytes=718692
+[2026-08-09 15:47:43.474] [INFO ] [pid=8573] [commit] commit ok pageId=618f19 revisionId=b9a84f3d ms=10
+[2026-08-09 15:47:43.475] [INFO ] [pid=8573] [backend-ops] addSlideAt ok pageId=14_memgui_agent slideId=618f19 index=13 version=63 baseVersion=111 revisionId=b9a84f3d code=0 images=[local=1 remote=0 cached=0 failed=0] ms=91
+[2026-08-09 15:47:43.476] [INFO ] [pid=8573] [sync] step=add round=1 attempt=2 pageId=15_mobileforge index=14
+[2026-08-09 15:47:43.477] [INFO ] [pid=8573] [backend-ops] addSlideAt start pageId=15_mobileforge index=14
+[2026-08-09 15:47:43.477] [INFO ] [pid=8573] [render] start pageId=15_mobileforge file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/15_mobileforge.slide
+[2026-08-09 15:47:43.544] [INFO ] [pid=8573] [render] ok pageId=15_mobileforge slides=1 ms=67
+[2026-08-09 15:47:43.545] [INFO ] [pid=8573] [render] renderSlideData result.resources={
+  images: {
+    'rel:00rfmawq': {
+      id: 'rel:00rfmawq',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/dc4d3b4d2c92599fbb2b579961407ede.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:47:43.549] [INFO ] [pid=8573] [commit] commit send pageId=544669 targetIndex=14 version=64 baseVersion=112 revisionBytes=530316
+[2026-08-09 15:47:43.559] [INFO ] [pid=8573] [commit] commit ok pageId=544669 revisionId=10d7ac74 ms=9
+[2026-08-09 15:47:43.561] [INFO ] [pid=8573] [backend-ops] addSlideAt ok pageId=15_mobileforge slideId=544669 index=14 version=64 baseVersion=112 revisionId=10d7ac74 code=0 images=[local=1 remote=0 cached=0 failed=0] ms=84
+[2026-08-09 15:47:43.562] [INFO ] [pid=8573] [sync] step=add round=1 attempt=2 pageId=16_thanks index=15
+[2026-08-09 15:47:43.563] [INFO ] [pid=8573] [backend-ops] addSlideAt start pageId=16_thanks index=15
+[2026-08-09 15:47:43.563] [INFO ] [pid=8573] [render] start pageId=16_thanks file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides/16_thanks.slide
+[2026-08-09 15:47:43.592] [INFO ] [pid=8573] [render] ok pageId=16_thanks slides=1 ms=29
+[2026-08-09 15:47:43.592] [INFO ] [pid=8573] [render] renderSlideData result.resources={
+  images: {
+    'rel:00qvppk5': {
+      id: 'rel:00qvppk5',
+      src: '/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/.cache/media/images/4178a8d0b8af790d89dd0797cfb5a39e.png'
+    }
+  },
+  videos: {},
+  audios: {},
+  fonts: {}
+}
+[2026-08-09 15:47:43.598] [INFO ] [pid=8573] [commit] commit send pageId=f044cf targetIndex=15 version=65 baseVersion=113 revisionBytes=576912
+[2026-08-09 15:47:43.607] [INFO ] [pid=8573] [commit] commit ok pageId=f044cf revisionId=f391ab9f ms=9
+[2026-08-09 15:47:43.608] [INFO ] [pid=8573] [backend-ops] addSlideAt ok pageId=16_thanks slideId=f044cf index=15 version=65 baseVersion=113 revisionId=f391ab9f code=0 images=[local=1 remote=0 cached=0 failed=0] ms=45
+[2026-08-09 15:47:43.609] [INFO ] [pid=8573] [sync] aligned round=1 attempt=2 size=16 desired=16 pendingDirtySize=0
+[2026-08-09 15:47:43.610] [INFO ] [pid=8573] [sync] reconcile ok round=1 attempt=2 ms=1324
+[2026-08-09 15:47:43.611] [INFO ] [pid=8573] [backend-ops] save start file=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 15:47:43.612] [INFO ] [pid=8573] [commit] save send filePath=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx
+[2026-08-09 15:47:43.667] [INFO ] [pid=8573] [commit] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=54
+[2026-08-09 15:47:43.667] [INFO ] [pid=8573] [backend-ops] save ok file_path=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/GuangyiLiu-Interview-Academic.pptx ms=56
+[2026-08-09 15:47:43.668] [INFO ] [pid=8573] [sync] drain end round=1 reconciles=2 mergedSubmits=1 pendingDirtySize=0 ms=2097
+=== boot pid=8625 ts=2026-08-09 15:47:46.456 cwd=/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic argv=/Users/liuguangyi05/.workbuddy/binaries/node/versions/22.22.2/bin/slidep-validate --all --project "/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic" ===
+[2026-08-09 15:47:46.455] [INFO ] [pid=8625] [validate] --all mode: found 16 files in /Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-en-academic/slides
+[2026-08-09 15:47:46.457] [INFO ] [pid=8625] [validate] batch start files=16 checkOverflow=true
+[2026-08-09 15:47:47.888] [INFO ] [pid=8625] [validate] batch done total=16 passed=16 failed=0 ms=1433

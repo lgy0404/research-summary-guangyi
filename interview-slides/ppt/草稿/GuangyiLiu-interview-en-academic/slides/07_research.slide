@@ -1,0 +1,278 @@
+<Slide>
+    <Box style={{
+        width: '100%',
+        height: '100%',
+        background: '#FFFFFF',
+        position: 'relative',
+        padding: 0,
+    }}>
+        {/* A: Header */}
+        <Box style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            right: 0,
+            height: 80,
+            background: '#0E3F8C',
+            flexDirection: 'row',
+            alignItems: 'center',
+            padding: '0 40px',
+            gap: 14,
+        }}>
+            <Box style={{
+                width: 6,
+                height: 28,
+                background: '#FFFFFF',
+            }} />
+            <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#FFFFFF', letterSpacing: 2 }}>
+                Research Vision
+            </Text>
+            <Text style={{ fontSize: 13, color: '#B8CCE4', letterSpacing: 2, marginTop: 6 }}>
+                研究方向
+            </Text>
+        </Box>
+
+        {/* C: Top banner + 4 stages + bottom features */}
+        <Box style={{
+            position: 'absolute',
+            top: 80,
+            left: 0,
+            right: 0,
+            height: 580,
+            padding: '24px 40px',
+            flexDirection: 'column',
+            gap: 14,
+        }}>
+            <Box style={{
+                background: '#E8EFF8',
+                borderRadius: 8,
+                padding: '14px 20px',
+                border: '1px solid #D6DCE5',
+                borderLeft: '4px solid #0E3F8C',
+            }}>
+                <Text style={{ fontSize: 16, color: '#0E3F8C', fontWeight: 600, lineHeight: 1.6 }}>
+                    Enabling AI to operate phones & computers like humans — from "understanding UI" to "completing tasks"
+                </Text>
+            </Box>
+
+            <Box style={{
+                flex: 1,
+                flexDirection: 'row',
+                gap: 12,
+                alignItems: 'stretch',
+            }}>
+                {/* Stage 1 */}
+                <Box style={{
+                    flex: 1,
+                    background: '#F7F9FC',
+                    borderRadius: 8,
+                    padding: '14px 16px',
+                    border: '1px solid #D6DCE5',
+                    flexDirection: 'column',
+                }}>
+                    <Box style={{
+                        background: '#E8EFF8',
+                        borderRadius: 4,
+                        padding: '3px 8px',
+                        alignSelf: 'flex-start',
+                        marginBottom: 8,
+                        border: '1px solid #D6DCE5',
+                    }}>
+                        <Text style={{ fontSize: 10, color: '#1E4FA8', fontWeight: 600 }}>STEP 1 · SURVEY</Text>
+                    </Box>
+                    <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#0E3F8C', lineHeight: 1.4, marginBottom: 6 }}>
+                        Phone GUI Survey
+                    </Text>
+                    <Text style={{ fontSize: 11, color: '#4A5568', lineHeight: 1.55, marginBottom: 8 }}>
+                        Systematic map of LLM-powered phone GUI agents: frameworks, models, data, evaluation
+                    </Text>
+                    <Box style={{ marginTop: 'auto', paddingTop: 8, borderTop: '1px solid #D6DCE5' }}>
+                        <Text style={{ fontSize: 11, color: '#1E4FA8', fontWeight: 600 }}>
+                            TMLR 2025 · 175★ · 64 cit.
+                        </Text>
+                    </Box>
+                </Box>
+
+                <Box style={{ alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+                    <Text style={{ fontSize: 20, color: '#1E4FA8', fontWeight: 'bold' }}>→</Text>
+                </Box>
+
+                {/* Stage 2 */}
+                <Box style={{
+                    flex: 1,
+                    background: '#F7F9FC',
+                    borderRadius: 8,
+                    padding: '14px 16px',
+                    border: '1px solid #D6DCE5',
+                    flexDirection: 'column',
+                }}>
+                    <Box style={{
+                        background: '#E8EFF8',
+                        borderRadius: 4,
+                        padding: '3px 8px',
+                        alignSelf: 'flex-start',
+                        marginBottom: 8,
+                        border: '1px solid #D6DCE5',
+                    }}>
+                        <Text style={{ fontSize: 10, color: '#1E4FA8', fontWeight: 600 }}>STEP 2 · TASKS</Text>
+                    </Box>
+                    <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#0E3F8C', lineHeight: 1.4, marginBottom: 6 }}>
+                        LearnAct · MemGUI-Bench
+                    </Text>
+                    <Text style={{ fontSize: 11, color: '#4A5568', lineHeight: 1.55, marginBottom: 8 }}>
+                        Few-shot demonstration learning + memory benchmark — defining the right tasks
+                    </Text>
+                    <Box style={{ marginTop: 'auto', paddingTop: 8, borderTop: '1px solid #D6DCE5' }}>
+                        <Text style={{ fontSize: 11, color: '#1E4FA8', fontWeight: 600 }}>
+                            ACL 2026 · ACM MM 2026
+                        </Text>
+                    </Box>
+                </Box>
+
+                <Box style={{ alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+                    <Text style={{ fontSize: 20, color: '#1E4FA8', fontWeight: 'bold' }}>→</Text>
+                </Box>
+
+                {/* Stage 3 */}
+                <Box style={{
+                    flex: 1,
+                    background: '#F7F9FC',
+                    borderRadius: 8,
+                    padding: '14px 16px',
+                    border: '1px solid #D6DCE5',
+                    flexDirection: 'column',
+                }}>
+                    <Box style={{
+                        background: '#E8EFF8',
+                        borderRadius: 4,
+                        padding: '3px 8px',
+                        alignSelf: 'flex-start',
+                        marginBottom: 8,
+                        border: '1px solid #D6DCE5',
+                    }}>
+                        <Text style={{ fontSize: 10, color: '#1E4FA8', fontWeight: 600 }}>STEP 3 · MODEL</Text>
+                    </Box>
+                    <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#0E3F8C', lineHeight: 1.4, marginBottom: 6 }}>
+                        MemGUI-Agent
+                    </Text>
+                    <Text style={{ fontSize: 11, color: '#4A5568', lineHeight: 1.55, marginBottom: 8 }}>
+                        End-to-end long-horizon GUI agent with proactive context management
+                    </Text>
+                    <Box style={{ marginTop: 'auto', paddingTop: 8, borderTop: '1px solid #D6DCE5' }}>
+                        <Text style={{ fontSize: 11, color: '#1E4FA8', fontWeight: 600 }}>
+                            Preprint 2026 · 88★
+                        </Text>
+                    </Box>
+                </Box>
+
+                <Box style={{ alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+                    <Text style={{ fontSize: 20, color: '#0E3F8C', fontWeight: 'bold' }}>→</Text>
+                </Box>
+
+                {/* Stage 4 */}
+                <Box style={{
+                    flex: 1,
+                    background: '#E8EFF8',
+                    borderRadius: 8,
+                    padding: '14px 16px',
+                    border: '2px solid #0E3F8C',
+                    flexDirection: 'column',
+                }}>
+                    <Box style={{
+                        background: '#0E3F8C',
+                        borderRadius: 4,
+                        padding: '3px 8px',
+                        alignSelf: 'flex-start',
+                        marginBottom: 8,
+                    }}>
+                        <Text style={{ fontSize: 10, color: '#FFFFFF', fontWeight: 600 }}>STEP 4 · DEPLOY</Text>
+                    </Box>
+                    <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#0E3F8C', lineHeight: 1.4, marginBottom: 6 }}>
+                        MobileForge
+                    </Text>
+                    <Text style={{ fontSize: 11, color: '#4A5568', lineHeight: 1.55, marginBottom: 8 }}>
+                        Annotation-free adaptation + hierarchical feedback-guided policy optimization
+                    </Text>
+                    <Box style={{ marginTop: 'auto', paddingTop: 8, borderTop: '1px solid #D6DCE5' }}>
+                        <Text style={{ fontSize: 11, color: '#0E3F8C', fontWeight: 600 }}>
+                            Preprint 2026 · 76★ · Synced
+                        </Text>
+                    </Box>
+                </Box>
+            </Box>
+
+            <Box style={{
+                flexDirection: 'row',
+                gap: 12,
+            }}>
+                <Box style={{
+                    flex: 1,
+                    background: '#F7F9FC',
+                    borderRadius: 8,
+                    padding: '12px 14px',
+                    border: '1px solid #D6DCE5',
+                    alignItems: 'center',
+                }}>
+                    <Text style={{ fontSize: 13, color: '#0E3F8C', fontWeight: 600 }}>
+                        Benchmark-Driven
+                    </Text>
+                    <Text style={{ fontSize: 11, color: '#8B97A8', marginTop: 2 }}>
+                        Define problems via rigorous evaluation
+                    </Text>
+                </Box>
+                <Box style={{
+                    flex: 1,
+                    background: '#F7F9FC',
+                    borderRadius: 8,
+                    padding: '12px 14px',
+                    border: '1px solid #D6DCE5',
+                    alignItems: 'center',
+                }}>
+                    <Text style={{ fontSize: 13, color: '#0E3F8C', fontWeight: 600 }}>
+                        Academic + Industrial
+                    </Text>
+                    <Text style={{ fontSize: 11, color: '#8B97A8', marginTop: 2 }}>
+                        Top venues + production systems
+                    </Text>
+                </Box>
+                <Box style={{
+                    flex: 1,
+                    background: '#F7F9FC',
+                    borderRadius: 8,
+                    padding: '12px 14px',
+                    border: '1px solid #D6DCE5',
+                    alignItems: 'center',
+                }}>
+                    <Text style={{ fontSize: 13, color: '#0E3F8C', fontWeight: 600 }}>
+                        Open Source
+                    </Text>
+                    <Text style={{ fontSize: 11, color: '#8B97A8', marginTop: 2 }}>
+                        632 1st-author stars · media coverage
+                    </Text>
+                </Box>
+            </Box>
+        </Box>
+
+        {/* D: Footer */}
+        <Box style={{
+            position: 'absolute',
+            bottom: 0,
+            left: 0,
+            right: 0,
+            height: 60,
+            background: '#F7F9FC',
+            borderTop: '1px solid #D6DCE5',
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+            padding: '0 40px',
+        }}>
+            <Text style={{ fontSize: 13, color: '#8B97A8' }}>
+                Zhejiang University · Control Science & Engineering
+            </Text>
+            <Text style={{ fontSize: 14, color: '#0E3F8C', fontWeight: 600 }}>
+                7 / 16
+            </Text>
+        </Box>
+    </Box>
+</Slide>

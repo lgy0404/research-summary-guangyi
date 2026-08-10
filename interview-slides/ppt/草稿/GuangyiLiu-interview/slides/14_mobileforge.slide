@@ -1,0 +1,240 @@
+<Slide>
+    <Box style={{
+        width: '100%',
+        height: '100%',
+        background: '#FFFFFF',
+        padding: '0 70px',
+        position: 'relative',
+    }}>
+        {/* A 区：标题块 */}
+        <Box style={{
+            height: 110,
+            flexDirection: 'column',
+            justifyContent: 'center',
+            borderBottom: '2px solid #E2E8F0',
+            gap: 6,
+        }}>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+                <Box style={{
+                    background: '#DBEAFE',
+                    borderRadius: 4,
+                    padding: '3px 10px',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#1E40AF', fontWeight: 600 }}>PAPER 05 · RL + 落地</Text>
+                </Box>
+                <Box style={{
+                    background: '#F97316',
+                    borderRadius: 4,
+                    padding: '3px 10px',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#FFFFFF', fontWeight: 600 }}>Preprint 2026 · 最新</Text>
+                </Box>
+                <Box style={{
+                    background: '#FFF7ED',
+                    borderRadius: 4,
+                    padding: '3px 10px',
+                    border: '1px solid #FFEDD5',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#F97316', fontWeight: 600 }}>76★ · 机器之心</Text>
+                </Box>
+            </Box>
+            <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.3 }}>
+                MobileForge: Annotation-Free Adaptation
+            </Text>
+        </Box>
+
+        {/* B 区：上双栏 + 下三栏 */}
+        <Box style={{
+            height: 550,
+            flexDirection: 'column',
+            paddingTop: 18,
+            paddingBottom: 16,
+            gap: 12,
+        }}>
+            {/* 上部：左文字 + 右图 */}
+            <Box style={{
+                flex: 1.3,
+                flexDirection: 'row',
+                gap: 20,
+            }}>
+                {/* 左：痛点 + 方法 */}
+                <Box style={{
+                    flex: 1,
+                    flexDirection: 'column',
+                    gap: 10,
+                }}>
+                    <Box style={{
+                        background: '#FEF2F2',
+                        borderRadius: 10,
+                        padding: '10px 14px',
+                        border: '1px solid #FECACA',
+                    }}>
+                        <Text style={{ fontSize: 11, color: '#991B1B', fontWeight: 600, marginBottom: 4 }}>
+                            痛点 · 适配的标注瓶颈
+                        </Text>
+                        <Text style={{ fontSize: 12, color: '#0F172A', lineHeight: 1.55 }}>
+                            目标 app 适配依赖人工任务/演示/奖励标注，<span style={{ fontWeight: 'bold' }}>成本高、易过时</span>；annotation-free 方法缺统一基底，rollout 奖励稀疏无法支撑 RL 训练。
+                        </Text>
+                    </Box>
+
+                    <Box style={{
+                        background: '#F8FAFC',
+                        borderRadius: 10,
+                        padding: '10px 14px',
+                        border: '1px solid #E2E8F0',
+                        flex: 1,
+                    }}>
+                        <Text style={{ fontSize: 11, color: '#1E40AF', fontWeight: 600, marginBottom: 6 }}>
+                            方法 · MobileGym + HiFPO 闭环
+                        </Text>
+                        <Box style={{ flexDirection: 'column', gap: 5 }}>
+                            <Text style={{ fontSize: 11, color: '#0F172A', lineHeight: 1.5 }}>
+                                <span style={{ fontWeight: 'bold', color: '#1E40AF' }}>MobileGym</span> · function-aware 探索（app anchor + 截图引导 DFS）→ Curriculum 把证据池 Z 转成可执行任务 x=(ι,B,c,v,p)
+                            </Text>
+                            <Text style={{ fontSize: 11, color: '#0F172A', lineHeight: 1.5 }}>
+                                <span style={{ fontWeight: 'bold', color: '#1E40AF' }}>层级化 Critic</span> · 返回 F=(z, {'{ℓ}'}, h)：任务标签 z + 每步 reasonable 标签 ℓ + 纠错 hint h
+                            </Text>
+                            <Text style={{ fontSize: 11, color: '#0F172A', lineHeight: 1.5 }}>
+                                <span style={{ fontWeight: 'bold', color: '#1E40AF' }}>HiFPO 三阶段</span> · ① Hint-guided 多次尝试 rollout ② 选最高 Q 的 attempt 且只保留 χ=1 步 ③ Hint-contextualized step-level GRPO（R=0.2·type + 0.8·param）
+                            </Text>
+                        </Box>
+                    </Box>
+                </Box>
+
+                {/* 右：主图 */}
+                <Box style={{
+                    flex: 1.1,
+                    flexDirection: 'column',
+                    gap: 8,
+                }}>
+                    <Box style={{
+                        flex: 1,
+                        background: '#F8FAFC',
+                        borderRadius: 12,
+                        border: '1px solid #E2E8F0',
+                        overflow: 'hidden',
+                        padding: 10,
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                    }}>
+                        <Image
+                            src="assets/mobileforge-main-performance.png"
+                            style={{
+                                width: '100%',
+                                height: '100%',
+                                objectFit: 'contain',
+                            }}
+                        />
+                    </Box>
+                    <Box style={{
+                        background: '#FFF7ED',
+                        borderRadius: 8,
+                        padding: '8px 12px',
+                        border: '1px solid #FFEDD5',
+                    }}>
+                        <Text style={{ fontSize: 11, color: '#9A3412', lineHeight: 1.5, textAlign: 'center' }}>
+                            探索 → 生成任务 → 自评估 rollout → hint 条件化 GRPO 完全闭环
+                        </Text>
+                    </Box>
+                </Box>
+            </Box>
+
+            {/* 下部：三栏横条 */}
+            <Box style={{
+                flex: 1,
+                flexDirection: 'row',
+                gap: 12,
+            }}>
+                {/* 关键对比 */}
+                <Box style={{
+                    flex: 1,
+                    background: '#FFF7ED',
+                    borderRadius: 10,
+                    padding: '12px 14px',
+                    border: '1px solid #FFEDD5',
+                    flexDirection: 'column',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#9A3412', fontWeight: 600, marginBottom: 6 }}>
+                        主结果（900 生成任务）
+                    </Text>
+                    <Box style={{ flexDirection: 'column', gap: 4, flex: 1 }}>
+                        <Text style={{ fontSize: 11, color: '#0F172A', lineHeight: 1.5 }}>
+                            · ForgeOwl-8B AndroidWorld <span style={{ fontWeight: 'bold', color: '#F97316' }}>67.2% P@1 / 77.6% P@3</span>
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#0F172A', lineHeight: 1.5 }}>
+                            · ForgeQwen3-8B 67.2% P@3，逼近 GUI-Owl-1.5-8B 基座 69.0%
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#0F172A', lineHeight: 1.5 }}>
+                            · MobileWorld GUI-only (OOD) <span style={{ fontWeight: 'bold', color: '#F97316' }}>41.0% SR</span>，超所有 open-data 同类
+                        </Text>
+                    </Box>
+                </Box>
+
+                {/* 消融 */}
+                <Box style={{
+                    flex: 1,
+                    background: '#F8FAFC',
+                    borderRadius: 10,
+                    padding: '12px 14px',
+                    border: '1px solid #E2E8F0',
+                    flexDirection: 'column',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#1E40AF', fontWeight: 600, marginBottom: 6 }}>
+                        消融发现
+                    </Text>
+                    <Box style={{ flexDirection: 'column', gap: 4, flex: 1 }}>
+                        <Text style={{ fontSize: 11, color: '#0F172A', lineHeight: 1.5 }}>
+                            · Corrective hints：rollout 成功率 52.0%→<span style={{ fontWeight: 'bold', color: '#F97316' }}>77.0%</span>，P@3 49.0%→72.5%
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#0F172A', lineHeight: 1.5 }}>
+                            · 反直觉：正确做法是「只删全成功的已掌握任务」（保留 [0, 0.9] 区间最强），而非删失败任务
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#0F172A', lineHeight: 1.5 }}>
+                            · 全 Qwen 开源 critic（无需 Gemini）也能 40.5%→<span style={{ fontWeight: 'bold', color: '#F97316' }}>44.8%</span> P@1
+                        </Text>
+                    </Box>
+                </Box>
+
+                {/* 贡献 */}
+                <Box style={{
+                    flex: 1,
+                    background: 'linear-gradient(135deg, #1E40AF 0%, #3B82F6 100%)',
+                    borderRadius: 10,
+                    padding: '12px 14px',
+                    flexDirection: 'column',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#BFDBFE', fontWeight: 600, marginBottom: 6 }}>
+                        核心贡献 · 工程价值
+                    </Text>
+                    <Box style={{ flexDirection: 'column', gap: 4, flex: 1 }}>
+                        <Text style={{ fontSize: 11, color: '#FFFFFF', lineHeight: 1.5 }}>
+                            首个完全 annotation-free 的目标 app 自适应闭环
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#FFFFFF', lineHeight: 1.5 }}>
+                            HiFPO 把层级反馈分别用于任务过滤 / 步选择 / 训练条件化
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#FFFFFF', lineHeight: 1.5 }}>
+                            已在快手 App 缺陷检测业务落地
+                        </Text>
+                    </Box>
+                </Box>
+            </Box>
+        </Box>
+
+        {/* C 区：页脚 */}
+        <Box style={{
+            height: 60,
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+            borderTop: '1px solid #E2E8F0',
+        }}>
+            <Text style={{ fontSize: 14, color: '#94A3B8' }}>
+                Guangyi Liu · ZJU · 面试陈述
+            </Text>
+            <Text style={{ fontSize: 14, color: '#94A3B8' }}>
+                14 / 15
+            </Text>
+        </Box>
+    </Box>
+</Slide>

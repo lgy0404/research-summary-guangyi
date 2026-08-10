@@ -1,0 +1,255 @@
+<Slide>
+    <Box style={{
+        width: '100%',
+        height: '100%',
+        background: '#FFFFFF',
+        padding: '0 70px',
+        position: 'relative',
+    }}>
+        {/* A: Header */}
+        <Box style={{
+            height: 120,
+            flexDirection: 'row',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            borderBottom: '2px solid #E2E8F0',
+        }}>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16 }}>
+                <Box style={{
+                    width: 6,
+                    height: 32,
+                    background: '#F97316',
+                }} />
+                <Text style={{ fontSize: 36, fontWeight: 'bold', color: '#0F172A' }}>
+                    About Me
+                </Text>
+                <Text style={{ fontSize: 16, color: '#64748B', letterSpacing: 3, marginTop: 8 }}>
+                    个人简介
+                </Text>
+            </Box>
+            <Text style={{ fontSize: 14, color: '#94A3B8' }}>
+                Research Vision · Key Facts
+            </Text>
+        </Box>
+
+        {/* B: Left photo + Right info */}
+        <Box style={{
+            height: 540,
+            flexDirection: 'row',
+            gap: 40,
+            paddingTop: 32,
+            paddingBottom: 24,
+        }}>
+            {/* Left: photo + identity */}
+            <Box style={{
+                width: 320,
+                flexDirection: 'column',
+                gap: 16,
+                flexShrink: 0,
+            }}>
+                <Box style={{
+                    width: 320,
+                    height: 380,
+                    borderRadius: 16,
+                    overflow: 'hidden',
+                    boxShadow: '0 12px 32px rgba(30,64,175,0.15)',
+                    border: '1px solid #E2E8F0',
+                }}>
+                    <Image
+                        src="assets/profile.jpeg"
+                        style={{
+                            width: '100%',
+                            height: '100%',
+                            objectFit: 'cover',
+                        }}
+                    />
+                </Box>
+                <Box style={{
+                    background: 'linear-gradient(135deg, #1E40AF 0%, #3B82F6 100%)',
+                    borderRadius: 12,
+                    padding: '14px 18px',
+                    alignItems: 'center',
+                }}>
+                    <Text style={{ fontSize: 18, fontWeight: 'bold', color: '#FFFFFF' }}>
+                        Guangyi Liu · 刘广义
+                    </Text>
+                    <Text style={{ fontSize: 13, color: '#BFDBFE', marginTop: 4 }}>
+                        Ph.D. Candidate · ZJU APRIL Lab
+                    </Text>
+                </Box>
+            </Box>
+
+            {/* Right: vision + facts */}
+            <Box style={{
+                flex: 1,
+                flexDirection: 'column',
+                gap: 18,
+            }}>
+                {/* Vision card */}
+                <Box style={{
+                    background: 'linear-gradient(135deg, #EFF6FF 0%, #FFFFFF 100%)',
+                    borderRadius: 14,
+                    padding: '22px 26px',
+                    border: '1px solid #DBEAFE',
+                }}>
+                    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10, marginBottom: 12 }}>
+                        <Box style={{
+                            width: 4,
+                            height: 20,
+                            background: '#F97316',
+                        }} />
+                        <Text style={{ fontSize: 18, fontWeight: 'bold', color: '#1E40AF' }}>
+                            Research Vision
+                        </Text>
+                    </Box>
+                    <Text style={{ fontSize: 15, color: '#0F172A', lineHeight: 1.7 }}>
+                        I explore the foundations of <span style={{ fontWeight: 'bold', color: '#1E40AF' }}>Universal Digital Agents</span> — intelligent systems that understand digital environments, adapt to new tasks, and assist people across apps, devices, and software workflows.
+                    </Text>
+                </Box>
+
+                {/* Facts 2x2 */}
+                <Box style={{ flexDirection: 'row', gap: 14 }}>
+                    <Box style={{
+                        flex: 1,
+                        background: '#F8FAFC',
+                        borderRadius: 12,
+                        padding: '16px 18px',
+                        border: '1px solid #E2E8F0',
+                    }}>
+                        <Text style={{ fontSize: 12, color: '#64748B', marginBottom: 6 }}>
+                            LAB
+                        </Text>
+                        <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.4 }}>
+                            ZJU APRIL Lab
+                        </Text>
+                        <Text style={{ fontSize: 12, color: '#64748B', marginTop: 4, lineHeight: 1.5 }}>
+                            Advisors: Yong Liu · Jiangning Zhang · Liang Liu
+                        </Text>
+                    </Box>
+                    <Box style={{
+                        flex: 1,
+                        background: '#F8FAFC',
+                        borderRadius: 12,
+                        padding: '16px 18px',
+                        border: '1px solid #E2E8F0',
+                    }}>
+                        <Text style={{ fontSize: 12, color: '#64748B', marginBottom: 6 }}>
+                            RESEARCH AREA
+                        </Text>
+                        <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.4 }}>
+                            Mobile GUI Agents
+                        </Text>
+                        <Text style={{ fontSize: 12, color: '#64748B', marginTop: 4, lineHeight: 1.5 }}>
+                            Benchmark · Agent · RL · Memory
+                        </Text>
+                    </Box>
+                </Box>
+
+                <Box style={{ flexDirection: 'row', gap: 14 }}>
+                    <Box style={{
+                        flex: 1,
+                        background: '#F8FAFC',
+                        borderRadius: 12,
+                        padding: '16px 18px',
+                        border: '1px solid #E2E8F0',
+                    }}>
+                        <Text style={{ fontSize: 12, color: '#64748B', marginBottom: 6 }}>
+                            ACADEMIC PATH
+                        </Text>
+                        <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.4 }}>
+                            CUMT No.1 → ZJU Ph.D.
+                        </Text>
+                        <Text style={{ fontSize: 12, color: '#64748B', marginTop: 4, lineHeight: 1.5 }}>
+                            Rank 1/203 · National Scholarship
+                        </Text>
+                    </Box>
+                    <Box style={{
+                        flex: 1,
+                        background: '#F8FAFC',
+                        borderRadius: 12,
+                        padding: '16px 18px',
+                        border: '1px solid #E2E8F0',
+                    }}>
+                        <Text style={{ fontSize: 12, color: '#64748B', marginBottom: 6 }}>
+                            INDUSTRY
+                        </Text>
+                        <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.4 }}>
+                            vivo AI Lab · Kuaishou
+                        </Text>
+                        <Text style={{ fontSize: 12, color: '#64748B', marginTop: 4, lineHeight: 1.5 }}>
+                            2 research internships · production systems
+                        </Text>
+                    </Box>
+                </Box>
+
+                {/* Stat badges */}
+                <Box style={{
+                    flexDirection: 'row',
+                    gap: 12,
+                    marginTop: 4,
+                }}>
+                    <Box style={{
+                        flex: 1,
+                        background: '#FFF7ED',
+                        borderRadius: 10,
+                        padding: '12px 14px',
+                        alignItems: 'center',
+                        border: '1px solid #FFEDD5',
+                    }}>
+                        <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#F97316' }}>5</Text>
+                        <Text style={{ fontSize: 11, color: '#64748B', marginTop: 2 }}>1st-Author</Text>
+                    </Box>
+                    <Box style={{
+                        flex: 1,
+                        background: '#FFF7ED',
+                        borderRadius: 10,
+                        padding: '12px 14px',
+                        alignItems: 'center',
+                        border: '1px solid #FFEDD5',
+                    }}>
+                        <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#F97316' }}>7</Text>
+                        <Text style={{ fontSize: 11, color: '#64748B', marginTop: 2 }}>Collab.</Text>
+                    </Box>
+                    <Box style={{
+                        flex: 1,
+                        background: '#FFF7ED',
+                        borderRadius: 10,
+                        padding: '12px 14px',
+                        alignItems: 'center',
+                        border: '1px solid #FFEDD5',
+                    }}>
+                        <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#F97316' }}>415</Text>
+                        <Text style={{ fontSize: 11, color: '#64748B', marginTop: 2 }}>Citations</Text>
+                    </Box>
+                    <Box style={{
+                        flex: 1,
+                        background: '#FFF7ED',
+                        borderRadius: 10,
+                        padding: '12px 14px',
+                        alignItems: 'center',
+                        border: '1px solid #FFEDD5',
+                    }}>
+                        <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#F97316' }}>632</Text>
+                        <Text style={{ fontSize: 11, color: '#64748B', marginTop: 2 }}>1st-Author ★</Text>
+                    </Box>
+                </Box>
+            </Box>
+        </Box>
+
+        {/* C: Footer */}
+        <Box style={{
+            height: 60,
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+            borderTop: '1px solid #E2E8F0',
+        }}>
+            <Text style={{ fontSize: 14, color: '#94A3B8' }}>
+                Guangyi Liu · ZJU · Interview
+            </Text>
+            <Text style={{ fontSize: 14, color: '#94A3B8' }}>
+                03 / 15
+            </Text>
+        </Box>
+    </Box>
+</Slide>

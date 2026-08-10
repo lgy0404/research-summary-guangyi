@@ -1,0 +1,151 @@
+<Slide>
+    <Box style={{
+        width: '100%',
+        height: '100%',
+        background: '#0E3F8C',
+        position: 'relative',
+        padding: 0,
+    }}>
+        <Box style={{
+            width: '100%',
+            height: '100%',
+            flexDirection: 'column',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: 28,
+            padding: '0 100px',
+        }}>
+            <Text style={{
+                fontSize: 180,
+                fontWeight: 'bold',
+                color: 'rgba(255,255,255,0.15)',
+                lineHeight: 1,
+                letterSpacing: 8,
+            }}>
+                02
+            </Text>
+
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+                <Box style={{ width: 40, height: 2, background: '#FFC107' }} />
+                <Text style={{
+                    fontSize: 14,
+                    color: '#FFC107',
+                    fontWeight: 600,
+                    letterSpacing: 4,
+                    fontFamily: "'Times New Roman', Georgia, serif",
+                }}>
+                    PART 02
+                </Text>
+                <Box style={{ width: 40, height: 2, background: '#FFC107' }} />
+            </Box>
+
+            <Text style={{
+                fontSize: 64,
+                fontWeight: 'bold',
+                color: '#FFFFFF',
+                letterSpacing: 4,
+                lineHeight: 1.2,
+                textAlign: 'center',
+            }}>
+                Representative Papers
+            </Text>
+
+            <Text style={{
+                fontSize: 18,
+                color: '#B8CCE4',
+                letterSpacing: 2,
+                textAlign: 'center',
+                lineHeight: 1.6,
+            }}>
+                5 First-Author Papers · From Benchmark to Agent to Production
+            </Text>
+
+            <Text style={{
+                fontSize: 14,
+                color: '#9DB8D8',
+                letterSpacing: 2,
+                textAlign: 'center',
+                fontStyle: 'italic',
+                fontFamily: "'Times New Roman', Georgia, serif",
+            }}>
+                Detailed Walkthrough of Five First-Author Papers
+            </Text>
+
+            <Box style={{
+                flexDirection: 'row',
+                gap: 10,
+                marginTop: 8,
+                flexWrap: 'wrap',
+                justifyContent: 'center',
+            }}>
+                <Box style={{
+                    background: 'rgba(255,255,255,0.1)',
+                    borderRadius: 6,
+                    padding: '8px 16px',
+                    border: '1px solid rgba(255,255,255,0.2)',
+                }}>
+                    <Text style={{ fontSize: 13, color: '#FFFFFF', fontWeight: 600 }}>
+                        Phone GUI Survey
+                    </Text>
+                </Box>
+                <Box style={{
+                    background: 'rgba(255,255,255,0.1)',
+                    borderRadius: 6,
+                    padding: '8px 16px',
+                    border: '1px solid rgba(255,255,255,0.2)',
+                }}>
+                    <Text style={{ fontSize: 13, color: '#FFFFFF', fontWeight: 600 }}>
+                        LearnAct
+                    </Text>
+                </Box>
+                <Box style={{
+                    background: 'rgba(255,255,255,0.1)',
+                    borderRadius: 6,
+                    padding: '8px 16px',
+                    border: '1px solid rgba(255,255,255,0.2)',
+                }}>
+                    <Text style={{ fontSize: 13, color: '#FFFFFF', fontWeight: 600 }}>
+                        MemGUI-Bench
+                    </Text>
+                </Box>
+                <Box style={{
+                    background: 'rgba(255,255,255,0.1)',
+                    borderRadius: 6,
+                    padding: '8px 16px',
+                    border: '1px solid rgba(255,255,255,0.2)',
+                }}>
+                    <Text style={{ fontSize: 13, color: '#FFFFFF', fontWeight: 600 }}>
+                        MemGUI-Agent
+                    </Text>
+                </Box>
+                <Box style={{
+                    background: 'rgba(255,255,255,0.1)',
+                    borderRadius: 6,
+                    padding: '8px 16px',
+                    border: '1px solid rgba(255,255,255,0.2)',
+                }}>
+                    <Text style={{ fontSize: 13, color: '#FFFFFF', fontWeight: 600 }}>
+                        MobileForge
+                    </Text>
+                </Box>
+            </Box>
+        </Box>
+
+        <Box style={{
+            position: 'absolute',
+            bottom: 24,
+            left: 0,
+            right: 0,
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            padding: '0 40px',
+        }}>
+            <Text style={{ fontSize: 13, color: 'rgba(255,255,255,0.5)' }}>
+                Zhejiang University · Control Science & Engineering
+            </Text>
+            <Text style={{ fontSize: 13, color: 'rgba(255,255,255,0.5)' }}>
+                10 / 16
+            </Text>
+        </Box>
+    </Box>
+</Slide>

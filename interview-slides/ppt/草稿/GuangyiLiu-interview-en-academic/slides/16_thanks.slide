@@ -1,0 +1,152 @@
+<Slide>
+    <Box style={{
+        width: '100%',
+        height: '100%',
+        background: '#FFFFFF',
+        position: 'relative',
+        padding: 0,
+    }}>
+        {/* Top navy band */}
+        <Box style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            right: 0,
+            height: 8,
+            background: '#0E3F8C',
+        }} />
+
+        {/* Top logo */}
+        <Box style={{
+            position: 'absolute',
+            top: 60,
+            left: 0,
+            right: 0,
+            flexDirection: 'row',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: 16,
+        }}>
+            <Box style={{
+                width: 56,
+                height: 56,
+                background: '#FFFFFF',
+                borderRadius: 8,
+                padding: 6,
+                border: '1px solid #D6DCE5',
+                alignItems: 'center',
+                justifyContent: 'center',
+            }}>
+                <Image src="assets/zju-logo.png" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+            </Box>
+            <Box style={{ flexDirection: 'column', gap: 2 }}>
+                <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#0E3F8C', letterSpacing: 1 }}>
+                    Zhejiang University
+                </Text>
+                <Text style={{ fontSize: 11, color: '#4A5568', letterSpacing: 1 }}>
+                    浙江大学 · APRIL LAB
+                </Text>
+            </Box>
+        </Box>
+
+        {/* Center */}
+        <Box style={{
+            position: 'absolute',
+            top: 200,
+            left: 0,
+            right: 0,
+            flexDirection: 'column',
+            alignItems: 'center',
+            gap: 24,
+            padding: '0 100px',
+        }}>
+            <Text style={{
+                fontSize: 76,
+                fontWeight: 'bold',
+                color: '#0E3F8C',
+                letterSpacing: 4,
+                lineHeight: 1.1,
+                textAlign: 'center',
+            }}>
+                Thank You
+            </Text>
+
+            <Text style={{
+                fontSize: 20,
+                color: '#4A5568',
+                letterSpacing: 4,
+                textAlign: 'center',
+                lineHeight: 1.5,
+            }}>
+                谢谢聆听 · Q & A
+            </Text>
+
+            <Box style={{
+                width: 80,
+                height: 3,
+                background: '#0E3F8C',
+            }} />
+
+            <Text style={{
+                fontSize: 16,
+                color: '#4A5568',
+                textAlign: 'center',
+                lineHeight: 1.7,
+            }}>
+                From benchmark to agent to production — building toward truly universal digital agents
+            </Text>
+        </Box>
+
+        {/* Contact card */}
+        <Box style={{
+            position: 'absolute',
+            bottom: 110,
+            left: 0,
+            right: 0,
+            flexDirection: 'row',
+            justifyContent: 'center',
+        }}>
+            <Box style={{
+                background: '#F0F5FC',
+                borderRadius: 8,
+                padding: '18px 40px',
+                border: '1px solid #D6DCE5',
+                flexDirection: 'column',
+                alignItems: 'center',
+                gap: 6,
+            }}>
+                <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#0E3F8C' }}>
+                    Guangyi Liu · 刘广义
+                </Text>
+                <Text style={{ fontSize: 13, color: '#4A5568', lineHeight: 1.6 }}>
+                    guangyiliu@zju.edu.cn · lgy0404.github.io
+                </Text>
+                <Text style={{ fontSize: 12, color: '#8B97A8', lineHeight: 1.6 }}>
+                    Ph.D. Candidate · Dept. of Control Science & Engineering, ZJU · APRIL Lab
+                </Text>
+            </Box>
+        </Box>
+
+        {/* Bottom info bar */}
+        <Box style={{
+            position: 'absolute',
+            bottom: 0,
+            left: 0,
+            right: 0,
+            height: 56,
+            background: '#F7F9FC',
+            borderTop: '1px solid #D6DCE5',
+            flexDirection: 'row',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            padding: '0 40px',
+        }}>
+            <Text style={{ fontSize: 13, color: '#8B97A8' }}>
+                Talent Program · Internship Interview
+            </Text>
+            <Text style={{ fontSize: 13, color: '#8B97A8' }}>
+                16 / 16
+            </Text>
+        </Box>
+    </Box>
+</Slide>

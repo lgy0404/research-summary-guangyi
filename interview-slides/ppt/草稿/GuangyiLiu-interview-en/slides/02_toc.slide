@@ -1,0 +1,170 @@
+<Slide>
+    <Box style={{
+        width: '100%',
+        height: '100%',
+        background: '#FFFFFF',
+        padding: '0 70px',
+        position: 'relative',
+    }}>
+        {/* A: Header */}
+        <Box style={{
+            height: 120,
+            flexDirection: 'row',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            borderBottom: '2px solid #E2E8F0',
+        }}>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16 }}>
+                <Box style={{
+                    width: 6,
+                    height: 32,
+                    background: '#F97316',
+                }} />
+                <Text style={{ fontSize: 36, fontWeight: 'bold', color: '#0F172A' }}>
+                    Contents
+                </Text>
+                <Text style={{ fontSize: 16, color: '#64748B', letterSpacing: 3, marginTop: 8 }}>
+                    目录
+                </Text>
+            </Box>
+            <Text style={{ fontSize: 14, color: '#94A3B8' }}>
+                Two-Part Presentation
+            </Text>
+        </Box>
+
+        {/* B: Two parts */}
+        <Box style={{
+            height: 540,
+            flexDirection: 'column',
+            justifyContent: 'center',
+            gap: 32,
+            paddingTop: 20,
+            paddingBottom: 20,
+        }}>
+            {/* Part 1 */}
+            <Box style={{
+                flexDirection: 'row',
+                background: 'linear-gradient(135deg, #EFF6FF 0%, #FFFFFF 100%)',
+                borderRadius: 16,
+                padding: '32px 40px',
+                alignItems: 'center',
+                gap: 36,
+                border: '1px solid #DBEAFE',
+                boxShadow: '0 4px 20px rgba(30,64,175,0.06)',
+            }}>
+                <Box style={{
+                    width: 110,
+                    height: 110,
+                    borderRadius: '50%',
+                    background: 'linear-gradient(135deg, #1E40AF 0%, #3B82F6 100%)',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    flexShrink: 0,
+                }}>
+                    <Text style={{ fontSize: 56, fontWeight: 'bold', color: '#FFFFFF', lineHeight: 1 }}>
+                        01
+                    </Text>
+                </Box>
+                <Box style={{ flex: 1, flexDirection: 'column', gap: 10 }}>
+                    <Text style={{ fontSize: 28, fontWeight: 'bold', color: '#0F172A' }}>
+                        Personal Overview
+                    </Text>
+                    <Text style={{ fontSize: 15, color: '#64748B', lineHeight: 1.6 }}>
+                        Bio · Education · Industry Experience · Research Vision · Publications · Honors & Service
+                    </Text>
+                    <Box style={{ flexDirection: 'row', gap: 8, marginTop: 4 }}>
+                        <Box style={{
+                            background: '#1E40AF',
+                            borderRadius: 4,
+                            padding: '4px 10px',
+                        }}>
+                            <Text style={{ fontSize: 12, color: '#FFFFFF', fontWeight: 600 }}>
+                                This Session
+                            </Text>
+                        </Box>
+                        <Box style={{
+                            background: '#F1F5F9',
+                            borderRadius: 4,
+                            padding: '4px 10px',
+                        }}>
+                            <Text style={{ fontSize: 12, color: '#64748B' }}>
+                                ~6-7 min
+                            </Text>
+                        </Box>
+                    </Box>
+                </Box>
+            </Box>
+
+            {/* Part 2 */}
+            <Box style={{
+                flexDirection: 'row',
+                background: '#FFFFFF',
+                borderRadius: 16,
+                padding: '32px 40px',
+                alignItems: 'center',
+                gap: 36,
+                border: '1px solid #E2E8F0',
+            }}>
+                <Box style={{
+                    width: 110,
+                    height: 110,
+                    borderRadius: '50%',
+                    background: '#F1F5F9',
+                    border: '2px dashed #CBD5E1',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    flexShrink: 0,
+                }}>
+                    <Text style={{ fontSize: 56, fontWeight: 'bold', color: '#94A3B8', lineHeight: 1 }}>
+                        02
+                    </Text>
+                </Box>
+                <Box style={{ flex: 1, flexDirection: 'column', gap: 10 }}>
+                    <Text style={{ fontSize: 28, fontWeight: 'bold', color: '#0F172A' }}>
+                        Paper Deep-Dive
+                    </Text>
+                    <Text style={{ fontSize: 15, color: '#64748B', lineHeight: 1.6 }}>
+                        MobileForge · MemGUI-Agent · MemGUI-Bench · LearnAct · Phone GUI Survey
+                    </Text>
+                    <Box style={{ flexDirection: 'row', gap: 8, marginTop: 4 }}>
+                        <Box style={{
+                            background: '#FFF7ED',
+                            borderRadius: 4,
+                            padding: '4px 10px',
+                            border: '1px solid #FFEDD5',
+                        }}>
+                            <Text style={{ fontSize: 12, color: '#F97316', fontWeight: 600 }}>
+                                5 First-Author Papers
+                            </Text>
+                        </Box>
+                        <Box style={{
+                            background: '#F1F5F9',
+                            borderRadius: 4,
+                            padding: '4px 10px',
+                        }}>
+                            <Text style={{ fontSize: 12, color: '#64748B' }}>
+                                On-demand
+                            </Text>
+                        </Box>
+                    </Box>
+                </Box>
+            </Box>
+        </Box>
+
+        {/* C: Footer */}
+        <Box style={{
+            height: 60,
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+            borderTop: '1px solid #E2E8F0',
+        }}>
+            <Text style={{ fontSize: 14, color: '#94A3B8' }}>
+                Guangyi Liu · ZJU · Interview
+            </Text>
+            <Text style={{ fontSize: 14, color: '#94A3B8' }}>
+                02 / 15
+            </Text>
+        </Box>
+    </Box>
+</Slide>

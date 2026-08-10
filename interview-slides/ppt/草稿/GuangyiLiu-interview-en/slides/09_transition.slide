@@ -1,0 +1,168 @@
+<Slide>
+    <Box style={{
+        width: '100%',
+        height: '100%',
+        background: 'linear-gradient(135deg, #0F172A 0%, #1E40AF 100%)',
+        position: 'relative',
+        padding: 0,
+    }}>
+        {/* Decorative shapes */}
+        <Box style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: 300,
+            height: 300,
+            background: 'linear-gradient(135deg, #3B82F6 0%, transparent 100%)',
+            opacity: 0.15,
+            borderBottomRightRadius: 300,
+        }} />
+        <Box style={{
+            position: 'absolute',
+            bottom: 0,
+            right: 0,
+            width: 400,
+            height: 400,
+            background: 'linear-gradient(315deg, #F97316 0%, transparent 100%)',
+            opacity: 0.12,
+            borderTopLeftRadius: 400,
+        }} />
+
+        {/* Central content */}
+        <Box style={{
+            width: '100%',
+            height: '100%',
+            flexDirection: 'column',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: 32,
+            padding: '0 100px',
+        }}>
+            {/* Top label */}
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 14 }}>
+                <Box style={{ width: 40, height: 2, background: '#F97316' }} />
+                <Text style={{
+                    fontSize: 16,
+                    color: '#F97316',
+                    fontWeight: 600,
+                    letterSpacing: 4,
+                }}>
+                    NEXT · PART 02
+                </Text>
+                <Box style={{ width: 40, height: 2, background: '#F97316' }} />
+            </Box>
+
+            {/* Main title */}
+            <Text style={{
+                fontSize: 84,
+                fontWeight: 'bold',
+                color: '#FFFFFF',
+                letterSpacing: 6,
+                lineHeight: 1.1,
+                textAlign: 'center',
+            }}>
+                Paper Deep-Dive
+            </Text>
+
+            {/* Subtitle */}
+            <Text style={{
+                fontSize: 19,
+                color: '#BFDBFE',
+                letterSpacing: 1,
+                textAlign: 'center',
+                lineHeight: 1.6,
+            }}>
+                5 First-Author Papers · From Benchmark to Agent to Production
+            </Text>
+
+            {/* Paper chips */}
+            <Box style={{
+                flexDirection: 'row',
+                gap: 14,
+                marginTop: 12,
+                flexWrap: 'wrap',
+                justifyContent: 'center',
+            }}>
+                <Box style={{
+                    background: 'rgba(255,255,255,0.08)',
+                    borderRadius: 8,
+                    padding: '10px 18px',
+                    border: '1px solid rgba(255,255,255,0.15)',
+                }}>
+                    <Text style={{ fontSize: 14, color: '#FFFFFF', fontWeight: 600 }}>
+                        MobileForge
+                    </Text>
+                </Box>
+                <Box style={{
+                    background: 'rgba(255,255,255,0.08)',
+                    borderRadius: 8,
+                    padding: '10px 18px',
+                    border: '1px solid rgba(255,255,255,0.15)',
+                }}>
+                    <Text style={{ fontSize: 14, color: '#FFFFFF', fontWeight: 600 }}>
+                        MemGUI-Agent
+                    </Text>
+                </Box>
+                <Box style={{
+                    background: 'rgba(255,255,255,0.08)',
+                    borderRadius: 8,
+                    padding: '10px 18px',
+                    border: '1px solid rgba(255,255,255,0.15)',
+                }}>
+                    <Text style={{ fontSize: 14, color: '#FFFFFF', fontWeight: 600 }}>
+                        MemGUI-Bench
+                    </Text>
+                </Box>
+                <Box style={{
+                    background: 'rgba(255,255,255,0.08)',
+                    borderRadius: 8,
+                    padding: '10px 18px',
+                    border: '1px solid rgba(255,255,255,0.15)',
+                }}>
+                    <Text style={{ fontSize: 14, color: '#FFFFFF', fontWeight: 600 }}>
+                        LearnAct
+                    </Text>
+                </Box>
+                <Box style={{
+                    background: 'rgba(255,255,255,0.08)',
+                    borderRadius: 8,
+                    padding: '10px 18px',
+                    border: '1px solid rgba(255,255,255,0.15)',
+                }}>
+                    <Text style={{ fontSize: 14, color: '#FFFFFF', fontWeight: 600 }}>
+                        Phone GUI Survey
+                    </Text>
+                </Box>
+            </Box>
+
+            {/* Bottom hint */}
+            <Text style={{
+                fontSize: 14,
+                color: '#64748B',
+                marginTop: 16,
+                textAlign: 'center',
+                lineHeight: 1.6,
+            }}>
+                Ready to deep-dive into any paper based on your interest
+            </Text>
+        </Box>
+
+        {/* Footer */}
+        <Box style={{
+            position: 'absolute',
+            bottom: 24,
+            left: 0,
+            right: 0,
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            padding: '0 70px',
+        }}>
+            <Text style={{ fontSize: 13, color: 'rgba(255,255,255,0.5)' }}>
+                Guangyi Liu · ZJU · Interview
+            </Text>
+            <Text style={{ fontSize: 13, color: 'rgba(255,255,255,0.5)' }}>
+                09 / 15
+            </Text>
+        </Box>
+    </Box>
+</Slide>

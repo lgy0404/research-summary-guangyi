@@ -1,0 +1,276 @@
+<Slide>
+    <Box style={{
+        width: '100%',
+        height: '100%',
+        background: '#FFFFFF',
+        padding: '0 70px',
+        position: 'relative',
+    }}>
+        {/* A: Header */}
+        <Box style={{
+            height: 120,
+            flexDirection: 'row',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            borderBottom: '2px solid #E2E8F0',
+        }}>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16 }}>
+                <Box style={{
+                    width: 6,
+                    height: 32,
+                    background: '#F97316',
+                }} />
+                <Text style={{ fontSize: 36, fontWeight: 'bold', color: '#0F172A' }}>
+                    Publications
+                </Text>
+                <Text style={{ fontSize: 16, color: '#64748B', letterSpacing: 3, marginTop: 8 }}>
+                    论文成果
+                </Text>
+            </Box>
+            <Text style={{ fontSize: 14, color: '#94A3B8' }}>
+                5 First-Author · 7 Collaborations
+            </Text>
+        </Box>
+
+        {/* B: Left first-author + Right collab+metrics */}
+        <Box style={{
+            height: 540,
+            flexDirection: 'row',
+            gap: 24,
+            paddingTop: 24,
+            paddingBottom: 20,
+        }}>
+            {/* Left: First-author papers (2/3) */}
+            <Box style={{
+                flex: 2,
+                flexDirection: 'column',
+                gap: 10,
+            }}>
+                <Box style={{
+                    flexDirection: 'row',
+                    alignItems: 'center',
+                    gap: 10,
+                    marginBottom: 4,
+                }}>
+                    <Box style={{
+                        width: 4,
+                        height: 20,
+                        background: '#F97316',
+                    }} />
+                    <Text style={{ fontSize: 18, fontWeight: 'bold', color: '#0F172A' }}>
+                        First-Author Papers (5)
+                    </Text>
+                </Box>
+
+                {/* Paper 1 */}
+                <Box style={{
+                    background: '#F8FAFC',
+                    borderRadius: 10,
+                    padding: '12px 16px',
+                    border: '1px solid #E2E8F0',
+                    borderLeft: '4px solid #F97316',
+                    flexDirection: 'column',
+                    gap: 4,
+                }}>
+                    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+                        <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#0F172A', flex: 1 }}>
+                            MobileForge · Annotation-Free GUI Adaptation
+                        </Text>
+                        <Box style={{ background: '#FFF7ED', borderRadius: 4, padding: '2px 8px', border: '1px solid #FFEDD5' }}>
+                            <Text style={{ fontSize: 11, color: '#F97316', fontWeight: 600 }}>Preprint 2026</Text>
+                        </Box>
+                    </Box>
+                    <Text style={{ fontSize: 12, color: '#64748B', lineHeight: 1.5 }}>
+                        MobileGym + HiFPO for annotation-free adaptation · <span style={{ color: '#F97316', fontWeight: 600 }}>76★</span> · Synced China
+                    </Text>
+                </Box>
+
+                {/* Paper 2 */}
+                <Box style={{
+                    background: '#F8FAFC',
+                    borderRadius: 10,
+                    padding: '12px 16px',
+                    border: '1px solid #E2E8F0',
+                    borderLeft: '4px solid #F97316',
+                    flexDirection: 'column',
+                    gap: 4,
+                }}>
+                    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+                        <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#0F172A', flex: 1 }}>
+                            MemGUI-Agent · Long-Horizon Context Mgmt
+                        </Text>
+                        <Box style={{ background: '#FFF7ED', borderRadius: 4, padding: '2px 8px', border: '1px solid #FFEDD5' }}>
+                            <Text style={{ fontSize: 11, color: '#F97316', fontWeight: 600 }}>Preprint 2026</Text>
+                        </Box>
+                    </Box>
+                    <Text style={{ fontSize: 12, color: '#64748B', lineHeight: 1.5 }}>
+                        End-to-end long-horizon agent via ConAct · <span style={{ color: '#F97316', fontWeight: 600 }}>88★</span> · QbitAI
+                    </Text>
+                </Box>
+
+                {/* Paper 3 */}
+                <Box style={{
+                    background: '#F8FAFC',
+                    borderRadius: 10,
+                    padding: '12px 16px',
+                    border: '1px solid #E2E8F0',
+                    borderLeft: '4px solid #3B82F6',
+                    flexDirection: 'column',
+                    gap: 4,
+                }}>
+                    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+                        <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#0F172A', flex: 1 }}>
+                            MemGUI-Bench · Memory Benchmark
+                        </Text>
+                        <Box style={{ background: '#DBEAFE', borderRadius: 4, padding: '2px 8px' }}>
+                            <Text style={{ fontSize: 11, color: '#1E40AF', fontWeight: 600 }}>ACM MM 2026</Text>
+                        </Box>
+                    </Box>
+                    <Text style={{ fontSize: 12, color: '#64748B', lineHeight: 1.5 }}>
+                        128 tasks / 26 apps for cross-temporal-spatial memory · <span style={{ color: '#F97316', fontWeight: 600 }}>48★ · 17 cit.</span>
+                    </Text>
+                </Box>
+
+                {/* Paper 4 */}
+                <Box style={{
+                    background: '#F8FAFC',
+                    borderRadius: 10,
+                    padding: '12px 16px',
+                    border: '1px solid #E2E8F0',
+                    borderLeft: '4px solid #3B82F6',
+                    flexDirection: 'column',
+                    gap: 4,
+                }}>
+                    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+                        <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#0F172A', flex: 1 }}>
+                            LearnAct · Few-Shot Demonstration Learning
+                        </Text>
+                        <Box style={{ background: '#DBEAFE', borderRadius: 4, padding: '2px 8px' }}>
+                            <Text style={{ fontSize: 11, color: '#1E40AF', fontWeight: 600 }}>ACL 2026</Text>
+                        </Box>
+                    </Box>
+                    <Text style={{ fontSize: 12, color: '#64748B', lineHeight: 1.5 }}>
+                        LearnGUI + DemoParser / KnowSeeker / ActExecutor · <span style={{ color: '#F97316', fontWeight: 600 }}>48★ · 40 cit.</span> · QbitAI
+                    </Text>
+                </Box>
+
+                {/* Paper 5 */}
+                <Box style={{
+                    background: '#F8FAFC',
+                    borderRadius: 10,
+                    padding: '12px 16px',
+                    border: '1px solid #E2E8F0',
+                    borderLeft: '4px solid #3B82F6',
+                    flexDirection: 'column',
+                    gap: 4,
+                }}>
+                    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+                        <Text style={{ fontSize: 15, fontWeight: 'bold', color: '#0F172A', flex: 1 }}>
+                            Phone GUI Agent Survey
+                        </Text>
+                        <Box style={{ background: '#DBEAFE', borderRadius: 4, padding: '2px 8px' }}>
+                            <Text style={{ fontSize: 11, color: '#1E40AF', fontWeight: 600 }}>TMLR 2025</Text>
+                        </Box>
+                    </Box>
+                    <Text style={{ fontSize: 12, color: '#64748B', lineHeight: 1.5 }}>
+                        Systematic survey on LLM-powered phone automation · <span style={{ color: '#F97316', fontWeight: 600 }}>175★ · 64 cit.</span> · Synced China
+                    </Text>
+                </Box>
+            </Box>
+
+            {/* Right: metrics + collab */}
+            <Box style={{
+                flex: 1,
+                flexDirection: 'column',
+                gap: 14,
+            }}>
+                {/* Metrics card */}
+                <Box style={{
+                    background: 'linear-gradient(135deg, #1E40AF 0%, #3B82F6 100%)',
+                    borderRadius: 12,
+                    padding: '18px 20px',
+                    flexDirection: 'column',
+                    gap: 10,
+                    boxShadow: '0 8px 24px rgba(30,64,175,0.2)',
+                }}>
+                    <Text style={{ fontSize: 13, color: '#BFDBFE', fontWeight: 600, letterSpacing: 1 }}>
+                        ACADEMIC IMPACT
+                    </Text>
+                    <Box style={{ flexDirection: 'row', justifyContent: 'space-around' }}>
+                        <Box style={{ alignItems: 'center' }}>
+                            <Text style={{ fontSize: 32, fontWeight: 'bold', color: '#FFFFFF', lineHeight: 1 }}>415</Text>
+                            <Text style={{ fontSize: 11, color: '#DBEAFE', marginTop: 4 }}>Citations</Text>
+                        </Box>
+                        <Box style={{ width: 1, background: 'rgba(255,255,255,0.3)' }} />
+                        <Box style={{ alignItems: 'center' }}>
+                            <Text style={{ fontSize: 32, fontWeight: 'bold', color: '#FCD34D', lineHeight: 1 }}>122</Text>
+                            <Text style={{ fontSize: 11, color: '#DBEAFE', marginTop: 4 }}>1st-Author</Text>
+                        </Box>
+                        <Box style={{ width: 1, background: 'rgba(255,255,255,0.3)' }} />
+                        <Box style={{ alignItems: 'center' }}>
+                            <Text style={{ fontSize: 32, fontWeight: 'bold', color: '#FCD34D', lineHeight: 1 }}>632</Text>
+                            <Text style={{ fontSize: 11, color: '#DBEAFE', marginTop: 4 }}>1st-Author ★</Text>
+                        </Box>
+                    </Box>
+                </Box>
+
+                {/* Collab list */}
+                <Box style={{ flexDirection: 'column', gap: 8, flex: 1 }}>
+                    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+                        <Box style={{ width: 4, height: 20, background: '#3B82F6' }} />
+                        <Text style={{ fontSize: 16, fontWeight: 'bold', color: '#0F172A' }}>
+                            Collaborations (7)
+                        </Text>
+                    </Box>
+                    <Box style={{
+                        background: '#F8FAFC',
+                        borderRadius: 10,
+                        padding: '14px 16px',
+                        border: '1px solid #E2E8F0',
+                        flex: 1,
+                        flexDirection: 'column',
+                        justifyContent: 'space-around',
+                    }}>
+                        <Text style={{ fontSize: 12, color: '#0F172A', lineHeight: 1.55 }}>
+                            <span style={{ fontWeight: 'bold', color: '#1E40AF' }}>UI-R1</span> · AAAI 2026 · <span style={{ color: '#F97316' }}>212 cit.</span>
+                        </Text>
+                        <Text style={{ fontSize: 12, color: '#0F172A', lineHeight: 1.55 }}>
+                            <span style={{ fontWeight: 'bold', color: '#1E40AF' }}>UI-Copilot</span> · ACL 2026 Main
+                        </Text>
+                        <Text style={{ fontSize: 12, color: '#0F172A', lineHeight: 1.55 }}>
+                            <span style={{ fontWeight: 'bold', color: '#1E40AF' }}>MAS-Bench</span> · ACL 2026 Main
+                        </Text>
+                        <Text style={{ fontSize: 12, color: '#0F172A', lineHeight: 1.55 }}>
+                            <span style={{ fontWeight: 'bold', color: '#1E40AF' }}>A3</span> · ACL 2026 Findings
+                        </Text>
+                        <Text style={{ fontSize: 12, color: '#0F172A', lineHeight: 1.55 }}>
+                            <span style={{ fontWeight: 'bold', color: '#1E40AF' }}>FedGUI</span> · ACL 2026 Findings
+                        </Text>
+                        <Text style={{ fontSize: 12, color: '#0F172A', lineHeight: 1.55 }}>
+                            <span style={{ fontWeight: 'bold', color: '#1E40AF' }}>FedMABench</span> · EMNLP 2025 (Oral)
+                        </Text>
+                        <Text style={{ fontSize: 12, color: '#0F172A', lineHeight: 1.55 }}>
+                            <span style={{ fontWeight: 'bold', color: '#1E40AF' }}>MobileA3gent</span> · ICML 2025 WS (Oral)
+                        </Text>
+                    </Box>
+                </Box>
+            </Box>
+        </Box>
+
+        {/* C: Footer */}
+        <Box style={{
+            height: 60,
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+            borderTop: '1px solid #E2E8F0',
+        }}>
+            <Text style={{ fontSize: 14, color: '#94A3B8' }}>
+                Guangyi Liu · ZJU · Interview
+            </Text>
+            <Text style={{ fontSize: 14, color: '#94A3B8' }}>
+                07 / 15
+            </Text>
+        </Box>
+    </Box>
+</Slide>

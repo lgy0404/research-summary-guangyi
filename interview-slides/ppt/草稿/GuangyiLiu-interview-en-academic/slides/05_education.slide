@@ -1,0 +1,246 @@
+<Slide>
+    <Box style={{
+        width: '100%',
+        height: '100%',
+        background: '#FFFFFF',
+        position: 'relative',
+        padding: 0,
+    }}>
+        {/* A: Header */}
+        <Box style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            right: 0,
+            height: 80,
+            background: '#0E3F8C',
+            flexDirection: 'row',
+            alignItems: 'center',
+            padding: '0 40px',
+            gap: 14,
+        }}>
+            <Box style={{
+                width: 6,
+                height: 28,
+                background: '#FFFFFF',
+            }} />
+            <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#FFFFFF', letterSpacing: 2 }}>
+                Education
+            </Text>
+            <Text style={{ fontSize: 13, color: '#B8CCE4', letterSpacing: 2, marginTop: 6 }}>
+                教育背景
+            </Text>
+        </Box>
+
+        {/* C: Three stage cards */}
+        <Box style={{
+            position: 'absolute',
+            top: 80,
+            left: 0,
+            right: 0,
+            height: 580,
+            padding: '28px 40px',
+            flexDirection: 'column',
+            gap: 14,
+        }}>
+            {/* Ph.D. */}
+            <Box style={{
+                flex: 1,
+                background: '#E8EFF8',
+                border: '1px solid #D6DCE5',
+                borderRadius: 8,
+                padding: '18px 24px',
+                flexDirection: 'row',
+                alignItems: 'center',
+                gap: 22,
+                borderLeft: '4px solid #0E3F8C',
+            }}>
+                <Box style={{
+                    width: 72,
+                    height: 72,
+                    background: '#FFFFFF',
+                    borderRadius: 8,
+                    padding: 8,
+                    border: '1px solid #D6DCE5',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    flexShrink: 0,
+                }}>
+                    <Image src="assets/zju-logo.png" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                </Box>
+                <Box style={{ flex: 1, flexDirection: 'column', gap: 4 }}>
+                    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+                        <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#0E3F8C' }}>
+                            Zhejiang University · Ph.D. Candidate
+                        </Text>
+                        <Box style={{
+                            background: '#1E4FA8',
+                            borderRadius: 4,
+                            padding: '2px 8px',
+                        }}>
+                            <Text style={{ fontSize: 11, color: '#FFFFFF', fontWeight: 600 }}>2025.09 - 2028.06 (Expected)</Text>
+                        </Box>
+                    </Box>
+                    <Text style={{ fontSize: 14, color: '#4A5568' }}>
+                        Dept. of Control Science & Engineering · ZJU APRIL Lab
+                    </Text>
+                    <Text style={{ fontSize: 13, color: '#8B97A8', lineHeight: 1.5 }}>
+                        Advisors: Prof. Yong Liu · Prof. Jiangning Zhang · Dr. Liang Liu ｜ Universal Digital Agents
+                    </Text>
+                </Box>
+                <Box style={{
+                    background: '#0E3F8C',
+                    borderRadius: 6,
+                    padding: '10px 16px',
+                    alignItems: 'center',
+                    flexShrink: 0,
+                }}>
+                    <Text style={{ fontSize: 14, color: '#FFFFFF', fontWeight: 600 }}>Ph.D.</Text>
+                </Box>
+            </Box>
+
+            {/* M.S. */}
+            <Box style={{
+                flex: 1,
+                background: '#F7F9FC',
+                border: '1px solid #D6DCE5',
+                borderRadius: 8,
+                padding: '18px 24px',
+                flexDirection: 'row',
+                alignItems: 'center',
+                gap: 22,
+                borderLeft: '4px solid #1E4FA8',
+            }}>
+                <Box style={{
+                    width: 72,
+                    height: 72,
+                    background: '#FFFFFF',
+                    borderRadius: 8,
+                    padding: 8,
+                    border: '1px solid #D6DCE5',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    flexShrink: 0,
+                }}>
+                    <Image src="assets/zju-logo.png" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                </Box>
+                <Box style={{ flex: 1, flexDirection: 'column', gap: 4 }}>
+                    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+                        <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#1A2230' }}>
+                            Zhejiang University · M.S.
+                        </Text>
+                        <Box style={{
+                            background: '#E8EFF8',
+                            borderRadius: 4,
+                            padding: '2px 8px',
+                            border: '1px solid #D6DCE5',
+                        }}>
+                            <Text style={{ fontSize: 11, color: '#1E4FA8', fontWeight: 600 }}>2023.06 - 2025.08</Text>
+                        </Box>
+                    </Box>
+                    <Text style={{ fontSize: 14, color: '#4A5568' }}>
+                        ZJU NeSC Group · Networked Systems & Security
+                    </Text>
+                    <Text style={{ fontSize: 13, color: '#8B97A8', lineHeight: 1.5 }}>
+                        Advisor: Prof. Wenchao Meng ｜ Master of Science
+                    </Text>
+                </Box>
+                <Box style={{
+                    background: '#1E4FA8',
+                    borderRadius: 6,
+                    padding: '10px 16px',
+                    alignItems: 'center',
+                    flexShrink: 0,
+                }}>
+                    <Text style={{ fontSize: 14, color: '#FFFFFF', fontWeight: 600 }}>M.S.</Text>
+                </Box>
+            </Box>
+
+            {/* B.Eng. */}
+            <Box style={{
+                flex: 1,
+                background: '#F7F9FC',
+                border: '1px solid #D6DCE5',
+                borderRadius: 8,
+                padding: '18px 24px',
+                flexDirection: 'row',
+                alignItems: 'center',
+                gap: 22,
+                borderLeft: '4px solid #3D7BD9',
+            }}>
+                <Box style={{
+                    width: 72,
+                    height: 72,
+                    background: '#FFFFFF',
+                    borderRadius: 8,
+                    padding: 8,
+                    border: '1px solid #D6DCE5',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    flexShrink: 0,
+                }}>
+                    <Image src="assets/cumt-logo.png" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                </Box>
+                <Box style={{ flex: 1, flexDirection: 'column', gap: 4 }}>
+                    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+                        <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#1A2230' }}>
+                            CUMT · B.Eng.
+                        </Text>
+                        <Box style={{
+                            background: '#E8EFF8',
+                            borderRadius: 4,
+                            padding: '2px 8px',
+                            border: '1px solid #D6DCE5',
+                        }}>
+                            <Text style={{ fontSize: 11, color: '#1E4FA8', fontWeight: 600 }}>2019.09 - 2023.06</Text>
+                        </Box>
+                        <Box style={{
+                            background: '#0E3F8C',
+                            borderRadius: 4,
+                            padding: '2px 8px',
+                        }}>
+                            <Text style={{ fontSize: 11, color: '#FFFFFF', fontWeight: 600 }}>No.1 / 203</Text>
+                        </Box>
+                    </Box>
+                    <Text style={{ fontSize: 14, color: '#4A5568' }}>
+                        Automatic Control · China University of Mining and Technology
+                    </Text>
+                    <Text style={{ fontSize: 13, color: '#8B97A8', lineHeight: 1.5 }}>
+                        Advisor: Prof. Wei Dai ｜ National Scholarship (2020 & 2021) · Jiangsu Outstanding Graduate
+                    </Text>
+                </Box>
+                <Box style={{
+                    background: '#3D7BD9',
+                    borderRadius: 6,
+                    padding: '10px 16px',
+                    alignItems: 'center',
+                    flexShrink: 0,
+                }}>
+                    <Text style={{ fontSize: 14, color: '#FFFFFF', fontWeight: 600 }}>B.Eng.</Text>
+                </Box>
+            </Box>
+        </Box>
+
+        {/* D: Footer */}
+        <Box style={{
+            position: 'absolute',
+            bottom: 0,
+            left: 0,
+            right: 0,
+            height: 60,
+            background: '#F7F9FC',
+            borderTop: '1px solid #D6DCE5',
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+            padding: '0 40px',
+        }}>
+            <Text style={{ fontSize: 13, color: '#8B97A8' }}>
+                Zhejiang University · Control Science & Engineering
+            </Text>
+            <Text style={{ fontSize: 14, color: '#0E3F8C', fontWeight: 600 }}>
+                5 / 16
+            </Text>
+        </Box>
+    </Box>
+</Slide>

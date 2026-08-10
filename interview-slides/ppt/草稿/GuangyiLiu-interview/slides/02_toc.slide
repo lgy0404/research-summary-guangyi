@@ -1,0 +1,172 @@
+<Slide>
+    <Box style={{
+        width: '100%',
+        height: '100%',
+        background: '#FFFFFF',
+        padding: '0 70px',
+        position: 'relative',
+    }}>
+        {/* A 区：标题块 */}
+        <Box style={{
+            height: 120,
+            flexDirection: 'row',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            borderBottom: '2px solid #E2E8F0',
+        }}>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16 }}>
+                <Box style={{
+                    width: 6,
+                    height: 32,
+                    background: '#F97316',
+                }} />
+                <Text style={{ fontSize: 36, fontWeight: 'bold', color: '#0F172A' }}>
+                    目录
+                </Text>
+                <Text style={{ fontSize: 16, color: '#64748B', letterSpacing: 3, marginTop: 8 }}>
+                    CONTENTS
+                </Text>
+            </Box>
+            <Text style={{ fontSize: 14, color: '#94A3B8' }}>
+                面试陈述 · 两部分
+            </Text>
+        </Box>
+
+        {/* B 区：两个主要章节 */}
+        <Box style={{
+            height: 540,
+            flexDirection: 'column',
+            justifyContent: 'center',
+            gap: 32,
+            paddingTop: 20,
+            paddingBottom: 20,
+        }}>
+            {/* Part 1 */}
+            <Box style={{
+                flexDirection: 'row',
+                background: 'linear-gradient(135deg, #EFF6FF 0%, #FFFFFF 100%)',
+                borderRadius: 16,
+                padding: '32px 40px',
+                alignItems: 'center',
+                gap: 36,
+                border: '1px solid #DBEAFE',
+                boxShadow: '0 4px 20px rgba(30,64,175,0.06)',
+            }}>
+                {/* 左侧大编号 */}
+                <Box style={{
+                    width: 110,
+                    height: 110,
+                    borderRadius: '50%',
+                    background: 'linear-gradient(135deg, #1E40AF 0%, #3B82F6 100%)',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    flexShrink: 0,
+                }}>
+                    <Text style={{ fontSize: 56, fontWeight: 'bold', color: '#FFFFFF', lineHeight: 1 }}>
+                        01
+                    </Text>
+                </Box>
+                {/* 右侧文字 */}
+                <Box style={{ flex: 1, flexDirection: 'column', gap: 10 }}>
+                    <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#0F172A' }}>
+                        个人整体情况介绍
+                    </Text>
+                    <Text style={{ fontSize: 16, color: '#64748B', lineHeight: 1.6 }}>
+                        个人简介 · 教育背景 · 实习经历 · 研究方向 · 成果总览 · 荣誉与学术服务
+                    </Text>
+                    <Box style={{ flexDirection: 'row', gap: 8, marginTop: 4 }}>
+                        <Box style={{
+                            background: '#1E40AF',
+                            borderRadius: 4,
+                            padding: '4px 10px',
+                        }}>
+                            <Text style={{ fontSize: 12, color: '#FFFFFF', fontWeight: 600 }}>
+                                本次陈述
+                            </Text>
+                        </Box>
+                        <Box style={{
+                            background: '#F1F5F9',
+                            borderRadius: 4,
+                            padding: '4px 10px',
+                        }}>
+                            <Text style={{ fontSize: 12, color: '#64748B' }}>
+                                约 6-7 分钟
+                            </Text>
+                        </Box>
+                    </Box>
+                </Box>
+            </Box>
+
+            {/* Part 2 */}
+            <Box style={{
+                flexDirection: 'row',
+                background: '#FFFFFF',
+                borderRadius: 16,
+                padding: '32px 40px',
+                alignItems: 'center',
+                gap: 36,
+                border: '1px solid #E2E8F0',
+            }}>
+                <Box style={{
+                    width: 110,
+                    height: 110,
+                    borderRadius: '50%',
+                    background: '#F1F5F9',
+                    border: '2px dashed #CBD5E1',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    flexShrink: 0,
+                }}>
+                    <Text style={{ fontSize: 56, fontWeight: 'bold', color: '#94A3B8', lineHeight: 1 }}>
+                        02
+                    </Text>
+                </Box>
+                <Box style={{ flex: 1, flexDirection: 'column', gap: 10 }}>
+                    <Text style={{ fontSize: 30, fontWeight: 'bold', color: '#0F172A' }}>
+                        论文详解
+                    </Text>
+                    <Text style={{ fontSize: 16, color: '#64748B', lineHeight: 1.6 }}>
+                        MobileForge · MemGUI-Agent · MemGUI-Bench · LearnAct · Phone GUI Survey
+                    </Text>
+                    <Box style={{ flexDirection: 'row', gap: 8, marginTop: 4 }}>
+                        <Box style={{
+                            background: '#FFF7ED',
+                            borderRadius: 4,
+                            padding: '4px 10px',
+                            border: '1px solid #FFEDD5',
+                        }}>
+                            <Text style={{ fontSize: 12, color: '#F97316', fontWeight: 600 }}>
+                                5 篇第一作者论文
+                            </Text>
+                        </Box>
+                        <Box style={{
+                            background: '#F1F5F9',
+                            borderRadius: 4,
+                            padding: '4px 10px',
+                        }}>
+                            <Text style={{ fontSize: 12, color: '#64748B' }}>
+                                按需展开
+                            </Text>
+                        </Box>
+                    </Box>
+                </Box>
+            </Box>
+        </Box>
+
+        {/* C 区：页脚 */}
+        <Box style={{
+            height: 60,
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+            borderTop: '1px solid #E2E8F0',
+        }}>
+            <Text style={{ fontSize: 14, color: '#94A3B8' }}>
+                Guangyi Liu · ZJU · 面试陈述
+            </Text>
+            <Text style={{ fontSize: 14, color: '#94A3B8' }}>
+                02 / 15
+            </Text>
+        </Box>
+    </Box>
+</Slide>

@@ -1,0 +1,159 @@
+<Slide>
+    <Box style={{
+        width: '100%',
+        height: '100%',
+        background: '#FFFFFF',
+        position: 'relative',
+        padding: 0,
+    }}>
+        {/* 顶部藏蓝条 */}
+        <Box style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            right: 0,
+            height: 8,
+            background: '#0E3F8C',
+        }} />
+
+        {/* 上部：校徽 + 学校信息 */}
+        <Box style={{
+            position: 'absolute',
+            top: 48,
+            left: 0,
+            right: 0,
+            flexDirection: 'row',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: 16,
+        }}>
+            <Box style={{
+                width: 64,
+                height: 64,
+                background: '#FFFFFF',
+                borderRadius: 8,
+                padding: 6,
+                border: '1px solid #D6DCE5',
+                alignItems: 'center',
+                justifyContent: 'center',
+            }}>
+                <Image src="assets/zju-logo.png" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+            </Box>
+            <Box style={{ flexDirection: 'column', gap: 2 }}>
+                <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#0E3F8C', letterSpacing: 2 }}>
+                    浙江大学
+                </Text>
+                <Text style={{ fontSize: 12, color: '#4A5568', letterSpacing: 1 }}>
+                    ZHEJIANG UNIVERSITY · APRIL LAB
+                </Text>
+            </Box>
+        </Box>
+
+        {/* 中部：主标题区 */}
+        <Box style={{
+            position: 'absolute',
+            top: 180,
+            left: 0,
+            right: 0,
+            flexDirection: 'column',
+            alignItems: 'center',
+            gap: 20,
+            padding: '0 100px',
+        }}>
+            {/* 英文长标题（Serif） */}
+            <Text style={{
+                fontSize: 30,
+                color: '#4A5568',
+                textAlign: 'center',
+                lineHeight: 1.4,
+                letterSpacing: 0.5,
+                fontFamily: "'Times New Roman', Georgia, serif",
+            }}>
+                Universal Digital Agents: From Benchmarks to Production
+            </Text>
+
+            {/* 中文主标 */}
+            <Text style={{
+                fontSize: 68,
+                fontWeight: 'bold',
+                color: '#0E3F8C',
+                textAlign: 'center',
+                lineHeight: 1.15,
+                letterSpacing: 4,
+            }}>
+                通用数字智能体研究
+            </Text>
+
+            {/* 副标 */}
+            <Text style={{
+                fontSize: 22,
+                color: '#1E4FA8',
+                textAlign: 'center',
+                lineHeight: 1.5,
+                letterSpacing: 2,
+            }}>
+                从基准、方法到工程落地
+            </Text>
+
+            {/* 分隔线 */}
+            <Box style={{
+                width: 80,
+                height: 3,
+                background: '#0E3F8C',
+                marginTop: 8,
+            }} />
+        </Box>
+
+        {/* 下部：汇报人信息卡 */}
+        <Box style={{
+            position: 'absolute',
+            bottom: 110,
+            left: 0,
+            right: 0,
+            flexDirection: 'row',
+            justifyContent: 'center',
+        }}>
+            <Box style={{
+                background: '#F0F5FC',
+                borderRadius: 8,
+                padding: '20px 48px',
+                border: '1px solid #D6DCE5',
+                flexDirection: 'column',
+                alignItems: 'center',
+                gap: 8,
+            }}>
+                <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#0E3F8C' }}>
+                    汇报人：刘广义（Guangyi Liu）
+                </Text>
+                <Text style={{ fontSize: 14, color: '#4A5568' }}>
+                    控制科学与工程学院 · 博士研究生
+                </Text>
+                <Text style={{ fontSize: 13, color: '#8B97A8' }}>
+                    导师：刘勇 教授 · 张靖宁 教授 · 刘亮 博士
+                </Text>
+            </Box>
+        </Box>
+
+        {/* 底部信息条 */}
+        <Box style={{
+            position: 'absolute',
+            bottom: 0,
+            left: 0,
+            right: 0,
+            height: 56,
+            background: '#F7F9FC',
+            borderTop: '1px solid #D6DCE5',
+            flexDirection: 'row',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            padding: '0 40px',
+        }}>
+            <Text style={{ fontSize: 13, color: '#4A5568' }}>
+                互联网大厂人才计划 · 实习面试陈述
+            </Text>
+            <Text style={{ fontSize: 13, color: '#4A5568' }}>
+                2026 年 8 月 · 杭州
+            </Text>
+        </Box>
+    </Box>
+</Slide>

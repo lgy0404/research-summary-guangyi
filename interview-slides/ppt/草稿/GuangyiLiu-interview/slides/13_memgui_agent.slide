@@ -1,0 +1,240 @@
+<Slide>
+    <Box style={{
+        width: '100%',
+        height: '100%',
+        background: '#FFFFFF',
+        padding: '0 70px',
+        position: 'relative',
+    }}>
+        {/* A 区：标题块 */}
+        <Box style={{
+            height: 110,
+            flexDirection: 'column',
+            justifyContent: 'center',
+            borderBottom: '2px solid #E2E8F0',
+            gap: 6,
+        }}>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+                <Box style={{
+                    background: '#DBEAFE',
+                    borderRadius: 4,
+                    padding: '3px 10px',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#1E40AF', fontWeight: 600 }}>PAPER 04 · Agent</Text>
+                </Box>
+                <Box style={{
+                    background: '#1E40AF',
+                    borderRadius: 4,
+                    padding: '3px 10px',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#FFFFFF', fontWeight: 600 }}>Preprint 2026</Text>
+                </Box>
+                <Box style={{
+                    background: '#FFF7ED',
+                    borderRadius: 4,
+                    padding: '3px 10px',
+                    border: '1px solid #FFEDD5',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#F97316', fontWeight: 600 }}>88★ · 量子位</Text>
+                </Box>
+            </Box>
+            <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.3 }}>
+                MemGUI-Agent: End-to-End Long-Horizon GUI Agent
+            </Text>
+        </Box>
+
+        {/* B 区：上双栏 + 下三栏 */}
+        <Box style={{
+            height: 550,
+            flexDirection: 'column',
+            paddingTop: 18,
+            paddingBottom: 16,
+            gap: 12,
+        }}>
+            {/* 上部：左文字 + 右图 */}
+            <Box style={{
+                flex: 1.3,
+                flexDirection: 'row',
+                gap: 20,
+            }}>
+                {/* 左：痛点 + 方法 */}
+                <Box style={{
+                    flex: 1,
+                    flexDirection: 'column',
+                    gap: 10,
+                }}>
+                    <Box style={{
+                        background: '#FEF2F2',
+                        borderRadius: 10,
+                        padding: '10px 14px',
+                        border: '1px solid #FECACA',
+                    }}>
+                        <Text style={{ fontSize: 11, color: '#991B1B', fontWeight: 600, marginBottom: 4 }}>
+                            痛点 · ReAct 的上下文爆炸
+                        </Text>
+                        <Text style={{ fontSize: 12, color: '#0F172A', lineHeight: 1.55 }}>
+                            ReAct 式被动累积历史 → prompt 爆炸 + 跨 app 关键信息丢失：GUI-Owl-1.5-8B 在短任务 71.6%（8.4 步）→ 长任务 <span style={{ fontWeight: 'bold' }}>11.7%</span>（36.2 步）
+                        </Text>
+                    </Box>
+
+                    <Box style={{
+                        background: '#F8FAFC',
+                        borderRadius: 10,
+                        padding: '10px 14px',
+                        border: '1px solid #E2E8F0',
+                        flex: 1,
+                    }}>
+                        <Text style={{ fontSize: 11, color: '#1E40AF', fontWeight: 600, marginBottom: 6 }}>
+                            方法 · ConAct（Context-as-Action）三大组件
+                        </Text>
+                        <Box style={{ flexDirection: 'column', gap: 5 }}>
+                            <Text style={{ fontSize: 11, color: '#0F172A', lineHeight: 1.5 }}>
+                                <span style={{ fontWeight: 'bold', color: '#1E40AF' }}>History Folding ♣</span> · φ=([s,t], z)：step-level distillation（压缩单步）+ span-level abstraction（折叠子任务为可复用记录），由策略模型自主发出
+                            </Text>
+                            <Text style={{ fontSize: 11, color: '#0F172A', lineHeight: 1.5 }}>
+                                <span style={{ fontWeight: 'bold', color: '#1E40AF' }}>UI Memory Actions ♠</span> · 动作空间扩展 A∪{'{memory_add/update/delete}'}，存<span style={{ fontWeight: 'bold' }}>完整内容</span>而非引用，保证跨 app 长延迟精确恢复
+                            </Text>
+                            <Text style={{ fontSize: 11, color: '#0F172A', lineHeight: 1.5 }}>
+                                <span style={{ fontWeight: 'bold', color: '#1E40AF' }}>Self-Describing Step ♦</span> · &lt;ui_observation&gt;（精确可见文本）+&lt;action_intent&gt;，为 folding 与 memory 提供 grounded 素材
+                            </Text>
+                        </Box>
+                    </Box>
+                </Box>
+
+                {/* 右：主图 */}
+                <Box style={{
+                    flex: 1.1,
+                    flexDirection: 'column',
+                    gap: 8,
+                }}>
+                    <Box style={{
+                        flex: 1,
+                        background: '#F8FAFC',
+                        borderRadius: 12,
+                        border: '1px solid #E2E8F0',
+                        overflow: 'hidden',
+                        padding: 10,
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                    }}>
+                        <Image
+                            src="assets/memgui-agent-teaser.png"
+                            style={{
+                                width: '100%',
+                                height: '100%',
+                                objectFit: 'contain',
+                            }}
+                        />
+                    </Box>
+                    <Box style={{
+                        background: '#FFF7ED',
+                        borderRadius: 8,
+                        padding: '8px 12px',
+                        border: '1px solid #FFEDD5',
+                    }}>
+                        <Text style={{ fontSize: 11, color: '#9A3412', lineHeight: 1.5, textAlign: 'center' }}>
+                            5 段结构化输出：thinking + folding + tool_call + ui_observation + action_intent
+                        </Text>
+                    </Box>
+                </Box>
+            </Box>
+
+            {/* 下部：三栏横条 */}
+            <Box style={{
+                flex: 1,
+                flexDirection: 'row',
+                gap: 12,
+            }}>
+                {/* 关键对比 */}
+                <Box style={{
+                    flex: 1,
+                    background: '#FFF7ED',
+                    borderRadius: 10,
+                    padding: '12px 14px',
+                    border: '1px solid #FFEDD5',
+                    flexDirection: 'column',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#9A3412', fontWeight: 600, marginBottom: 6 }}>
+                        主结果（zero-shot 235B）
+                    </Text>
+                    <Box style={{ flexDirection: 'column', gap: 4, flex: 1 }}>
+                        <Text style={{ fontSize: 11, color: '#0F172A', lineHeight: 1.5 }}>
+                            · MemGUI-Bench <span style={{ fontWeight: 'bold', color: '#F97316' }}>37.5% / 62.5%</span>（P@1 / P@3），超 M3A+Gemini-2.5-Pro 32.8%/47.7%
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#0F172A', lineHeight: 1.5 }}>
+                            · 同基座对比：+13.3 P@1 · +16.8 IRR
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#0F172A', lineHeight: 1.5 }}>
+                            · MobileWorld <span style={{ fontWeight: 'bold', color: '#F97316' }}>29.1%</span> SR（+14.6 vs 同基座）
+                        </Text>
+                    </Box>
+                </Box>
+
+                {/* 消融 */}
+                <Box style={{
+                    flex: 1,
+                    background: '#F8FAFC',
+                    borderRadius: 10,
+                    padding: '12px 14px',
+                    border: '1px solid #E2E8F0',
+                    flexDirection: 'column',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#1E40AF', fontWeight: 600, marginBottom: 6 }}>
+                        消融（MemGUI-Bench-40）
+                    </Text>
+                    <Box style={{ flexDirection: 'column', gap: 4, flex: 1 }}>
+                        <Text style={{ fontSize: 11, color: '#0F172A', lineHeight: 1.5 }}>
+                            · 仅 memory：5.0→17.5%（3.5×）；仅 folding：22.5%/32.5%（P@3 低，压缩丢失关键事实）；仅 self-desc：25.0%
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#0F172A', lineHeight: 1.5 }}>
+                            · 完整 ConAct <span style={{ fontWeight: 'bold', color: '#F97316' }}>40.0%/62.5%</span>，远超单组件（三者互补）
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#0F172A', lineHeight: 1.5 }}>
+                            · 错误 -41%：process hallucination -42% · output hallucination -57%
+                        </Text>
+                    </Box>
+                </Box>
+
+                {/* 贡献 */}
+                <Box style={{
+                    flex: 1,
+                    background: 'linear-gradient(135deg, #1E40AF 0%, #3B82F6 100%)',
+                    borderRadius: 10,
+                    padding: '12px 14px',
+                    flexDirection: 'column',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#BFDBFE', fontWeight: 600, marginBottom: 6 }}>
+                        核心贡献
+                    </Text>
+                    <Box style={{ flexDirection: 'column', gap: 4, flex: 1 }}>
+                        <Text style={{ fontSize: 11, color: '#FFFFFF', lineHeight: 1.5 }}>
+                            ConAct 把上下文管理提升为策略级行为
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#FFFFFF', lineHeight: 1.5 }}>
+                            单次前向联合决策「动作+折叠+记忆」
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#FFFFFF', lineHeight: 1.5 }}>
+                            MemGUI-3K（2,956 轨迹）训练出最强 open-data 8B
+                        </Text>
+                    </Box>
+                </Box>
+            </Box>
+        </Box>
+
+        {/* C 区：页脚 */}
+        <Box style={{
+            height: 60,
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+            borderTop: '1px solid #E2E8F0',
+        }}>
+            <Text style={{ fontSize: 14, color: '#94A3B8' }}>
+                Guangyi Liu · ZJU · 面试陈述
+            </Text>
+            <Text style={{ fontSize: 14, color: '#94A3B8' }}>
+                13 / 15
+            </Text>
+        </Box>
+    </Box>
+</Slide>

@@ -1,0 +1,263 @@
+<Slide>
+    <Box style={{
+        width: '100%',
+        height: '100%',
+        background: '#FFFFFF',
+        position: 'relative',
+        padding: 0,
+    }}>
+        {/* A 区：页眉 */}
+        <Box style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            right: 0,
+            height: 80,
+            background: '#0E3F8C',
+            flexDirection: 'row',
+            alignItems: 'center',
+            padding: '0 40px',
+            gap: 14,
+        }}>
+            <Box style={{
+                width: 6,
+                height: 28,
+                background: '#FFFFFF',
+            }} />
+            <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#FFFFFF', letterSpacing: 1 }}>
+                Phone GUI Survey · 综述
+            </Text>
+            <Box style={{
+                background: '#FFC107',
+                borderRadius: 4,
+                padding: '3px 8px',
+                marginTop: 4,
+            }}>
+                <Text style={{ fontSize: 11, color: '#0E3F8C', fontWeight: 600 }}>TMLR 2025</Text>
+            </Box>
+        </Box>
+
+        {/* C 区 */}
+        <Box style={{
+            position: 'absolute',
+            top: 80,
+            left: 0,
+            right: 0,
+            height: 544,
+            padding: '20px 40px',
+            flexDirection: 'column',
+            gap: 12,
+        }}>
+            {/* 上部：左文字右图 */}
+            <Box style={{
+                flex: 1.25,
+                flexDirection: 'row',
+                gap: 18,
+            }}>
+                {/* 左：痛点 + 方法 */}
+                <Box style={{
+                    flex: 1,
+                    flexDirection: 'column',
+                    gap: 10,
+                }}>
+                    <Box style={{
+                        background: '#F7F9FC',
+                        borderRadius: 6,
+                        padding: '12px 14px',
+                        border: '1px solid #D6DCE5',
+                        borderLeft: '3px solid #D9534F',
+                    }}>
+                        <Text style={{ fontSize: 11, color: '#D9534F', fontWeight: 600, marginBottom: 4 }}>
+                            研究动机
+                        </Text>
+                        <Text style={{ fontSize: 12, color: '#1A2230', lineHeight: 1.55 }}>
+                            手机自动化长期依赖脚本，存在<span style={{ fontWeight: 'bold' }}>泛化差、维护贵、意图理解弱</span>三大痛点；LLM 时代缺乏聚焦"手机端"的系统综述。
+                        </Text>
+                    </Box>
+
+                    <Box style={{
+                        background: '#F7F9FC',
+                        borderRadius: 6,
+                        padding: '12px 14px',
+                        border: '1px solid #D6DCE5',
+                        flex: 1,
+                    }}>
+                        <Text style={{ fontSize: 11, color: '#0E3F8C', fontWeight: 600, marginBottom: 6 }}>
+                            Perception–Brain–Action 统一框架
+                        </Text>
+                        <Box style={{ flexDirection: 'column', gap: 5 }}>
+                            <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                                <span style={{ fontWeight: 'bold', color: '#1E4FA8' }}>Perception</span> · UI tree（DroidBot-GPT 自然语言 / AutoDroid HTML）vs Screenshot（SoM + Icon/OCR）
+                            </Text>
+                            <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                                <span style={{ fontWeight: 'bold', color: '#1E4FA8' }}>Brain</span> · Memory（历史焦点）+ Knowledge（UTG / RAG）· Planning / Reasoning / Reflection
+                            </Text>
+                            <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                                <span style={{ fontWeight: 'bold', color: '#1E4FA8' }}>Action</span> · Touch 交互（click/type/back）+ Atomic Skills（Tools / APIs）
+                            </Text>
+                            <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                                <span style={{ fontWeight: 'bold', color: '#1E4FA8' }}>高级架构</span> · Multi-Agent（角色协作 vs 场景分工）· Plan-Then-Act（显式分离规划与执行）
+                            </Text>
+                        </Box>
+                    </Box>
+                </Box>
+
+                {/* 右：主图 */}
+                <Box style={{
+                    flex: 1.1,
+                    flexDirection: 'column',
+                    gap: 8,
+                }}>
+                    <Box style={{
+                        flex: 1,
+                        background: '#F7F9FC',
+                        borderRadius: 8,
+                        border: '1px solid #D6DCE5',
+                        overflow: 'hidden',
+                        padding: 10,
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                    }}>
+                        <Image
+                            src="assets/survey-framework.png"
+                            style={{
+                                width: '100%',
+                                height: '100%',
+                                objectFit: 'contain',
+                            }}
+                        />
+                    </Box>
+                    <Box style={{
+                        background: '#E8EFF8',
+                        borderRadius: 6,
+                        padding: '8px 12px',
+                        border: '1px solid #D6DCE5',
+                    }}>
+                        <Text style={{ fontSize: 11, color: '#0E3F8C', lineHeight: 1.5, textAlign: 'center' }}>
+                            统一框架：感知 → 大脑 → 行动，覆盖 31 个数据集 / Benchmark
+                        </Text>
+                    </Box>
+                </Box>
+            </Box>
+
+            {/* 下部：三栏 */}
+            <Box style={{
+                flex: 1,
+                flexDirection: 'row',
+                gap: 10,
+            }}>
+                <Box style={{
+                    flex: 1,
+                    background: '#E8EFF8',
+                    borderRadius: 6,
+                    padding: '12px 14px',
+                    border: '1px solid #D6DCE5',
+                    flexDirection: 'column',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#0E3F8C', fontWeight: 600, marginBottom: 6 }}>
+                        跨范式性能对比（§5.3）
+                    </Text>
+                    <Box style={{ flexDirection: 'column', gap: 4, flex: 1 }}>
+                        <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                            · AndroidWorld 在线：Mobile-Agent-v3 <span style={{ fontWeight: 'bold', color: '#1E4FA8' }}>73.3%</span> &gt; GUI-Owl-7B 66.4% &gt; GPT-4o 34.5%
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                            · AndroidControl(High)：MagicGUI-RFT <span style={{ fontWeight: 'bold', color: '#1E4FA8' }}>93.5%</span>（RL &gt;&gt; SFT）
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                            · ScreenSpot：UI-R1-3B <span style={{ fontWeight: 'bold', color: '#1E4FA8' }}>90.2%</span> vs GPT-4o 22.6%
+                        </Text>
+                    </Box>
+                </Box>
+
+                <Box style={{
+                    flex: 1,
+                    background: '#F7F9FC',
+                    borderRadius: 6,
+                    padding: '12px 14px',
+                    border: '1px solid #D6DCE5',
+                    flexDirection: 'column',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#0E3F8C', fontWeight: 600, marginBottom: 6 }}>
+                        关键洞察
+                    </Text>
+                    <Box style={{ flexDirection: 'column', gap: 4, flex: 1 }}>
+                        <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                            · <span style={{ fontWeight: 'bold' }}>在线-离线鸿沟</span>：UI-TARS 离线 &gt;90% → 在线仅 46.6%
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                            · <span style={{ fontWeight: 'bold' }}>RL &gt; SFT</span>：单步任务 RL 领先，但长程在线 RL 不及 prompt-based 框架
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                            · <span style={{ fontWeight: 'bold' }}>三大开放挑战</span>：端侧部署 · 用户个性化 · 安全
+                        </Text>
+                    </Box>
+                </Box>
+
+                <Box style={{
+                    flex: 1,
+                    background: '#0E3F8C',
+                    borderRadius: 6,
+                    padding: '12px 14px',
+                    flexDirection: 'column',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#B8CCE4', fontWeight: 600, marginBottom: 6 }}>
+                        核心贡献
+                    </Text>
+                    <Box style={{ flexDirection: 'column', gap: 4, flex: 1 }}>
+                        <Text style={{ fontSize: 11, color: '#FFFFFF', lineHeight: 1.5 }}>
+                            首个聚焦<span style={{ fontWeight: 'bold' }}>手机端</span> LLM GUI agent 系统综述
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#FFFFFF', lineHeight: 1.5 }}>
+                            建立 Perception–Brain–Action 统一分析框架
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#FFFFFF', lineHeight: 1.5 }}>
+                            跨范式统一口径性能对比表
+                        </Text>
+                    </Box>
+                </Box>
+            </Box>
+        </Box>
+
+                {/* 引用脚注 */}
+        <Box style={{
+            position: 'absolute',
+            top: 624,
+            left: 0,
+            right: 0,
+            height: 36,
+            flexDirection: 'row',
+            alignItems: 'center',
+            justifyContent: 'center',
+            borderTop: '1px solid #E5E7EB',
+            padding: '0 40px',
+        }}>
+            <Text style={{ fontSize: 11, color: '#4A5568', fontStyle: 'italic', fontFamily: "'Times New Roman', Georgia, serif", textAlign: 'center', lineHeight: 1.4 }}>
+                Liu, G., et al. LLM-Powered GUI Agents in Phone Automation: Surveying Progress and Prospects. TMLR, 2025.
+            </Text>
+        </Box>
+
+
+        {/* D 区：页脚 */}
+        <Box style={{
+            position: 'absolute',
+            bottom: 0,
+            left: 0,
+            right: 0,
+            height: 60,
+            background: '#F7F9FC',
+            borderTop: '1px solid #D6DCE5',
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+            padding: '0 40px',
+        }}>
+            <Text style={{ fontSize: 13, color: '#8B97A8' }}>
+                浙江大学 · 控制科学与工程学院
+            </Text>
+            <Text style={{ fontSize: 14, color: '#0E3F8C', fontWeight: 600 }}>
+                11 / 16
+            </Text>
+        </Box>
+    </Box>
+</Slide>

@@ -1,0 +1,252 @@
+<Slide>
+    <Box style={{
+        width: '100%',
+        height: '100%',
+        background: '#FFFFFF',
+        position: 'relative',
+        padding: 0,
+    }}>
+        <Box style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            right: 0,
+            height: 80,
+            background: '#0E3F8C',
+            flexDirection: 'row',
+            alignItems: 'center',
+            padding: '0 40px',
+            gap: 14,
+        }}>
+            <Box style={{
+                width: 6,
+                height: 28,
+                background: '#FFFFFF',
+            }} />
+            <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#FFFFFF', letterSpacing: 1 }}>
+                MobileForge · Annotation-Free Adaptation
+            </Text>
+            <Box style={{
+                background: '#FFC107',
+                borderRadius: 4,
+                padding: '3px 8px',
+                marginTop: 4,
+            }}>
+                <Text style={{ fontSize: 11, color: '#0E3F8C', fontWeight: 600 }}>Preprint 2026 · Latest</Text>
+            </Box>
+        </Box>
+
+        <Box style={{
+            position: 'absolute',
+            top: 80,
+            left: 0,
+            right: 0,
+            height: 544,
+            padding: '20px 40px',
+            flexDirection: 'column',
+            gap: 12,
+        }}>
+            <Box style={{
+                flex: 1.25,
+                flexDirection: 'row',
+                gap: 18,
+            }}>
+                <Box style={{
+                    flex: 1,
+                    flexDirection: 'column',
+                    gap: 10,
+                }}>
+                    <Box style={{
+                        background: '#F7F9FC',
+                        borderRadius: 6,
+                        padding: '12px 14px',
+                        border: '1px solid #D6DCE5',
+                        borderLeft: '3px solid #D9534F',
+                    }}>
+                        <Text style={{ fontSize: 11, color: '#D9534F', fontWeight: 600, marginBottom: 4 }}>
+                            MOTIVATION
+                        </Text>
+                        <Text style={{ fontSize: 12, color: '#1A2230', lineHeight: 1.55 }}>
+                            Target-app adaptation depends on manual task/demo/reward annotation — <span style={{ fontWeight: 'bold' }}>costly, quickly outdated</span>; existing annotation-free methods lack unified substrate and suffer from sparse rollout rewards.
+                        </Text>
+                    </Box>
+
+                    <Box style={{
+                        background: '#F7F9FC',
+                        borderRadius: 6,
+                        padding: '12px 14px',
+                        border: '1px solid #D6DCE5',
+                        flex: 1,
+                    }}>
+                        <Text style={{ fontSize: 11, color: '#0E3F8C', fontWeight: 600, marginBottom: 6 }}>
+                            MobileGym + HiFPO Closed Loop
+                        </Text>
+                        <Box style={{ flexDirection: 'column', gap: 5 }}>
+                            <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                                <span style={{ fontWeight: 'bold', color: '#1E4FA8' }}>MobileGym</span> · function-aware exploration (app anchor + screenshot-guided DFS) → Curriculum turns evidence pool Z into executable tasks x=(ι,B,c,v,p)
+                            </Text>
+                            <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                                <span style={{ fontWeight: 'bold', color: '#1E4FA8' }}>Hierarchical Critic</span> · returns F=(z, {'{ℓ}'}, h): task label z + per-step reasonable label ℓ + corrective hint h
+                            </Text>
+                            <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                                <span style={{ fontWeight: 'bold', color: '#1E4FA8' }}>HiFPO 3-stage</span> · ① Hint-guided multi-attempt rollout ② pick highest-Q attempt, keep only χ=1 steps ③ Hint-contextualized step-level GRPO (R=0.2·type + 0.8·param)
+                            </Text>
+                        </Box>
+                    </Box>
+                </Box>
+
+                <Box style={{
+                    flex: 1.1,
+                    flexDirection: 'column',
+                    gap: 8,
+                }}>
+                    <Box style={{
+                        flex: 1,
+                        background: '#F7F9FC',
+                        borderRadius: 8,
+                        border: '1px solid #D6DCE5',
+                        overflow: 'hidden',
+                        padding: 10,
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                    }}>
+                        <Image
+                            src="assets/mobileforge-main-performance.png"
+                            style={{
+                                width: '100%',
+                                height: '100%',
+                                objectFit: 'contain',
+                            }}
+                        />
+                    </Box>
+                    <Box style={{
+                        background: '#E8EFF8',
+                        borderRadius: 6,
+                        padding: '8px 12px',
+                        border: '1px solid #D6DCE5',
+                    }}>
+                        <Text style={{ fontSize: 11, color: '#0E3F8C', lineHeight: 1.5, textAlign: 'center' }}>
+                            Explore → generate tasks → self-evaluate rollout → hint-conditioned GRPO closed loop
+                        </Text>
+                    </Box>
+                </Box>
+            </Box>
+
+            <Box style={{
+                flex: 1,
+                flexDirection: 'row',
+                gap: 10,
+            }}>
+                <Box style={{
+                    flex: 1,
+                    background: '#E8EFF8',
+                    borderRadius: 6,
+                    padding: '12px 14px',
+                    border: '1px solid #D6DCE5',
+                    flexDirection: 'column',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#0E3F8C', fontWeight: 600, marginBottom: 6 }}>
+                        Main Results (900 generated tasks)
+                    </Text>
+                    <Box style={{ flexDirection: 'column', gap: 4, flex: 1 }}>
+                        <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                            · ForgeOwl-8B AndroidWorld <span style={{ fontWeight: 'bold', color: '#1E4FA8' }}>67.2% P@1 / 77.6% P@3</span>
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                            · ForgeQwen3-8B 67.2% P@3, near GUI-Owl-1.5-8B base 69.0%
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                            · MobileWorld GUI-only (OOD) <span style={{ fontWeight: 'bold', color: '#1E4FA8' }}>41.0% SR</span>, beats all open-data peers
+                        </Text>
+                    </Box>
+                </Box>
+
+                <Box style={{
+                    flex: 1,
+                    background: '#F7F9FC',
+                    borderRadius: 6,
+                    padding: '12px 14px',
+                    border: '1px solid #D6DCE5',
+                    flexDirection: 'column',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#0E3F8C', fontWeight: 600, marginBottom: 6 }}>
+                        Ablation Findings
+                    </Text>
+                    <Box style={{ flexDirection: 'column', gap: 4, flex: 1 }}>
+                        <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                            · Corrective hints: rollout SR 52.0%→<span style={{ fontWeight: 'bold', color: '#1E4FA8' }}>77.0%</span>, P@3 49.0%→72.5%
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                            · Counter-intuitive: drop only fully-mastered tasks (keep [0, 0.9] hardest band), not failed ones
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                            · Fully open-source Qwen critic (no Gemini) still lifts 40.5%→<span style={{ fontWeight: 'bold', color: '#1E4FA8' }}>44.8%</span> P@1
+                        </Text>
+                    </Box>
+                </Box>
+
+                <Box style={{
+                    flex: 1,
+                    background: '#0E3F8C',
+                    borderRadius: 6,
+                    padding: '12px 14px',
+                    flexDirection: 'column',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#B8CCE4', fontWeight: 600, marginBottom: 6 }}>
+                        KEY CONTRIBUTIONS · IMPACT
+                    </Text>
+                    <Box style={{ flexDirection: 'column', gap: 4, flex: 1 }}>
+                        <Text style={{ fontSize: 11, color: '#FFFFFF', lineHeight: 1.5 }}>
+                            First fully annotation-free target-app adaptation loop
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#FFFFFF', lineHeight: 1.5 }}>
+                            HiFPO uses hierarchical feedback for task filter / step select / training conditioning
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#FFFFFF', lineHeight: 1.5 }}>
+                            Deployed in Kuaishou app defect detection
+                        </Text>
+                    </Box>
+                </Box>
+            </Box>
+        </Box>
+
+        {/* 引用脚注 */}
+        <Box style={{
+            position: 'absolute',
+            top: 624,
+            left: 0,
+            right: 0,
+            height: 36,
+            flexDirection: 'row',
+            alignItems: 'center',
+            justifyContent: 'center',
+            borderTop: '1px solid #E5E7EB',
+            padding: '0 40px',
+        }}>
+            <Text style={{ fontSize: 11, color: '#4A5568', fontStyle: 'italic', fontFamily: "'Times New Roman', Georgia, serif", textAlign: 'center', lineHeight: 1.4 }}>
+                G. Liu, et al. MobileForge: Annotation-Free Adaptation for Mobile GUI Agents with Hierarchical Feedback-Guided Policy Optimization. arXiv preprint, 2026.
+            </Text>
+        </Box>
+
+        <Box style={{
+            position: 'absolute',
+            bottom: 0,
+            left: 0,
+            right: 0,
+            height: 60,
+            background: '#F7F9FC',
+            borderTop: '1px solid #D6DCE5',
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+            padding: '0 40px',
+        }}>
+            <Text style={{ fontSize: 13, color: '#8B97A8' }}>
+                Zhejiang University · Control Science & Engineering
+            </Text>
+            <Text style={{ fontSize: 14, color: '#0E3F8C', fontWeight: 600 }}>
+                15 / 16
+            </Text>
+        </Box>
+    </Box>
+</Slide>

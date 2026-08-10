@@ -1,0 +1,256 @@
+<Slide>
+    <Box style={{
+        width: '100%',
+        height: '100%',
+        background: '#FFFFFF',
+        padding: '0 70px',
+        position: 'relative',
+    }}>
+        {/* A 区：标题块 */}
+        <Box style={{
+            height: 120,
+            flexDirection: 'row',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            borderBottom: '2px solid #E2E8F0',
+        }}>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16 }}>
+                <Box style={{
+                    width: 6,
+                    height: 32,
+                    background: '#F97316',
+                }} />
+                <Text style={{ fontSize: 36, fontWeight: 'bold', color: '#0F172A' }}>
+                    个人简介
+                </Text>
+                <Text style={{ fontSize: 16, color: '#64748B', letterSpacing: 3, marginTop: 8 }}>
+                    ABOUT ME
+                </Text>
+            </Box>
+            <Text style={{ fontSize: 14, color: '#94A3B8' }}>
+                研究愿景 · 关键事实
+            </Text>
+        </Box>
+
+        {/* B 区：左照片 + 右信息 */}
+        <Box style={{
+            height: 540,
+            flexDirection: 'row',
+            gap: 40,
+            paddingTop: 32,
+            paddingBottom: 24,
+        }}>
+            {/* 左：照片 + 关键身份 */}
+            <Box style={{
+                width: 320,
+                flexDirection: 'column',
+                gap: 16,
+                flexShrink: 0,
+            }}>
+                <Box style={{
+                    width: 320,
+                    height: 380,
+                    borderRadius: 16,
+                    overflow: 'hidden',
+                    boxShadow: '0 12px 32px rgba(30,64,175,0.15)',
+                    border: '1px solid #E2E8F0',
+                }}>
+                    <Image
+                        src="assets/profile.jpeg"
+                        style={{
+                            width: '100%',
+                            height: '100%',
+                            objectFit: 'cover',
+                        }}
+                    />
+                </Box>
+                {/* 身份标签 */}
+                <Box style={{
+                    background: 'linear-gradient(135deg, #1E40AF 0%, #3B82F6 100%)',
+                    borderRadius: 12,
+                    padding: '14px 18px',
+                    alignItems: 'center',
+                }}>
+                    <Text style={{ fontSize: 18, fontWeight: 'bold', color: '#FFFFFF' }}>
+                        刘广义 · Guangyi Liu
+                    </Text>
+                    <Text style={{ fontSize: 13, color: '#BFDBFE', marginTop: 4 }}>
+                        浙江大学博士生 · ZJU APRIL Lab
+                    </Text>
+                </Box>
+            </Box>
+
+            {/* 右：研究愿景 + 关键事实 */}
+            <Box style={{
+                flex: 1,
+                flexDirection: 'column',
+                gap: 18,
+            }}>
+                {/* 研究愿景卡 */}
+                <Box style={{
+                    background: 'linear-gradient(135deg, #EFF6FF 0%, #FFFFFF 100%)',
+                    borderRadius: 14,
+                    padding: '22px 26px',
+                    border: '1px solid #DBEAFE',
+                }}>
+                    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10, marginBottom: 12 }}>
+                        <Box style={{
+                            width: 4,
+                            height: 20,
+                            background: '#F97316',
+                        }} />
+                        <Text style={{ fontSize: 18, fontWeight: 'bold', color: '#1E40AF' }}>
+                            研究愿景
+                        </Text>
+                    </Box>
+                    <Text style={{ fontSize: 16, color: '#0F172A', lineHeight: 1.7 }}>
+                        探索 <span style={{ fontWeight: 'bold', color: '#1E40AF' }}>通用数字智能体（Universal Digital Agents）</span> 的基础能力——能理解数字环境、适应新任务、跨应用 / 跨设备 / 跨软件工作流协助人类的智能系统。
+                    </Text>
+                </Box>
+
+                {/* 关键事实 2x2 */}
+                <Box style={{ flexDirection: 'row', gap: 14 }}>
+                    <Box style={{
+                        flex: 1,
+                        background: '#F8FAFC',
+                        borderRadius: 12,
+                        padding: '16px 18px',
+                        border: '1px solid #E2E8F0',
+                    }}>
+                        <Text style={{ fontSize: 13, color: '#64748B', marginBottom: 6 }}>
+                            所属实验室
+                        </Text>
+                        <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.4 }}>
+                            ZJU APRIL Lab
+                        </Text>
+                        <Text style={{ fontSize: 13, color: '#64748B', marginTop: 4, lineHeight: 1.5 }}>
+                            导师：刘勇 教授 / 张靖宁 教授 / 刘亮 博士
+                        </Text>
+                    </Box>
+                    <Box style={{
+                        flex: 1,
+                        background: '#F8FAFC',
+                        borderRadius: 12,
+                        padding: '16px 18px',
+                        border: '1px solid #E2E8F0',
+                    }}>
+                        <Text style={{ fontSize: 13, color: '#64748B', marginBottom: 6 }}>
+                            研究方向
+                        </Text>
+                        <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.4 }}>
+                            移动 GUI 智能体
+                        </Text>
+                        <Text style={{ fontSize: 13, color: '#64748B', marginTop: 4, lineHeight: 1.5 }}>
+                            Benchmark · Agent · RL · Memory
+                        </Text>
+                    </Box>
+                </Box>
+
+                <Box style={{ flexDirection: 'row', gap: 14 }}>
+                    <Box style={{
+                        flex: 1,
+                        background: '#F8FAFC',
+                        borderRadius: 12,
+                        padding: '16px 18px',
+                        border: '1px solid #E2E8F0',
+                    }}>
+                        <Text style={{ fontSize: 13, color: '#64748B', marginBottom: 6 }}>
+                            学术训练
+                        </Text>
+                        <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.4 }}>
+                            CUMT 第一 → ZJU 硕博
+                        </Text>
+                        <Text style={{ fontSize: 13, color: '#64748B', marginTop: 4, lineHeight: 1.5 }}>
+                            本科 No.1/203 · 国家奖学金
+                        </Text>
+                    </Box>
+                    <Box style={{
+                        flex: 1,
+                        background: '#F8FAFC',
+                        borderRadius: 12,
+                        padding: '16px 18px',
+                        border: '1px solid #E2E8F0',
+                    }}>
+                        <Text style={{ fontSize: 13, color: '#64748B', marginBottom: 6 }}>
+                            工业界经历
+                        </Text>
+                        <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.4 }}>
+                            vivo AI Lab · 快手
+                        </Text>
+                        <Text style={{ fontSize: 13, color: '#64748B', marginTop: 4, lineHeight: 1.5 }}>
+                            两段研究实习 · 真实业务落地
+                        </Text>
+                    </Box>
+                </Box>
+
+                {/* 数据徽章 */}
+                <Box style={{
+                    flexDirection: 'row',
+                    gap: 12,
+                    marginTop: 4,
+                }}>
+                    <Box style={{
+                        flex: 1,
+                        background: '#FFF7ED',
+                        borderRadius: 10,
+                        padding: '12px 14px',
+                        alignItems: 'center',
+                        border: '1px solid #FFEDD5',
+                    }}>
+                        <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#F97316' }}>5</Text>
+                        <Text style={{ fontSize: 12, color: '#64748B', marginTop: 2 }}>一作论文</Text>
+                    </Box>
+                    <Box style={{
+                        flex: 1,
+                        background: '#FFF7ED',
+                        borderRadius: 10,
+                        padding: '12px 14px',
+                        alignItems: 'center',
+                        border: '1px solid #FFEDD5',
+                    }}>
+                        <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#F97316' }}>7</Text>
+                        <Text style={{ fontSize: 12, color: '#64748B', marginTop: 2 }}>合作论文</Text>
+                    </Box>
+                    <Box style={{
+                        flex: 1,
+                        background: '#FFF7ED',
+                        borderRadius: 10,
+                        padding: '12px 14px',
+                        alignItems: 'center',
+                        border: '1px solid #FFEDD5',
+                    }}>
+                        <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#F97316' }}>415</Text>
+                        <Text style={{ fontSize: 12, color: '#64748B', marginTop: 2 }}>总引用</Text>
+                    </Box>
+                    <Box style={{
+                        flex: 1,
+                        background: '#FFF7ED',
+                        borderRadius: 10,
+                        padding: '12px 14px',
+                        alignItems: 'center',
+                        border: '1px solid #FFEDD5',
+                    }}>
+                        <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#F97316' }}>632</Text>
+                        <Text style={{ fontSize: 12, color: '#64748B', marginTop: 2 }}>一作 Stars</Text>
+                    </Box>
+                </Box>
+            </Box>
+        </Box>
+
+        {/* C 区：页脚 */}
+        <Box style={{
+            height: 60,
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+            borderTop: '1px solid #E2E8F0',
+        }}>
+            <Text style={{ fontSize: 14, color: '#94A3B8' }}>
+                Guangyi Liu · ZJU · 面试陈述
+            </Text>
+            <Text style={{ fontSize: 14, color: '#94A3B8' }}>
+                03 / 15
+            </Text>
+        </Box>
+    </Box>
+</Slide>

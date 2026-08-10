@@ -1,0 +1,150 @@
+{
+  "filePath": "/Users/liuguangyi05/WorkBuddy AI/2026-08-09-12-04-22/GuangyiLiu-interview-academic/刘广义-面试陈述-学术版.pptx",
+  "lastCommit": {
+    "01_cover": {
+      "revisionId": "1cfb011a107a3f100227c8d430db002f80203e58",
+      "version": 43,
+      "at": "2026-08-09 15:47:12.713"
+    },
+    "02_toc": {
+      "revisionId": "d0dfab42c4ef09a0dbaccbb575e99a73b468e280",
+      "version": 44,
+      "at": "2026-08-09 15:47:12.849"
+    },
+    "03_bio": {
+      "revisionId": "499b6704356832bb54fe1dcabc58bdb6d1539e74",
+      "version": 3,
+      "at": "2026-08-09 14:46:55.024"
+    },
+    "04_education": {
+      "revisionId": "d33ceb4c60a32839c52ea1f89d68475e68c193cf",
+      "version": 4,
+      "at": "2026-08-09 14:47:35.499"
+    },
+    "05_industry": {
+      "revisionId": "6094dbba7734b74d43041f84273ec555277ab52e",
+      "version": 5,
+      "at": "2026-08-09 14:48:24.619"
+    },
+    "06_research": {
+      "revisionId": "69ef9b3af350c649deeda029e908b6f13f350f4f",
+      "version": 6,
+      "at": "2026-08-09 14:49:13.164"
+    },
+    "07_papers": {
+      "revisionId": "57d488b2ab98d35b7577e49384c0fb2bf5cb8fba",
+      "version": 7,
+      "at": "2026-08-09 14:50:09.441"
+    },
+    "08_honors": {
+      "revisionId": "974b71a2f56ebb7d23ef1248d04b3f66b18ad31a",
+      "version": 8,
+      "at": "2026-08-09 14:50:58.715"
+    },
+    "09_transition": {
+      "revisionId": "cbdd78e05e9c8d8c8ee10640f6fc1c5950a89cf8",
+      "version": 22,
+      "at": "2026-08-09 15:44:50.561"
+    },
+    "10_survey": {
+      "revisionId": "a8cf9fd15baae16d4a9d03e51d37df052ed34310",
+      "version": 17,
+      "at": "2026-08-09 15:41:48.676"
+    },
+    "11_learnact": {
+      "revisionId": "0f2c41e8beffcf2996b748ac2b9dcffea89473c2",
+      "version": 18,
+      "at": "2026-08-09 15:41:48.805"
+    },
+    "12_memgui_bench": {
+      "revisionId": "3091cab774ff87d248fe5d54bb66cf459721e9a7",
+      "version": 19,
+      "at": "2026-08-09 15:41:48.917"
+    },
+    "13_memgui_agent": {
+      "revisionId": "57de84f156a8e02c66b094f7d8af36d21b79789f",
+      "version": 20,
+      "at": "2026-08-09 15:41:49.050"
+    },
+    "14_mobileforge": {
+      "revisionId": "88e610c901adbbf9a9a0cba28040407c9aefb693",
+      "version": 21,
+      "at": "2026-08-09 15:41:49.148"
+    },
+    "15_thanks": {
+      "revisionId": "defff3a1ec1c1cfb9b5566ecbb5201a3f3a2dfbc",
+      "version": 15,
+      "at": "2026-08-09 14:55:27.526"
+    },
+    "03_part01": {
+      "revisionId": "fe2a887065107467fc87842908b4f79fc7226639",
+      "version": 45,
+      "at": "2026-08-09 15:47:12.914"
+    },
+    "04_bio": {
+      "revisionId": "a9429bf236cc655507fcd9a3df8d9ac701bf6bf1",
+      "version": 46,
+      "at": "2026-08-09 15:47:13.043"
+    },
+    "05_education": {
+      "revisionId": "3f6082ffb4004789f424b276c6ecf96046ff42b1",
+      "version": 47,
+      "at": "2026-08-09 15:47:13.150"
+    },
+    "06_industry": {
+      "revisionId": "de915c872c46314614b36bffbfc59ae49847544a",
+      "version": 48,
+      "at": "2026-08-09 15:47:13.274"
+    },
+    "07_research": {
+      "revisionId": "f71d8b4418c4e0b8e3ed28bfa49b9a7d26a0f04b",
+      "version": 49,
+      "at": "2026-08-09 15:47:13.381"
+    },
+    "08_papers": {
+      "revisionId": "43701ebef8faec088ba72c236db362e6f9413ece",
+      "version": 50,
+      "at": "2026-08-09 15:47:13.488"
+    },
+    "09_honors": {
+      "revisionId": "c56aa1b6bf52e3a37c0e4a6791b7615950998473",
+      "version": 51,
+      "at": "2026-08-09 15:47:13.563"
+    },
+    "10_part02": {
+      "revisionId": "eda4bf4e8f09ebb1fefe9e2bfb9e6cf226a1aefa",
+      "version": 52,
+      "at": "2026-08-09 15:47:13.601"
+    },
+    "11_survey": {
+      "revisionId": "0e74e93a17b98d566bd024972f78cadcb645708e",
+      "version": 53,
+      "at": "2026-08-09 15:47:13.750"
+    },
+    "12_learnact": {
+      "revisionId": "0fef43edbb15adb34183a8f93fbd5b68ca6936f8",
+      "version": 54,
+      "at": "2026-08-09 15:47:13.855"
+    },
+    "13_memgui_bench": {
+      "revisionId": "f4ecfc892b26906b47689e0398301dc6c4bfe75c",
+      "version": 55,
+      "at": "2026-08-09 15:47:13.958"
+    },
+    "14_memgui_agent": {
+      "revisionId": "380281e4d951f6be92a32348defff6b3436052f7",
+      "version": 56,
+      "at": "2026-08-09 15:47:14.068"
+    },
+    "15_mobileforge": {
+      "revisionId": "82a71769b62d65da9296edc04a78c0ae7a90d43c",
+      "version": 57,
+      "at": "2026-08-09 15:47:14.165"
+    },
+    "16_thanks": {
+      "revisionId": "bc998a574abfbe21b8c864f2e883e272b5b9ff72",
+      "version": 58,
+      "at": "2026-08-09 15:47:14.213"
+    }
+  }
+}

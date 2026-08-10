@@ -1,0 +1,233 @@
+<Slide>
+    <Box style={{
+        width: '100%',
+        height: '100%',
+        background: '#FFFFFF',
+        padding: '0 70px',
+        position: 'relative',
+    }}>
+        {/* A: Header */}
+        <Box style={{
+            height: 110,
+            flexDirection: 'column',
+            justifyContent: 'center',
+            borderBottom: '2px solid #E2E8F0',
+            gap: 6,
+        }}>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+                <Box style={{
+                    background: '#DBEAFE',
+                    borderRadius: 4,
+                    padding: '3px 10px',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#1E40AF', fontWeight: 600 }}>PAPER 02 · BENCHMARK + AGENT</Text>
+                </Box>
+                <Box style={{
+                    background: '#1E40AF',
+                    borderRadius: 4,
+                    padding: '3px 10px',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#FFFFFF', fontWeight: 600 }}>ACL 2026</Text>
+                </Box>
+                <Box style={{
+                    background: '#FFF7ED',
+                    borderRadius: 4,
+                    padding: '3px 10px',
+                    border: '1px solid #FFEDD5',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#F97316', fontWeight: 600 }}>48★ · 40 cit. · QbitAI</Text>
+                </Box>
+            </Box>
+            <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.3 }}>
+                LearnAct: Few-Shot Mobile GUI Agent
+            </Text>
+        </Box>
+
+        {/* B: Top two-col + bottom three-col */}
+        <Box style={{
+            height: 550,
+            flexDirection: 'column',
+            paddingTop: 18,
+            paddingBottom: 16,
+            gap: 12,
+        }}>
+            <Box style={{
+                flex: 1.3,
+                flexDirection: 'row',
+                gap: 20,
+            }}>
+                <Box style={{
+                    flex: 1,
+                    flexDirection: 'column',
+                    gap: 10,
+                }}>
+                    <Box style={{
+                        background: '#FEF2F2',
+                        borderRadius: 10,
+                        padding: '10px 14px',
+                        border: '1px solid #FECACA',
+                    }}>
+                        <Text style={{ fontSize: 11, color: '#991B1B', fontWeight: 600, marginBottom: 4 }}>
+                            PROBLEM · Why few-shot
+                        </Text>
+                        <Text style={{ fontSize: 12, color: '#0F172A', lineHeight: 1.55 }}>
+                            Google Play has <span style={{ fontWeight: 'bold' }}>1.68M</span> apps — long-tail scenarios can't be covered by pre-training; agents generalize poorly on unseen UIs. Need <span style={{ fontWeight: 'bold' }}>gradient-free</span> adaptation.
+                        </Text>
+                    </Box>
+
+                    <Box style={{
+                        background: '#F8FAFC',
+                        borderRadius: 10,
+                        padding: '10px 14px',
+                        border: '1px solid #E2E8F0',
+                        flex: 1,
+                    }}>
+                        <Text style={{ fontSize: 11, color: '#1E40AF', fontWeight: 600, marginBottom: 6 }}>
+                            METHOD · Three-Agent Pipeline (Extract → Retrieve → Execute)
+                        </Text>
+                        <Box style={{ flexDirection: 'column', gap: 5 }}>
+                            <Text style={{ fontSize: 11, color: '#0F172A', lineHeight: 1.5 }}>
+                                <span style={{ fontWeight: 'bold', color: '#1E40AF' }}>DemoParser</span> · translate coordinate actions (CLICK[123,456]) into semantic descriptions "[On Screen], [Action], to [Purpose]" with a memory mechanism
+                            </Text>
+                            <Text style={{ fontSize: 11, color: '#0F172A', lineHeight: 1.5 }}>
+                                <span style={{ fontWeight: 'bold', color: '#1E40AF' }}>KnowSeeker</span> · pre-compute knowledge embeddings with all-MiniLM-L6-v2; runtime cosine top-k retrieval (with threshold), scalable to large KBs
+                            </Text>
+                            <Text style={{ fontSize: 11, color: '#0F172A', lineHeight: 1.5 }}>
+                                <span style={{ fontWeight: 'bold', color: '#1E40AF' }}>ActExecutor</span> · POMDP policy π: O×D→A; fuses instruction + screenshot + history + retrieved demos; Perception→Decision→Action loop
+                            </Text>
+                        </Box>
+                    </Box>
+                </Box>
+
+                <Box style={{
+                    flex: 1.1,
+                    flexDirection: 'column',
+                    gap: 8,
+                }}>
+                    <Box style={{
+                        flex: 1,
+                        background: '#F8FAFC',
+                        borderRadius: 12,
+                        border: '1px solid #E2E8F0',
+                        overflow: 'hidden',
+                        padding: 10,
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                    }}>
+                        <Image
+                            src="assets/learnact-teaser.png"
+                            style={{
+                                width: '100%',
+                                height: '100%',
+                                objectFit: 'contain',
+                            }}
+                        />
+                    </Box>
+                    <Box style={{
+                        background: '#FFF7ED',
+                        borderRadius: 8,
+                        padding: '8px 12px',
+                        border: '1px solid #FFEDD5',
+                    }}>
+                        <Text style={{ fontSize: 11, color: '#9A3412', lineHeight: 1.5, textAlign: 'center' }}>
+                            LearnGUI: 2,252 offline + 101 online tasks across long-tail apps
+                        </Text>
+                    </Box>
+                </Box>
+            </Box>
+
+            <Box style={{
+                flex: 1,
+                flexDirection: 'row',
+                gap: 12,
+            }}>
+                <Box style={{
+                    flex: 1,
+                    background: '#FFF7ED',
+                    borderRadius: 10,
+                    padding: '12px 14px',
+                    border: '1px solid #FFEDD5',
+                    flexDirection: 'column',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#9A3412', fontWeight: 600, marginBottom: 6 }}>
+                        Key Results (single demo)
+                    </Text>
+                    <Box style={{ flexDirection: 'column', gap: 4, flex: 1 }}>
+                        <Text style={{ fontSize: 11, color: '#0F172A', lineHeight: 1.5 }}>
+                            · Gemini-1.5-Pro 0-shot <span style={{ fontWeight: 'bold', color: '#F97316' }}>19.3%</span> → 1-shot <span style={{ fontWeight: 'bold', color: '#F97316' }}>51.7%</span> → 3-shot 57.7% (+198.9%)
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#0F172A', lineHeight: 1.5 }}>
+                            · UI-TARS-7B-SFT online SR 18.1% → <span style={{ fontWeight: 'bold', color: '#F97316' }}>32.8%</span>, approaching GPT-4o 34.5%
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#0F172A', lineHeight: 1.5 }}>
+                            · 7B+LearnAct beats Claude Computer-Use (27.9%) & Aguvis-72B (26.1%)
+                        </Text>
+                    </Box>
+                </Box>
+
+                <Box style={{
+                    flex: 1,
+                    background: '#F8FAFC',
+                    borderRadius: 10,
+                    padding: '12px 14px',
+                    border: '1px solid #E2E8F0',
+                    flexDirection: 'column',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#1E40AF', fontWeight: 600, marginBottom: 6 }}>
+                        Ablation Findings
+                    </Text>
+                    <Box style={{ flexDirection: 'column', gap: 4, flex: 1 }}>
+                        <Text style={{ fontSize: 11, color: '#0F172A', lineHeight: 1.5 }}>
+                            · Full 51.7% → w/o DemoParser <span style={{ fontWeight: 'bold', color: '#F97316' }}>40.6%</span> (-11.1) → w/o KnowSeeker <span style={{ fontWeight: 'bold', color: '#F97316' }}>41.6%</span> (-10.1)
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#0F172A', lineHeight: 1.5 }}>
+                            · Signal favors DemoParser (complex interactions need semantics); ToDo favors KnowSeeker (varied task types)
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#0F172A', lineHeight: 1.5 }}>
+                            · Action similarity compensates UI difference: UI_SL·Act_SH match +38.4%
+                        </Text>
+                    </Box>
+                </Box>
+
+                <Box style={{
+                    flex: 1,
+                    background: 'linear-gradient(135deg, #1E40AF 0%, #3B82F6 100%)',
+                    borderRadius: 10,
+                    padding: '12px 14px',
+                    flexDirection: 'column',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#BFDBFE', fontWeight: 600, marginBottom: 6 }}>
+                        KEY CONTRIBUTIONS
+                    </Text>
+                    <Box style={{ flexDirection: 'column', gap: 4, flex: 1 }}>
+                        <Text style={{ fontSize: 11, color: '#FFFFFF', lineHeight: 1.5 }}>
+                            First demonstration-learning benchmark for mobile GUI agents
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#FFFFFF', lineHeight: 1.5 }}>
+                            Extract-retrieve-execute three-agent paradigm
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#FFFFFF', lineHeight: 1.5 }}>
+                            Gradient-free: 7B approaches GPT-4o
+                        </Text>
+                    </Box>
+                </Box>
+            </Box>
+        </Box>
+
+        {/* C: Footer */}
+        <Box style={{
+            height: 60,
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+            borderTop: '1px solid #E2E8F0',
+        }}>
+            <Text style={{ fontSize: 14, color: '#94A3B8' }}>
+                Guangyi Liu · ZJU · Interview
+            </Text>
+            <Text style={{ fontSize: 14, color: '#94A3B8' }}>
+                11 / 15
+            </Text>
+        </Box>
+    </Box>
+</Slide>

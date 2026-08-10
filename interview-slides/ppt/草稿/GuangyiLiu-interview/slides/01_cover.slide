@@ -1,0 +1,219 @@
+<Slide>
+    {/* 全屏底色 */}
+    <Box style={{
+        width: '100%',
+        height: '100%',
+        background: 'linear-gradient(135deg, #F8FAFC 0%, #EFF6FF 100%)',
+        position: 'relative',
+        padding: 0,
+    }}>
+        {/* 右侧主色色带（装饰，从右缘向左延） */}
+        <Box style={{
+            position: 'absolute',
+            top: 0,
+            right: 0,
+            width: '38%',
+            height: '100%',
+            background: 'linear-gradient(135deg, #1E40AF 0%, #3B82F6 100%)',
+        }} />
+        {/* 右侧色带上的细装饰线 */}
+        <Box style={{
+            position: 'absolute',
+            top: 80,
+            right: 60,
+            width: 60,
+            height: 4,
+            background: '#F97316',
+        }} />
+
+        {/* 左侧主内容：上 70 左右 padding，底部 60 */}
+        <Box style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: '62%',
+            height: '100%',
+            padding: '70px 40px 50px 70px',
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'space-between',
+        }}>
+            {/* 顶部标签行 */}
+            <Box style={{
+                flexDirection: 'row',
+                alignItems: 'center',
+                gap: 12,
+            }}>
+                <Box style={{
+                    width: 6,
+                    height: 24,
+                    background: '#F97316',
+                }} />
+                <Text style={{
+                    fontSize: 16,
+                    color: '#1E40AF',
+                    fontWeight: 600,
+                    letterSpacing: 2,
+                }}>
+                    互联网大厂人才计划 · 实习面试陈述
+                </Text>
+            </Box>
+
+            {/* 中部：姓名与身份 */}
+            <Box style={{ flexDirection: 'column', gap: 18 }}>
+                <Text style={{
+                    fontSize: 88,
+                    fontWeight: 'bold',
+                    color: '#0F172A',
+                    lineHeight: 1.05,
+                    letterSpacing: 2,
+                }}>
+                    刘广义
+                </Text>
+                <Text style={{
+                    fontSize: 28,
+                    color: '#3B82F6',
+                    fontWeight: 600,
+                    letterSpacing: 4,
+                }}>
+                    GUANGYI LIU
+                </Text>
+                <Box style={{
+                    width: 80,
+                    height: 4,
+                    background: '#1E40AF',
+                    marginTop: 8,
+                    marginBottom: 8,
+                }} />
+                <Text style={{
+                    fontSize: 20,
+                    color: '#0F172A',
+                    fontWeight: 600,
+                    lineHeight: 1.5,
+                }}>
+                    浙江大学 控制科学与工程学院 · 博士生
+                </Text>
+                <Text style={{
+                    fontSize: 16,
+                    color: '#64748B',
+                    lineHeight: 1.6,
+                }}>
+                    ZJU APRIL Lab · 研究方向：通用数字智能体（Universal Digital Agents）
+                </Text>
+            </Box>
+
+            {/* 底部：三大关键数字徽章 */}
+            <Box style={{
+                flexDirection: 'row',
+                gap: 16,
+            }}>
+                <Box style={{
+                    flex: 1,
+                    background: '#FFFFFF',
+                    borderRadius: 12,
+                    padding: '16px 12px',
+                    alignItems: 'center',
+                    border: '1px solid #E2E8F0',
+                    boxShadow: '0 4px 16px rgba(30,64,175,0.08)',
+                }}>
+                    <Text style={{ fontSize: 32, fontWeight: 'bold', color: '#F97316', lineHeight: 1 }}>
+                        415
+                    </Text>
+                    <Text style={{ fontSize: 13, color: '#64748B', marginTop: 6 }}>
+                        Google Scholar 引用
+                    </Text>
+                </Box>
+                <Box style={{
+                    flex: 1,
+                    background: '#FFFFFF',
+                    borderRadius: 12,
+                    padding: '16px 12px',
+                    alignItems: 'center',
+                    border: '1px solid #E2E8F0',
+                    boxShadow: '0 4px 16px rgba(30,64,175,0.08)',
+                }}>
+                    <Text style={{ fontSize: 32, fontWeight: 'bold', color: '#F97316', lineHeight: 1 }}>
+                        122
+                    </Text>
+                    <Text style={{ fontSize: 13, color: '#64748B', marginTop: 6 }}>
+                        第一作者引用
+                    </Text>
+                </Box>
+                <Box style={{
+                    flex: 1,
+                    background: '#FFFFFF',
+                    borderRadius: 12,
+                    padding: '16px 12px',
+                    alignItems: 'center',
+                    border: '1px solid #E2E8F0',
+                    boxShadow: '0 4px 16px rgba(30,64,175,0.08)',
+                }}>
+                    <Text style={{ fontSize: 32, fontWeight: 'bold', color: '#F97316', lineHeight: 1 }}>
+                        632
+                    </Text>
+                    <Text style={{ fontSize: 13, color: '#64748B', marginTop: 6 }}>
+                        一作 GitHub Stars
+                    </Text>
+                </Box>
+            </Box>
+        </Box>
+
+        {/* 右侧：照片（骑线布局，跨越左右两区） */}
+        <Box style={{
+            position: 'absolute',
+            top: 90,
+            right: 70,
+            width: 340,
+            height: 440,
+            borderRadius: 16,
+            overflow: 'hidden',
+            boxShadow: '0 20px 50px rgba(0,0,0,0.25)',
+            border: '6px solid #FFFFFF',
+        }}>
+            <Image
+                src="assets/profile.jpeg"
+                style={{
+                    width: '100%',
+                    height: '100%',
+                    objectFit: 'cover',
+                }}
+            />
+        </Box>
+
+        {/* 照片下方：联系方式卡（深蓝背景上白字） */}
+        <Box style={{
+            position: 'absolute',
+            bottom: 60,
+            right: 70,
+            width: 340,
+            background: 'rgba(255,255,255,0.12)',
+            borderRadius: 12,
+            padding: '14px 18px',
+            border: '1px solid rgba(255,255,255,0.25)',
+        }}>
+            <Text style={{ fontSize: 13, color: '#FFFFFF', lineHeight: 1.7, fontWeight: 500 }}>
+                guangyiliu@zju.edu.cn
+            </Text>
+            <Text style={{ fontSize: 13, color: '#FFFFFF', lineHeight: 1.7 }}>
+                +86 19550110404 · 杭州
+            </Text>
+            <Text style={{ fontSize: 13, color: '#BFDBFE', lineHeight: 1.7 }}>
+                lgy0404.github.io · github.com/lgy0404
+            </Text>
+        </Box>
+
+        {/* 页脚：日期标识 */}
+        <Box style={{
+            position: 'absolute',
+            bottom: 20,
+            left: 70,
+            flexDirection: 'row',
+            alignItems: 'center',
+            gap: 8,
+        }}>
+            <Text style={{ fontSize: 13, color: '#94A3B8' }}>
+                2026.08 · 杭州
+            </Text>
+        </Box>
+    </Box>
+</Slide>

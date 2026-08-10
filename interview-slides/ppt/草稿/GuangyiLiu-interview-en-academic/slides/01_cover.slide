@@ -1,0 +1,155 @@
+<Slide>
+    <Box style={{
+        width: '100%',
+        height: '100%',
+        background: '#FFFFFF',
+        position: 'relative',
+        padding: 0,
+    }}>
+        {/* Top navy band */}
+        <Box style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            right: 0,
+            height: 8,
+            background: '#0E3F8C',
+        }} />
+
+        {/* Top: logo + school */}
+        <Box style={{
+            position: 'absolute',
+            top: 48,
+            left: 0,
+            right: 0,
+            flexDirection: 'row',
+            alignItems: 'center',
+            justifyContent: 'center',
+            gap: 16,
+        }}>
+            <Box style={{
+                width: 64,
+                height: 64,
+                background: '#FFFFFF',
+                borderRadius: 8,
+                padding: 6,
+                border: '1px solid #D6DCE5',
+                alignItems: 'center',
+                justifyContent: 'center',
+            }}>
+                <Image src="assets/zju-logo.png" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+            </Box>
+            <Box style={{ flexDirection: 'column', gap: 2 }}>
+                <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#0E3F8C', letterSpacing: 1 }}>
+                    Zhejiang University
+                </Text>
+                <Text style={{ fontSize: 12, color: '#4A5568', letterSpacing: 1 }}>
+                    浙江大学 · APRIL LAB
+                </Text>
+            </Box>
+        </Box>
+
+        {/* Middle: title */}
+        <Box style={{
+            position: 'absolute',
+            top: 180,
+            left: 0,
+            right: 0,
+            flexDirection: 'column',
+            alignItems: 'center',
+            gap: 20,
+            padding: '0 100px',
+        }}>
+            <Text style={{
+                fontSize: 30,
+                color: '#4A5568',
+                textAlign: 'center',
+                lineHeight: 1.4,
+                letterSpacing: 0.5,
+                fontFamily: "'Times New Roman', Georgia, serif",
+            }}>
+                Universal Digital Agents: From Benchmarks to Production
+            </Text>
+
+            <Text style={{
+                fontSize: 56,
+                fontWeight: 'bold',
+                color: '#0E3F8C',
+                textAlign: 'center',
+                lineHeight: 1.15,
+                letterSpacing: 1,
+            }}>
+                Toward Universal Digital Agents
+            </Text>
+
+            <Text style={{
+                fontSize: 22,
+                color: '#1E4FA8',
+                textAlign: 'center',
+                lineHeight: 1.5,
+                letterSpacing: 1,
+            }}>
+                From Benchmarks, Methods to Production Systems
+            </Text>
+
+            <Box style={{
+                width: 80,
+                height: 3,
+                background: '#0E3F8C',
+                marginTop: 8,
+            }} />
+        </Box>
+
+        {/* Bottom: presenter info */}
+        <Box style={{
+            position: 'absolute',
+            bottom: 110,
+            left: 0,
+            right: 0,
+            flexDirection: 'row',
+            justifyContent: 'center',
+        }}>
+            <Box style={{
+                background: '#F0F5FC',
+                borderRadius: 8,
+                padding: '20px 48px',
+                border: '1px solid #D6DCE5',
+                flexDirection: 'column',
+                alignItems: 'center',
+                gap: 8,
+            }}>
+                <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#0E3F8C' }}>
+                    Presenter: Guangyi Liu · 刘广义
+                </Text>
+                <Text style={{ fontSize: 14, color: '#4A5568' }}>
+                    Ph.D. Candidate · Dept. of Control Science & Engineering
+                </Text>
+                <Text style={{ fontSize: 13, color: '#8B97A8' }}>
+                    Advisors: Prof. Yong Liu · Prof. Jiangning Zhang · Dr. Liang Liu
+                </Text>
+            </Box>
+        </Box>
+
+        {/* Bottom info bar */}
+        <Box style={{
+            position: 'absolute',
+            bottom: 0,
+            left: 0,
+            right: 0,
+            height: 56,
+            background: '#F7F9FC',
+            borderTop: '1px solid #D6DCE5',
+            flexDirection: 'row',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            padding: '0 40px',
+        }}>
+            <Text style={{ fontSize: 13, color: '#4A5568' }}>
+                Talent Program · Internship Interview
+            </Text>
+            <Text style={{ fontSize: 13, color: '#4A5568' }}>
+                Aug 2026 · Hangzhou
+            </Text>
+        </Box>
+    </Box>
+</Slide>

@@ -1,0 +1,258 @@
+<Slide>
+    <Box style={{
+        width: '100%',
+        height: '100%',
+        background: '#FFFFFF',
+        position: 'relative',
+        padding: 0,
+    }}>
+        {/* A 区：页眉 */}
+        <Box style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            right: 0,
+            height: 80,
+            background: '#0E3F8C',
+            flexDirection: 'row',
+            alignItems: 'center',
+            padding: '0 40px',
+            gap: 14,
+        }}>
+            <Box style={{
+                width: 6,
+                height: 28,
+                background: '#FFFFFF',
+            }} />
+            <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#FFFFFF', letterSpacing: 1 }}>
+                MobileForge · 无标注自适应
+            </Text>
+            <Box style={{
+                background: '#FFC107',
+                borderRadius: 4,
+                padding: '3px 8px',
+                marginTop: 4,
+            }}>
+                <Text style={{ fontSize: 11, color: '#0E3F8C', fontWeight: 600 }}>Preprint 2026 · 最新</Text>
+            </Box>
+        </Box>
+
+        {/* C 区 */}
+        <Box style={{
+            position: 'absolute',
+            top: 80,
+            left: 0,
+            right: 0,
+            height: 544,
+            padding: '20px 40px',
+            flexDirection: 'column',
+            gap: 12,
+        }}>
+            {/* 上部 */}
+            <Box style={{
+                flex: 1.25,
+                flexDirection: 'row',
+                gap: 18,
+            }}>
+                <Box style={{
+                    flex: 1,
+                    flexDirection: 'column',
+                    gap: 10,
+                }}>
+                    <Box style={{
+                        background: '#F7F9FC',
+                        borderRadius: 6,
+                        padding: '12px 14px',
+                        border: '1px solid #D6DCE5',
+                        borderLeft: '3px solid #D9534F',
+                    }}>
+                        <Text style={{ fontSize: 11, color: '#D9534F', fontWeight: 600, marginBottom: 4 }}>
+                            研究动机
+                        </Text>
+                        <Text style={{ fontSize: 12, color: '#1A2230', lineHeight: 1.55 }}>
+                            目标 app 适配依赖人工任务/演示/奖励标注，<span style={{ fontWeight: 'bold' }}>成本高、易过时</span>；annotation-free 方法缺统一基底，rollout 奖励稀疏。
+                        </Text>
+                    </Box>
+
+                    <Box style={{
+                        background: '#F7F9FC',
+                        borderRadius: 6,
+                        padding: '12px 14px',
+                        border: '1px solid #D6DCE5',
+                        flex: 1,
+                    }}>
+                        <Text style={{ fontSize: 11, color: '#0E3F8C', fontWeight: 600, marginBottom: 6 }}>
+                            MobileGym + HiFPO 闭环
+                        </Text>
+                        <Box style={{ flexDirection: 'column', gap: 5 }}>
+                            <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                                <span style={{ fontWeight: 'bold', color: '#1E4FA8' }}>MobileGym</span> · function-aware 探索（app anchor + 截图引导 DFS）→ Curriculum 把证据池 Z 转成可执行任务 x=(ι,B,c,v,p)
+                            </Text>
+                            <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                                <span style={{ fontWeight: 'bold', color: '#1E4FA8' }}>层级化 Critic</span> · 返回 F=(z, {'{ℓ}'}, h)：任务标签 z + 每步 reasonable 标签 ℓ + 纠错 hint h
+                            </Text>
+                            <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                                <span style={{ fontWeight: 'bold', color: '#1E4FA8' }}>HiFPO 三阶段</span> · ① Hint-guided 多次尝试 rollout ② 选最高 Q 的 attempt 且只保留 χ=1 步 ③ Hint-contextualized step-level GRPO（R=0.2·type + 0.8·param）
+                            </Text>
+                        </Box>
+                    </Box>
+                </Box>
+
+                <Box style={{
+                    flex: 1.1,
+                    flexDirection: 'column',
+                    gap: 8,
+                }}>
+                    <Box style={{
+                        flex: 1,
+                        background: '#F7F9FC',
+                        borderRadius: 8,
+                        border: '1px solid #D6DCE5',
+                        overflow: 'hidden',
+                        padding: 10,
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                    }}>
+                        <Image
+                            src="assets/mobileforge-main-performance.png"
+                            style={{
+                                width: '100%',
+                                height: '100%',
+                                objectFit: 'contain',
+                            }}
+                        />
+                    </Box>
+                    <Box style={{
+                        background: '#E8EFF8',
+                        borderRadius: 6,
+                        padding: '8px 12px',
+                        border: '1px solid #D6DCE5',
+                    }}>
+                        <Text style={{ fontSize: 11, color: '#0E3F8C', lineHeight: 1.5, textAlign: 'center' }}>
+                            探索 → 生成任务 → 自评估 rollout → hint 条件化 GRPO 完全闭环
+                        </Text>
+                    </Box>
+                </Box>
+            </Box>
+
+            {/* 下部 */}
+            <Box style={{
+                flex: 1,
+                flexDirection: 'row',
+                gap: 10,
+            }}>
+                <Box style={{
+                    flex: 1,
+                    background: '#E8EFF8',
+                    borderRadius: 6,
+                    padding: '12px 14px',
+                    border: '1px solid #D6DCE5',
+                    flexDirection: 'column',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#0E3F8C', fontWeight: 600, marginBottom: 6 }}>
+                        主结果（900 生成任务）
+                    </Text>
+                    <Box style={{ flexDirection: 'column', gap: 4, flex: 1 }}>
+                        <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                            · ForgeOwl-8B AndroidWorld <span style={{ fontWeight: 'bold', color: '#1E4FA8' }}>67.2% P@1 / 77.6% P@3</span>
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                            · ForgeQwen3-8B 67.2% P@3，逼近 GUI-Owl-1.5-8B 基座 69.0%
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                            · MobileWorld GUI-only (OOD) <span style={{ fontWeight: 'bold', color: '#1E4FA8' }}>41.0% SR</span>，超所有 open-data 同类
+                        </Text>
+                    </Box>
+                </Box>
+
+                <Box style={{
+                    flex: 1,
+                    background: '#F7F9FC',
+                    borderRadius: 6,
+                    padding: '12px 14px',
+                    border: '1px solid #D6DCE5',
+                    flexDirection: 'column',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#0E3F8C', fontWeight: 600, marginBottom: 6 }}>
+                        消融发现
+                    </Text>
+                    <Box style={{ flexDirection: 'column', gap: 4, flex: 1 }}>
+                        <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                            · Corrective hints：rollout 成功率 52.0%→<span style={{ fontWeight: 'bold', color: '#1E4FA8' }}>77.0%</span>，P@3 49.0%→72.5%
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                            · 反直觉：正确做法是「只删全成功的已掌握任务」（保留 [0, 0.9] 区间最强）
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                            · 全 Qwen 开源 critic（无需 Gemini）也能 40.5%→<span style={{ fontWeight: 'bold', color: '#1E4FA8' }}>44.8%</span> P@1
+                        </Text>
+                    </Box>
+                </Box>
+
+                <Box style={{
+                    flex: 1,
+                    background: '#0E3F8C',
+                    borderRadius: 6,
+                    padding: '12px 14px',
+                    flexDirection: 'column',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#B8CCE4', fontWeight: 600, marginBottom: 6 }}>
+                        核心贡献 · 工程价值
+                    </Text>
+                    <Box style={{ flexDirection: 'column', gap: 4, flex: 1 }}>
+                        <Text style={{ fontSize: 11, color: '#FFFFFF', lineHeight: 1.5 }}>
+                            首个完全 annotation-free 的目标 app 自适应闭环
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#FFFFFF', lineHeight: 1.5 }}>
+                            HiFPO 把层级反馈分别用于任务过滤 / 步选择 / 训练条件化
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#FFFFFF', lineHeight: 1.5 }}>
+                            已在快手 App 缺陷检测业务落地
+                        </Text>
+                    </Box>
+                </Box>
+            </Box>
+        </Box>
+
+                {/* 引用脚注 */}
+        <Box style={{
+            position: 'absolute',
+            top: 624,
+            left: 0,
+            right: 0,
+            height: 36,
+            flexDirection: 'row',
+            alignItems: 'center',
+            justifyContent: 'center',
+            borderTop: '1px solid #E5E7EB',
+            padding: '0 40px',
+        }}>
+            <Text style={{ fontSize: 11, color: '#4A5568', fontStyle: 'italic', fontFamily: "'Times New Roman', Georgia, serif", textAlign: 'center', lineHeight: 1.4 }}>
+                Liu, G., et al. MobileForge: Annotation-Free Adaptation for Mobile GUI Agents with Hierarchical Feedback-Guided Policy Optimization. arXiv preprint, 2026.
+            </Text>
+        </Box>
+
+
+        {/* D 区：页脚 */}
+        <Box style={{
+            position: 'absolute',
+            bottom: 0,
+            left: 0,
+            right: 0,
+            height: 60,
+            background: '#F7F9FC',
+            borderTop: '1px solid #D6DCE5',
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+            padding: '0 40px',
+        }}>
+            <Text style={{ fontSize: 13, color: '#8B97A8' }}>
+                浙江大学 · 控制科学与工程学院
+            </Text>
+            <Text style={{ fontSize: 14, color: '#0E3F8C', fontWeight: 600 }}>
+                15 / 16
+            </Text>
+        </Box>
+    </Box>
+</Slide>

@@ -1,0 +1,240 @@
+<Slide>
+    <Box style={{
+        width: '100%',
+        height: '100%',
+        background: '#FFFFFF',
+        padding: '0 70px',
+        position: 'relative',
+    }}>
+        {/* A 区：标题块 */}
+        <Box style={{
+            height: 110,
+            flexDirection: 'column',
+            justifyContent: 'center',
+            borderBottom: '2px solid #E2E8F0',
+            gap: 6,
+        }}>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+                <Box style={{
+                    background: '#DBEAFE',
+                    borderRadius: 4,
+                    padding: '3px 10px',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#1E40AF', fontWeight: 600 }}>PAPER 03 · Benchmark</Text>
+                </Box>
+                <Box style={{
+                    background: '#1E40AF',
+                    borderRadius: 4,
+                    padding: '3px 10px',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#FFFFFF', fontWeight: 600 }}>ACM MM 2026</Text>
+                </Box>
+                <Box style={{
+                    background: '#FFF7ED',
+                    borderRadius: 4,
+                    padding: '3px 10px',
+                    border: '1px solid #FFEDD5',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#F97316', fontWeight: 600 }}>48★ · 17 引</Text>
+                </Box>
+            </Box>
+            <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#0F172A', lineHeight: 1.3 }}>
+                MemGUI-Bench: Memory of Mobile GUI Agents
+            </Text>
+        </Box>
+
+        {/* B 区：上双栏 + 下三栏 */}
+        <Box style={{
+            height: 550,
+            flexDirection: 'column',
+            paddingTop: 18,
+            paddingBottom: 16,
+            gap: 12,
+        }}>
+            {/* 上部：左文字 + 右图 */}
+            <Box style={{
+                flex: 1.3,
+                flexDirection: 'row',
+                gap: 20,
+            }}>
+                {/* 左：痛点 + 方法 */}
+                <Box style={{
+                    flex: 1,
+                    flexDirection: 'column',
+                    gap: 10,
+                }}>
+                    <Box style={{
+                        background: '#FEF2F2',
+                        borderRadius: 10,
+                        padding: '10px 14px',
+                        border: '1px solid #FECACA',
+                    }}>
+                        <Text style={{ fontSize: 11, color: '#991B1B', fontWeight: 600, marginBottom: 4 }}>
+                            痛点 · 为什么以记忆为中心
+                        </Text>
+                        <Text style={{ fontSize: 12, color: '#0F172A', lineHeight: 1.55 }}>
+                            现有 benchmark 仅 <span style={{ fontWeight: 'bold' }}>5.2–11.8%</span> 任务考察记忆；缺乏 pass@k 跨 session 学习评估，导致对 agent 能力的<span style={{ fontWeight: 'bold' }}>4–10 倍高估</span>。
+                        </Text>
+                    </Box>
+
+                    <Box style={{
+                        background: '#F8FAFC',
+                        borderRadius: 10,
+                        padding: '10px 14px',
+                        border: '1px solid #E2E8F0',
+                        flex: 1,
+                    }}>
+                        <Text style={{ fontSize: 11, color: '#1E40AF', fontWeight: 600, marginBottom: 6 }}>
+                            方法 · 任务套件 + Snapshot 框架 + Progressive Scrutiny 评估
+                        </Text>
+                        <Box style={{ flexDirection: 'column', gap: 5 }}>
+                            <Text style={{ fontSize: 11, color: '#0F172A', lineHeight: 1.5 }}>
+                                <span style={{ fontWeight: 'bold', color: '#1E40AF' }}>记忆 Taxonomy</span> · 短期 5 种架构（Memory Agent / Action-Thought / Multi-turn / Rule / No-History）· 长期 Success/Failure-Based 学习
+                            </Text>
+                            <Text style={{ fontSize: 11, color: '#0F172A', lineHeight: 1.5 }}>
+                                <span style={{ fontWeight: 'bold', color: '#1E40AF' }}>任务套件</span> · 128 任务 / 26 app · 78.1% 需跨 app 信息传递 · 64 对 mirror task pair 支撑 pass@k
+                            </Text>
+                            <Text style={{ fontSize: 11, color: '#0F172A', lineHeight: 1.5 }}>
+                                <span style={{ fontWeight: 'bold', color: '#1E40AF' }}>MemGUI-Eval</span> · Triage Judge → Step Descriptor + Semantic Judge → Visual Judge 按需取截图 · 7 个层级指标（SR / IRR / MTPR / pass@k / FRR 等）
+                            </Text>
+                        </Box>
+                    </Box>
+                </Box>
+
+                {/* 右：主图 */}
+                <Box style={{
+                    flex: 1.1,
+                    flexDirection: 'column',
+                    gap: 8,
+                }}>
+                    <Box style={{
+                        flex: 1,
+                        background: '#F8FAFC',
+                        borderRadius: 12,
+                        border: '1px solid #E2E8F0',
+                        overflow: 'hidden',
+                        padding: 10,
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                    }}>
+                        <Image
+                            src="assets/memgui-bench-overview.png"
+                            style={{
+                                width: '100%',
+                                height: '100%',
+                                objectFit: 'contain',
+                            }}
+                        />
+                    </Box>
+                    <Box style={{
+                        background: '#FFF7ED',
+                        borderRadius: 8,
+                        padding: '8px 12px',
+                        border: '1px solid #FFEDD5',
+                    }}>
+                        <Text style={{ fontSize: 11, color: '#9A3412', lineHeight: 1.5, textAlign: 'center' }}>
+                            Snapshot 秒级重置 + 端口隔离并行 + 原生 pass@k 协议
+                        </Text>
+                    </Box>
+                </Box>
+            </Box>
+
+            {/* 下部：三栏横条 */}
+            <Box style={{
+                flex: 1,
+                flexDirection: 'row',
+                gap: 12,
+            }}>
+                {/* 关键对比 */}
+                <Box style={{
+                    flex: 1,
+                    background: '#FFF7ED',
+                    borderRadius: 10,
+                    padding: '12px 14px',
+                    border: '1px solid #FFEDD5',
+                    flexDirection: 'column',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#9A3412', fontWeight: 600, marginBottom: 6 }}>
+                        Leaderboard（11 agent / 5 架构）
+                    </Text>
+                    <Box style={{ flexDirection: 'column', gap: 4, flex: 1 }}>
+                        <Text style={{ fontSize: 11, color: '#0F172A', lineHeight: 1.5 }}>
+                            · M3A 单次 SR 最高 <span style={{ fontWeight: 'bold', color: '#F97316' }}>32.8%</span>；Agent-S2 pass@3 <span style={{ fontWeight: 'bold', color: '#F97316' }}>49.2%</span>
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#0F172A', lineHeight: 1.5 }}>
+                            · 框架类 <span style={{ fontWeight: 'bold', color: '#F97316' }}>22.7-32.8%</span> vs 端到端 <span style={{ fontWeight: 'bold', color: '#F97316' }}>0-6.2%</span>
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#0F172A', lineHeight: 1.5 }}>
+                            · 与 AndroidWorld 对比：GUI-Owl-7B 66.4%→<span style={{ fontWeight: 'bold', color: '#F97316' }}>6.2%</span>（10× 高估）
+                        </Text>
+                    </Box>
+                </Box>
+
+                {/* 消融 */}
+                <Box style={{
+                    flex: 1,
+                    background: '#F8FAFC',
+                    borderRadius: 10,
+                    padding: '12px 14px',
+                    border: '1px solid #E2E8F0',
+                    flexDirection: 'column',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#1E40AF', fontWeight: 600, marginBottom: 6 }}>
+                        消融发现（RQ1-RQ6）
+                    </Text>
+                    <Box style={{ flexDirection: 'column', gap: 4, flex: 1 }}>
+                        <Text style={{ fontSize: 11, color: '#0F172A', lineHeight: 1.5 }}>
+                            · 去 M3A Memory Agent：SR 32.5%→<span style={{ fontWeight: 'bold', color: '#F97316' }}>2.5%</span>，IRR 35.1%→0.0%（短期记忆是刚需）
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#0F172A', lineHeight: 1.5 }}>
+                            · 去 Agent-S2 长期记忆：pass@3 45.0%→<span style={{ fontWeight: 'bold', color: '#F97316' }}>25.0%</span>（-20pp，长期记忆有益但可选）
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#0F172A', lineHeight: 1.5 }}>
+                            · 跨 app 是主要瓶颈：Agent-S2 单 app 50% → 4-app <span style={{ fontWeight: 'bold', color: '#F97316' }}>10%</span>（-40pp）
+                        </Text>
+                    </Box>
+                </Box>
+
+                {/* 贡献 */}
+                <Box style={{
+                    flex: 1,
+                    background: 'linear-gradient(135deg, #1E40AF 0%, #3B82F6 100%)',
+                    borderRadius: 10,
+                    padding: '12px 14px',
+                    flexDirection: 'column',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#BFDBFE', fontWeight: 600, marginBottom: 6 }}>
+                        核心贡献
+                    </Text>
+                    <Box style={{ flexDirection: 'column', gap: 4, flex: 1 }}>
+                        <Text style={{ fontSize: 11, color: '#FFFFFF', lineHeight: 1.5 }}>
+                            首个以"记忆"为中心的 GUI agent benchmark
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#FFFFFF', lineHeight: 1.5 }}>
+                            MTPR/IRR/FRR 把记忆从总成功率中剥离量化
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#FFFFFF', lineHeight: 1.5 }}>
+                            证明现有 benchmark 系统性高估 4-10 倍
+                        </Text>
+                    </Box>
+                </Box>
+            </Box>
+        </Box>
+
+        {/* C 区：页脚 */}
+        <Box style={{
+            height: 60,
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+            borderTop: '1px solid #E2E8F0',
+        }}>
+            <Text style={{ fontSize: 14, color: '#94A3B8' }}>
+                Guangyi Liu · ZJU · 面试陈述
+            </Text>
+            <Text style={{ fontSize: 14, color: '#94A3B8' }}>
+                12 / 15
+            </Text>
+        </Box>
+    </Box>
+</Slide>

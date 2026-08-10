@@ -1,0 +1,259 @@
+<Slide>
+    <Box style={{
+        width: '100%',
+        height: '100%',
+        background: '#FFFFFF',
+        position: 'relative',
+        padding: 0,
+    }}>
+        {/* A: Header */}
+        <Box style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            right: 0,
+            height: 80,
+            background: '#0E3F8C',
+            flexDirection: 'row',
+            alignItems: 'center',
+            padding: '0 40px',
+            gap: 14,
+        }}>
+            <Box style={{
+                width: 6,
+                height: 28,
+                background: '#FFFFFF',
+            }} />
+            <Text style={{ fontSize: 26, fontWeight: 'bold', color: '#FFFFFF', letterSpacing: 2 }}>
+                Industry Experience
+            </Text>
+            <Text style={{ fontSize: 13, color: '#B8CCE4', letterSpacing: 2, marginTop: 6 }}>
+                实习经历
+            </Text>
+        </Box>
+
+        {/* C: Two columns */}
+        <Box style={{
+            position: 'absolute',
+            top: 80,
+            left: 0,
+            right: 0,
+            height: 580,
+            padding: '28px 40px',
+            flexDirection: 'row',
+            gap: 20,
+        }}>
+            {/* Kuaishou */}
+            <Box style={{
+                flex: 1,
+                background: '#F7F9FC',
+                border: '1px solid #D6DCE5',
+                borderRadius: 8,
+                padding: '20px 22px',
+                flexDirection: 'column',
+                borderLeft: '4px solid #0E3F8C',
+            }}>
+                <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 14 }}>
+                    <Box style={{
+                        background: '#FFFFFF',
+                        borderRadius: 8,
+                        padding: 10,
+                        width: 64,
+                        height: 64,
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        border: '1px solid #D6DCE5',
+                    }}>
+                        <Image src="assets/kuaishou-icon.png" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                    </Box>
+                    <Box style={{
+                        background: '#E8EFF8',
+                        borderRadius: 4,
+                        padding: '4px 10px',
+                        border: '1px solid #D6DCE5',
+                    }}>
+                        <Text style={{ fontSize: 12, color: '#1E4FA8', fontWeight: 600 }}>
+                            2025.08 - 2026.07
+                        </Text>
+                    </Box>
+                </Box>
+
+                <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#0E3F8C', marginBottom: 2 }}>
+                    Kuaishou Technology
+                </Text>
+                <Text style={{ fontSize: 13, color: '#8B97A8', marginBottom: 14 }}>
+                    Research Intern · Hangzhou
+                </Text>
+
+                <Box style={{
+                    background: '#FFFFFF',
+                    borderRadius: 6,
+                    padding: '12px 14px',
+                    border: '1px solid #D6DCE5',
+                    marginBottom: 12,
+                }}>
+                    <Text style={{ fontSize: 11, color: '#8B97A8', fontWeight: 600, marginBottom: 4 }}>
+                        PROJECT
+                    </Text>
+                    <Text style={{ fontSize: 13, color: '#1A2230', lineHeight: 1.6 }}>
+                        Internal GUI-agent systems for <span style={{ fontWeight: 'bold', color: '#0E3F8C' }}>app defect detection</span>
+                    </Text>
+                </Box>
+
+                <Box style={{ flexDirection: 'column', gap: 8, flex: 1 }}>
+                    <Box style={{ flexDirection: 'row', gap: 8, alignItems: 'flex-start' }}>
+                        <Box style={{ width: 5, height: 5, borderRadius: '50%', background: '#1E4FA8', marginTop: 6, flexShrink: 0 }} />
+                        <Text style={{ fontSize: 12, color: '#4A5568', lineHeight: 1.6, flex: 1 }}>
+                            Mentor: Martin Li · Y-tech Department
+                        </Text>
+                    </Box>
+                    <Box style={{ flexDirection: 'row', gap: 8, alignItems: 'flex-start' }}>
+                        <Box style={{ width: 5, height: 5, borderRadius: '50%', background: '#1E4FA8', marginTop: 6, flexShrink: 0 }} />
+                        <Text style={{ fontSize: 12, color: '#4A5568', lineHeight: 1.6, flex: 1 }}>
+                            Productionized MobileForge / MemGUI-Agent into Kuaishou's real business
+                        </Text>
+                    </Box>
+                    <Box style={{ flexDirection: 'row', gap: 8, alignItems: 'flex-start' }}>
+                        <Box style={{ width: 5, height: 5, borderRadius: '50%', background: '#1E4FA8', marginTop: 6, flexShrink: 0 }} />
+                        <Text style={{ fontSize: 12, color: '#4A5568', lineHeight: 1.6, flex: 1 }}>
+                            Covering App quality assurance for hundreds of millions of DAU
+                        </Text>
+                    </Box>
+                </Box>
+
+                <Box style={{
+                    marginTop: 'auto',
+                    paddingTop: 12,
+                    borderTop: '1px solid #D6DCE5',
+                    flexDirection: 'row',
+                    alignItems: 'center',
+                    gap: 8,
+                }}>
+                    <Box style={{ background: '#0E3F8C', borderRadius: 4, padding: '3px 8px' }}>
+                        <Text style={{ fontSize: 11, color: '#FFFFFF', fontWeight: 600 }}>Production</Text>
+                    </Box>
+                    <Box style={{ background: '#E8EFF8', borderRadius: 4, padding: '3px 8px', border: '1px solid #D6DCE5' }}>
+                        <Text style={{ fontSize: 11, color: '#1E4FA8' }}>Latest</Text>
+                    </Box>
+                </Box>
+            </Box>
+
+            {/* vivo */}
+            <Box style={{
+                flex: 1,
+                background: '#F7F9FC',
+                border: '1px solid #D6DCE5',
+                borderRadius: 8,
+                padding: '20px 22px',
+                flexDirection: 'column',
+                borderLeft: '4px solid #3D7BD9',
+            }}>
+                <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 14 }}>
+                    <Box style={{
+                        background: '#FFFFFF',
+                        borderRadius: 8,
+                        padding: 10,
+                        width: 64,
+                        height: 64,
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        border: '1px solid #D6DCE5',
+                    }}>
+                        <Image src="assets/vivo-logo.png" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                    </Box>
+                    <Box style={{
+                        background: '#E8EFF8',
+                        borderRadius: 4,
+                        padding: '4px 10px',
+                        border: '1px solid #D6DCE5',
+                    }}>
+                        <Text style={{ fontSize: 12, color: '#1E4FA8', fontWeight: 600 }}>
+                            2024.08 - 2025.08
+                        </Text>
+                    </Box>
+                </Box>
+
+                <Text style={{ fontSize: 22, fontWeight: 'bold', color: '#0E3F8C', marginBottom: 2 }}>
+                    vivo AI Lab
+                </Text>
+                <Text style={{ fontSize: 13, color: '#8B97A8', marginBottom: 14 }}>
+                    Research Intern · Hangzhou
+                </Text>
+
+                <Box style={{
+                    background: '#FFFFFF',
+                    borderRadius: 6,
+                    padding: '12px 14px',
+                    border: '1px solid #D6DCE5',
+                    marginBottom: 12,
+                }}>
+                    <Text style={{ fontSize: 11, color: '#8B97A8', fontWeight: 600, marginBottom: 4 }}>
+                        PROJECT
+                    </Text>
+                    <Text style={{ fontSize: 13, color: '#1A2230', lineHeight: 1.6 }}>
+                        Contributed to <span style={{ fontWeight: 'bold', color: '#0E3F8C' }}>vivo PhoneGPT</span>, a general-purpose phone GUI agent
+                    </Text>
+                </Box>
+
+                <Box style={{ flexDirection: 'column', gap: 8, flex: 1 }}>
+                    <Box style={{ flexDirection: 'row', gap: 8, alignItems: 'flex-start' }}>
+                        <Box style={{ width: 5, height: 5, borderRadius: '50%', background: '#3D7BD9', marginTop: 6, flexShrink: 0 }} />
+                        <Text style={{ fontSize: 12, color: '#4A5568', lineHeight: 1.6, flex: 1 }}>
+                            Mentors: Dr. Liang Liu · Prof. Hongsheng Li (CUHK)
+                        </Text>
+                    </Box>
+                    <Box style={{ flexDirection: 'row', gap: 8, alignItems: 'flex-start' }}>
+                        <Box style={{ width: 5, height: 5, borderRadius: '50%', background: '#3D7BD9', marginTop: 6, flexShrink: 0 }} />
+                        <Text style={{ fontSize: 12, color: '#4A5568', lineHeight: 1.6, flex: 1 }}>
+                            Entered the GUI agent field and laid research foundation
+                        </Text>
+                    </Box>
+                    <Box style={{ flexDirection: 'row', gap: 8, alignItems: 'flex-start' }}>
+                        <Box style={{ width: 5, height: 5, borderRadius: '50%', background: '#3D7BD9', marginTop: 6, flexShrink: 0 }} />
+                        <Text style={{ fontSize: 12, color: '#4A5568', lineHeight: 1.6, flex: 1 }}>
+                            Produced LearnAct / Phone GUI Survey as foundational works
+                        </Text>
+                    </Box>
+                </Box>
+
+                <Box style={{
+                    marginTop: 'auto',
+                    paddingTop: 12,
+                    borderTop: '1px solid #D6DCE5',
+                    flexDirection: 'row',
+                    alignItems: 'center',
+                    gap: 8,
+                }}>
+                    <Box style={{ background: '#3D7BD9', borderRadius: 4, padding: '3px 8px' }}>
+                        <Text style={{ fontSize: 11, color: '#FFFFFF', fontWeight: 600 }}>Research</Text>
+                    </Box>
+                    <Box style={{ background: '#E8EFF8', borderRadius: 4, padding: '3px 8px', border: '1px solid #D6DCE5' }}>
+                        <Text style={{ fontSize: 11, color: '#1E4FA8' }}>Foundation</Text>
+                    </Box>
+                </Box>
+            </Box>
+        </Box>
+
+        {/* D: Footer */}
+        <Box style={{
+            position: 'absolute',
+            bottom: 0,
+            left: 0,
+            right: 0,
+            height: 60,
+            background: '#F7F9FC',
+            borderTop: '1px solid #D6DCE5',
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+            padding: '0 40px',
+        }}>
+            <Text style={{ fontSize: 13, color: '#8B97A8' }}>
+                Zhejiang University · Control Science & Engineering
+            </Text>
+            <Text style={{ fontSize: 14, color: '#0E3F8C', fontWeight: 600 }}>
+                6 / 16
+            </Text>
+        </Box>
+    </Box>
+</Slide>

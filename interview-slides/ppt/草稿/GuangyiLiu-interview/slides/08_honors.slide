@@ -1,0 +1,246 @@
+<Slide>
+    <Box style={{
+        width: '100%',
+        height: '100%',
+        background: '#FFFFFF',
+        padding: '0 70px',
+        position: 'relative',
+    }}>
+        {/* A 区：标题块 */}
+        <Box style={{
+            height: 120,
+            flexDirection: 'row',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            borderBottom: '2px solid #E2E8F0',
+        }}>
+            <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 16 }}>
+                <Box style={{
+                    width: 6,
+                    height: 32,
+                    background: '#F97316',
+                }} />
+                <Text style={{ fontSize: 36, fontWeight: 'bold', color: '#0F172A' }}>
+                    荣誉与学术服务
+                </Text>
+                <Text style={{ fontSize: 16, color: '#64748B', letterSpacing: 3, marginTop: 8 }}>
+                    HONORS & SERVICE
+                </Text>
+            </Box>
+            <Text style={{ fontSize: 14, color: '#94A3B8' }}>
+                奖项 · 审稿
+            </Text>
+        </Box>
+
+        {/* B 区：左右两栏 */}
+        <Box style={{
+            height: 540,
+            flexDirection: 'row',
+            gap: 28,
+            paddingTop: 28,
+            paddingBottom: 20,
+        }}>
+            {/* 左：荣誉奖项 */}
+            <Box style={{
+                flex: 1,
+                flexDirection: 'column',
+                gap: 14,
+            }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10, marginBottom: 4 }}>
+                    <Box style={{ width: 4, height: 20, background: '#F97316' }} />
+                    <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#0F172A' }}>
+                        荣誉奖项
+                    </Text>
+                </Box>
+
+                {/* 重点荣誉：ICML Silver Reviewer */}
+                <Box style={{
+                    background: 'linear-gradient(135deg, #FFF7ED 0%, #FFEDD5 100%)',
+                    borderRadius: 12,
+                    padding: '18px 22px',
+                    border: '2px solid #F97316',
+                    flexDirection: 'row',
+                    alignItems: 'center',
+                    gap: 16,
+                    boxShadow: '0 8px 24px rgba(249,115,22,0.15)',
+                }}>
+                    <Box style={{
+                        width: 56,
+                        height: 56,
+                        borderRadius: '50%',
+                        background: '#F97316',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        flexShrink: 0,
+                    }}>
+                        <Text style={{ fontSize: 26, color: '#FFFFFF' }}>★</Text>
+                    </Box>
+                    <Box style={{ flex: 1, flexDirection: 'column', gap: 4 }}>
+                        <Text style={{ fontSize: 17, fontWeight: 'bold', color: '#0F172A' }}>
+                            ICML 2026 · Silver Reviewer
+                        </Text>
+                        <Text style={{ fontSize: 13, color: '#64748B', lineHeight: 1.5 }}>
+                            国际机器学习顶会银牌审稿人，认可学术服务专业度
+                        </Text>
+                    </Box>
+                </Box>
+
+                {/* 其他荣誉列表 */}
+                <Box style={{
+                    background: '#F8FAFC',
+                    borderRadius: 12,
+                    padding: '16px 20px',
+                    border: '1px solid #E2E8F0',
+                    flexDirection: 'column',
+                    gap: 10,
+                    flex: 1,
+                    justifyContent: 'space-around',
+                }}>
+                    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+                        <Box style={{ width: 8, height: 8, borderRadius: '50%', background: '#3B82F6', flexShrink: 0 }} />
+                        <Text style={{ fontSize: 14, color: '#0F172A', lineHeight: 1.5 }}>
+                            浙江大学优秀研究生 · 优秀学生干部 <span style={{ color: '#94A3B8' }}>（2024）</span>
+                        </Text>
+                    </Box>
+                    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+                        <Box style={{ width: 8, height: 8, borderRadius: '50%', background: '#3B82F6', flexShrink: 0 }} />
+                        <Text style={{ fontSize: 14, color: '#0F172A', lineHeight: 1.5 }}>
+                            江苏省优秀毕业生 <span style={{ color: '#94A3B8' }}>（2023）</span>
+                        </Text>
+                    </Box>
+                    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+                        <Box style={{ width: 8, height: 8, borderRadius: '50%', background: '#3B82F6', flexShrink: 0 }} />
+                        <Text style={{ fontSize: 14, color: '#0F172A', lineHeight: 1.5 }}>
+                            江苏省优秀学生干部 <span style={{ color: '#94A3B8' }}>（2022）</span>
+                        </Text>
+                    </Box>
+                    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 12 }}>
+                        <Box style={{ width: 8, height: 8, borderRadius: '50%', background: '#F97316', flexShrink: 0 }} />
+                        <Text style={{ fontSize: 14, color: '#0F172A', lineHeight: 1.5 }}>
+                            <span style={{ fontWeight: 'bold' }}>国家奖学金</span> · 中华人民共和国教育部 <span style={{ color: '#94A3B8' }}>（2020 & 2021）</span>
+                        </Text>
+                    </Box>
+                </Box>
+            </Box>
+
+            {/* 右：学术服务 */}
+            <Box style={{
+                flex: 1,
+                flexDirection: 'column',
+                gap: 14,
+            }}>
+                <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10, marginBottom: 4 }}>
+                    <Box style={{ width: 4, height: 20, background: '#3B82F6' }} />
+                    <Text style={{ fontSize: 20, fontWeight: 'bold', color: '#0F172A' }}>
+                        学术服务
+                    </Text>
+                </Box>
+
+                {/* 审稿会议 */}
+                <Box style={{
+                    background: 'linear-gradient(135deg, #1E40AF 0%, #3B82F6 100%)',
+                    borderRadius: 12,
+                    padding: '18px 22px',
+                    flexDirection: 'column',
+                    gap: 10,
+                    boxShadow: '0 8px 24px rgba(30,64,175,0.2)',
+                }}>
+                    <Text style={{ fontSize: 13, color: '#BFDBFE', fontWeight: 600, letterSpacing: 1 }}>
+                        会议审稿人
+                    </Text>
+                    <Box style={{ flexDirection: 'row', flexWrap: 'wrap', gap: 8 }}>
+                        <Box style={{ background: 'rgba(255,255,255,0.2)', borderRadius: 6, padding: '6px 12px', border: '1px solid rgba(255,255,255,0.3)' }}>
+                            <Text style={{ fontSize: 13, color: '#FFFFFF', fontWeight: 600 }}>ICLR</Text>
+                        </Box>
+                        <Box style={{ background: 'rgba(255,255,255,0.2)', borderRadius: 6, padding: '6px 12px', border: '1px solid rgba(255,255,255,0.3)' }}>
+                            <Text style={{ fontSize: 13, color: '#FFFFFF', fontWeight: 600 }}>NeurIPS</Text>
+                        </Box>
+                        <Box style={{ background: 'rgba(255,255,255,0.2)', borderRadius: 6, padding: '6px 12px', border: '1px solid rgba(255,255,255,0.3)' }}>
+                            <Text style={{ fontSize: 13, color: '#FFFFFF', fontWeight: 600 }}>ICML</Text>
+                        </Box>
+                        <Box style={{ background: 'rgba(255,255,255,0.2)', borderRadius: 6, padding: '6px 12px', border: '1px solid rgba(255,255,255,0.3)' }}>
+                            <Text style={{ fontSize: 13, color: '#FFFFFF', fontWeight: 600 }}>ECCV</Text>
+                        </Box>
+                        <Box style={{ background: 'rgba(255,255,255,0.2)', borderRadius: 6, padding: '6px 12px', border: '1px solid rgba(255,255,255,0.3)' }}>
+                            <Text style={{ fontSize: 13, color: '#FFFFFF', fontWeight: 600 }}>ACM MM</Text>
+                        </Box>
+                        <Box style={{ background: 'rgba(255,255,255,0.2)', borderRadius: 6, padding: '6px 12px', border: '1px solid rgba(255,255,255,0.3)' }}>
+                            <Text style={{ fontSize: 13, color: '#FFFFFF', fontWeight: 600 }}>EMNLP</Text>
+                        </Box>
+                    </Box>
+                </Box>
+
+                {/* 期刊审稿 */}
+                <Box style={{
+                    background: '#F8FAFC',
+                    borderRadius: 12,
+                    padding: '18px 22px',
+                    border: '1px solid #E2E8F0',
+                    flexDirection: 'column',
+                    gap: 8,
+                }}>
+                    <Text style={{ fontSize: 13, color: '#64748B', fontWeight: 600, letterSpacing: 1 }}>
+                        期刊审稿人
+                    </Text>
+                    <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+                        <Box style={{
+                            background: '#DBEAFE',
+                            borderRadius: 6,
+                            padding: '6px 12px',
+                        }}>
+                            <Text style={{ fontSize: 14, color: '#1E40AF', fontWeight: 600 }}>TMLR</Text>
+                        </Box>
+                        <Text style={{ fontSize: 13, color: '#64748B' }}>
+                            Transactions on Machine Learning Research
+                        </Text>
+                    </Box>
+                </Box>
+
+                {/* 媒体报道 */}
+                <Box style={{
+                    background: '#F8FAFC',
+                    borderRadius: 12,
+                    padding: '18px 22px',
+                    border: '1px solid #E2E8F0',
+                    flexDirection: 'column',
+                    gap: 10,
+                    flex: 1,
+                }}>
+                    <Text style={{ fontSize: 13, color: '#64748B', fontWeight: 600, letterSpacing: 1 }}>
+                        媒体报道
+                    </Text>
+                    <Box style={{ flexDirection: 'column', gap: 8 }}>
+                        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+                            <Box style={{ width: 6, height: 6, borderRadius: '50%', background: '#F97316', flexShrink: 0 }} />
+                            <Text style={{ fontSize: 13, color: '#0F172A' }}>
+                                <span style={{ fontWeight: 'bold' }}>机器之心</span> · MobileForge / Phone GUI Survey
+                            </Text>
+                        </Box>
+                        <Box style={{ flexDirection: 'row', alignItems: 'center', gap: 10 }}>
+                            <Box style={{ width: 6, height: 6, borderRadius: '50%', background: '#F97316', flexShrink: 0 }} />
+                            <Text style={{ fontSize: 13, color: '#0F172A' }}>
+                                <span style={{ fontWeight: 'bold' }}>量子位 QbitAI</span> · MemGUI-Agent / LearnAct
+                            </Text>
+                        </Box>
+                    </Box>
+                </Box>
+            </Box>
+        </Box>
+
+        {/* C 区：页脚 */}
+        <Box style={{
+            height: 60,
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+            borderTop: '1px solid #E2E8F0',
+        }}>
+            <Text style={{ fontSize: 14, color: '#94A3B8' }}>
+                Guangyi Liu · ZJU · 面试陈述
+            </Text>
+            <Text style={{ fontSize: 14, color: '#94A3B8' }}>
+                08 / 15
+            </Text>
+        </Box>
+    </Box>
+</Slide>

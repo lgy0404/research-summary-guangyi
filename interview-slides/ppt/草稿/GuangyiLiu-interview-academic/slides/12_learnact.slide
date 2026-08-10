@@ -1,0 +1,258 @@
+<Slide>
+    <Box style={{
+        width: '100%',
+        height: '100%',
+        background: '#FFFFFF',
+        position: 'relative',
+        padding: 0,
+    }}>
+        {/* A 区：页眉 */}
+        <Box style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            right: 0,
+            height: 80,
+            background: '#0E3F8C',
+            flexDirection: 'row',
+            alignItems: 'center',
+            padding: '0 40px',
+            gap: 14,
+        }}>
+            <Box style={{
+                width: 6,
+                height: 28,
+                background: '#FFFFFF',
+            }} />
+            <Text style={{ fontSize: 24, fontWeight: 'bold', color: '#FFFFFF', letterSpacing: 1 }}>
+                LearnAct · 少样本演示学习
+            </Text>
+            <Box style={{
+                background: '#FFC107',
+                borderRadius: 4,
+                padding: '3px 8px',
+                marginTop: 4,
+            }}>
+                <Text style={{ fontSize: 11, color: '#0E3F8C', fontWeight: 600 }}>ACL 2026</Text>
+            </Box>
+        </Box>
+
+        {/* C 区 */}
+        <Box style={{
+            position: 'absolute',
+            top: 80,
+            left: 0,
+            right: 0,
+            height: 544,
+            padding: '20px 40px',
+            flexDirection: 'column',
+            gap: 12,
+        }}>
+            {/* 上部 */}
+            <Box style={{
+                flex: 1.25,
+                flexDirection: 'row',
+                gap: 18,
+            }}>
+                <Box style={{
+                    flex: 1,
+                    flexDirection: 'column',
+                    gap: 10,
+                }}>
+                    <Box style={{
+                        background: '#F7F9FC',
+                        borderRadius: 6,
+                        padding: '12px 14px',
+                        border: '1px solid #D6DCE5',
+                        borderLeft: '3px solid #D9534F',
+                    }}>
+                        <Text style={{ fontSize: 11, color: '#D9534F', fontWeight: 600, marginBottom: 4 }}>
+                            研究动机
+                        </Text>
+                        <Text style={{ fontSize: 12, color: '#1A2230', lineHeight: 1.55 }}>
+                            Google Play 有 <span style={{ fontWeight: 'bold' }}>168 万</span>应用，长尾场景无法被预训练数据覆盖；agent 在未见 UI 上泛化差，需要<span style={{ fontWeight: 'bold' }}>无需梯度更新</span>的少样本适配。
+                        </Text>
+                    </Box>
+
+                    <Box style={{
+                        background: '#F7F9FC',
+                        borderRadius: 6,
+                        padding: '12px 14px',
+                        border: '1px solid #D6DCE5',
+                        flex: 1,
+                    }}>
+                        <Text style={{ fontSize: 11, color: '#0E3F8C', fontWeight: 600, marginBottom: 6 }}>
+                            三 Agent 流水线（知识生成 → 检索 → 执行）
+                        </Text>
+                        <Box style={{ flexDirection: 'column', gap: 5 }}>
+                            <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                                <span style={{ fontWeight: 'bold', color: '#1E4FA8' }}>DemoParser</span> · 坐标级动作（CLICK[123,456]）转语义描述 "[On Screen], [Action], to [Purpose]"，带 memory 机制
+                            </Text>
+                            <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                                <span style={{ fontWeight: 'bold', color: '#1E4FA8' }}>KnowSeeker</span> · all-MiniLM-L6-v2 预计算 embedding，运行时 cosine top-k 检索（含阈值）
+                            </Text>
+                            <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                                <span style={{ fontWeight: 'bold', color: '#1E4FA8' }}>ActExecutor</span> · POMDP 策略 π: O×D→A，融合指令+截图+历史+演示，Perception→Decision→Action 循环
+                            </Text>
+                        </Box>
+                    </Box>
+                </Box>
+
+                <Box style={{
+                    flex: 1.1,
+                    flexDirection: 'column',
+                    gap: 8,
+                }}>
+                    <Box style={{
+                        flex: 1,
+                        background: '#F7F9FC',
+                        borderRadius: 8,
+                        border: '1px solid #D6DCE5',
+                        overflow: 'hidden',
+                        padding: 10,
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                    }}>
+                        <Image
+                            src="assets/learnact-teaser.png"
+                            style={{
+                                width: '100%',
+                                height: '100%',
+                                objectFit: 'contain',
+                            }}
+                        />
+                    </Box>
+                    <Box style={{
+                        background: '#E8EFF8',
+                        borderRadius: 6,
+                        padding: '8px 12px',
+                        border: '1px solid #D6DCE5',
+                    }}>
+                        <Text style={{ fontSize: 11, color: '#0E3F8C', lineHeight: 1.5, textAlign: 'center' }}>
+                            LearnGUI 涵盖 2,252 offline + 101 online 任务，覆盖长尾 app
+                        </Text>
+                    </Box>
+                </Box>
+            </Box>
+
+            {/* 下部 */}
+            <Box style={{
+                flex: 1,
+                flexDirection: 'row',
+                gap: 10,
+            }}>
+                <Box style={{
+                    flex: 1,
+                    background: '#E8EFF8',
+                    borderRadius: 6,
+                    padding: '12px 14px',
+                    border: '1px solid #D6DCE5',
+                    flexDirection: 'column',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#0E3F8C', fontWeight: 600, marginBottom: 6 }}>
+                        关键结果（单条演示）
+                    </Text>
+                    <Box style={{ flexDirection: 'column', gap: 4, flex: 1 }}>
+                        <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                            · Gemini-1.5-Pro 0-shot <span style={{ fontWeight: 'bold', color: '#1E4FA8' }}>19.3%</span> → 1-shot <span style={{ fontWeight: 'bold', color: '#1E4FA8' }}>51.7%</span> → 3-shot 57.7%
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                            · UI-TARS-7B-SFT 在线 SR 18.1% → <span style={{ fontWeight: 'bold', color: '#1E4FA8' }}>32.8%</span>，逼近 GPT-4o 34.5%
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                            · 7B+LearnAct 超过 Claude Computer-Use (27.9%) 与 Aguvis-72B (26.1%)
+                        </Text>
+                    </Box>
+                </Box>
+
+                <Box style={{
+                    flex: 1,
+                    background: '#F7F9FC',
+                    borderRadius: 6,
+                    padding: '12px 14px',
+                    border: '1px solid #D6DCE5',
+                    flexDirection: 'column',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#0E3F8C', fontWeight: 600, marginBottom: 6 }}>
+                        消融发现
+                    </Text>
+                    <Box style={{ flexDirection: 'column', gap: 4, flex: 1 }}>
+                        <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                            · 完整 51.7% → 去 DemoParser <span style={{ fontWeight: 'bold', color: '#1E4FA8' }}>40.6%</span>（-11.1）→ 去 KnowSeeker <span style={{ fontWeight: 'bold', color: '#1E4FA8' }}>41.6%</span>（-10.1）
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                            · Signal 上 DemoParser 更关键；ToDo 上 KnowSeeker 更关键
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#1A2230', lineHeight: 1.5 }}>
+                            · Action 相似性可补偿 UI 差异：UI_SL·Act_SH 上 match +38.4%
+                        </Text>
+                    </Box>
+                </Box>
+
+                <Box style={{
+                    flex: 1,
+                    background: '#0E3F8C',
+                    borderRadius: 6,
+                    padding: '12px 14px',
+                    flexDirection: 'column',
+                }}>
+                    <Text style={{ fontSize: 11, color: '#B8CCE4', fontWeight: 600, marginBottom: 6 }}>
+                        核心贡献
+                    </Text>
+                    <Box style={{ flexDirection: 'column', gap: 4, flex: 1 }}>
+                        <Text style={{ fontSize: 11, color: '#FFFFFF', lineHeight: 1.5 }}>
+                            首个 demonstration-learning 移动 GUI benchmark
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#FFFFFF', lineHeight: 1.5 }}>
+                            知识生成-检索-执行三 agent 范式
+                        </Text>
+                        <Text style={{ fontSize: 11, color: '#FFFFFF', lineHeight: 1.5 }}>
+                            无需梯度更新让 7B 模型逼近 GPT-4o
+                        </Text>
+                    </Box>
+                </Box>
+            </Box>
+        </Box>
+
+                {/* 引用脚注 */}
+        <Box style={{
+            position: 'absolute',
+            top: 624,
+            left: 0,
+            right: 0,
+            height: 36,
+            flexDirection: 'row',
+            alignItems: 'center',
+            justifyContent: 'center',
+            borderTop: '1px solid #E5E7EB',
+            padding: '0 40px',
+        }}>
+            <Text style={{ fontSize: 11, color: '#4A5568', fontStyle: 'italic', fontFamily: "'Times New Roman', Georgia, serif", textAlign: 'center', lineHeight: 1.4 }}>
+                Liu, G., et al. LearnAct: Few-Shot Mobile GUI Agent with a Unified Demonstration Benchmark. ACL, 2026.
+            </Text>
+        </Box>
+
+
+        {/* D 区：页脚 */}
+        <Box style={{
+            position: 'absolute',
+            bottom: 0,
+            left: 0,
+            right: 0,
+            height: 60,
+            background: '#F7F9FC',
+            borderTop: '1px solid #D6DCE5',
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+            padding: '0 40px',
+        }}>
+            <Text style={{ fontSize: 13, color: '#8B97A8' }}>
+                浙江大学 · 控制科学与工程学院
+            </Text>
+            <Text style={{ fontSize: 14, color: '#0E3F8C', fontWeight: 600 }}>
+                12 / 16
+            </Text>
+        </Box>
+    </Box>
+</Slide>
